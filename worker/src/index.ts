@@ -1,3 +1,7 @@
+import { handleQuiz } from './quiz'
+import { handleSubscription } from './subscription'
+import { handleEmail } from './email'
+
 export interface Env {
   SESSIONS: KVNamespace
   STRIPE_SECRET_KEY: string
@@ -5,90 +9,113 @@ export interface Env {
   RESEND_API_KEY: string
 }
 
+export interface Session {
+  id: string
+  isPremium: boolean
+  stripeCustomerId?: string
+  answers: Array<{
+    slug: string
+    answeredAt: string
+    chosenIndex: number
+    correct: boolean
+    timeToAnswer: number
+  }>
+  emailCaptured: boolean
+  startedAt: string
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url)
     const path = url.pathname
 
-    // CORS headers for API routes
     if (request.method === 'OPTIONS') {
-      return new Response(null, {
-        headers: corsHeaders(),
-      })
+      return new Response(null, { headers: corsHeaders() })
     }
 
     try {
-      // API routing
-      if (path.startsWith('/api/')) {
-        const response = await handleAPI(path, request, env)
-        return addCors(response)
+      if (!path.startsWith('/api/')) {
+        return new Response('Not Found', { status: 404 })
       }
 
-      return new Response('Not Found', { status: 404 })
+      const sessionId = getSessionId(request)
+      const response = await route(path, request, env, sessionId)
+      return addCors(response)
     } catch (error) {
-      console.error('Worker error:', error)
-      return addCors(
-        new Response(
-          JSON.stringify({ error: 'Something has gone wrong. This is unusual.' }),
-          { status: 500, headers: { 'Content-Type': 'application/json' } }
-        )
-      )
+      return addCors(json({ error: 'Something has gone wrong. This is unusual.' }, 500))
     }
   },
 }
 
-async function handleAPI(path: string, request: Request, env: Env): Promise<Response> {
+async function route(path: string, request: Request, env: Env, sessionId: string): Promise<Response> {
+  const method = request.method
+
   // Quiz endpoints
-  if (path === '/api/quiz/next' && request.method === 'GET') {
-    return json({ message: 'Quiz next endpoint' })
+  if (path === '/api/quiz/next' && method === 'GET') {
+    return handleQuiz.next(env, sessionId)
   }
-  if (path.match(/^\/api\/quiz\/[\w-]+$/) && request.method === 'GET') {
-    return json({ message: 'Quiz card endpoint' })
+  const quizSlugMatch = path.match(/^\/api\/quiz\/([\w-]+)$/)
+  if (quizSlugMatch && method === 'GET') {
+    return handleQuiz.getCard(quizSlugMatch[1])
   }
-  if (path.match(/^\/api\/quiz\/[\w-]+\/answer$/) && request.method === 'POST') {
-    return json({ message: 'Answer endpoint' })
+  const answerMatch = path.match(/^\/api\/quiz\/([\w-]+)\/answer$/)
+  if (answerMatch && method === 'POST') {
+    return handleQuiz.answer(request, env, sessionId, answerMatch[1])
   }
 
   // Score
-  if (path === '/api/score' && request.method === 'GET') {
-    return json({ message: 'Score endpoint' })
+  if (path === '/api/score' && method === 'GET') {
+    return handleQuiz.score(env, sessionId)
   }
 
   // Articles
-  if (path.match(/^\/api\/articles\/[\w-]+$/) && request.method === 'GET') {
-    return json({ message: 'Article endpoint' })
+  const articleMatch = path.match(/^\/api\/articles\/([\w-]+)$/)
+  if (articleMatch && method === 'GET') {
+    return handleQuiz.article(request, env, articleMatch[1])
   }
 
   // Fact cards
-  if (path === '/api/fact-cards' && request.method === 'GET') {
-    return json({ message: 'Fact cards endpoint' })
+  if (path === '/api/fact-cards' && method === 'GET') {
+    return handleQuiz.allCards()
   }
 
   // Research
-  if (path === '/api/research/summary' && request.method === 'GET') {
-    return json({ message: 'Research summary endpoint' })
+  if (path === '/api/research/summary' && method === 'GET') {
+    return handleQuiz.researchSummary()
   }
 
   // Email
-  if (path === '/api/email/subscribe' && request.method === 'POST') {
-    return json({ message: 'Email subscribe endpoint' })
+  if (path === '/api/email/subscribe' && method === 'POST') {
+    return handleEmail.subscribe(request, env, sessionId)
   }
 
   // Stripe
-  if (path === '/api/stripe/webhook' && request.method === 'POST') {
-    return json({ message: 'Stripe webhook endpoint' })
+  if (path === '/api/stripe/webhook' && method === 'POST') {
+    return handleSubscription.webhook(request, env)
   }
-  if (path.match(/^\/api\/stripe\/verify\/[\w-]+$/) && request.method === 'GET') {
-    return json({ message: 'Stripe verify endpoint' })
+  const verifyMatch = path.match(/^\/api\/stripe\/verify\/([\w-]+)$/)
+  if (verifyMatch && method === 'GET') {
+    return handleSubscription.verify(env, verifyMatch[1])
+  }
+  if (path === '/api/stripe/checkout' && method === 'GET') {
+    const url = new URL(request.url)
+    const plan = url.searchParams.get('plan') ?? 'annual'
+    return handleSubscription.createCheckout(env, plan, request.url)
   }
 
-  return new Response('Not Found', { status: 404 })
+  return json({ error: 'Not Found' }, 404)
 }
 
-function json(data: unknown, status = 200): Response {
+function getSessionId(request: Request): string {
+  const cookies = request.headers.get('Cookie') ?? ''
+  const match = cookies.match(/pl_session=([\w-]+)/)
+  return match?.[1] ?? crypto.randomUUID()
+}
+
+export function json(data: unknown, status = 200, headers: Record<string, string> = {}): Response {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...headers },
   })
 }
 
@@ -104,4 +131,26 @@ function addCors(response: Response): Response {
   const newResponse = new Response(response.body, response)
   newResponse.headers.set('Access-Control-Allow-Origin', '*')
   return newResponse
+}
+
+export async function getSession(env: Env, sessionId: string): Promise<Session> {
+  const raw = await env.SESSIONS.get(`session:${sessionId}`)
+  if (raw) {
+    return JSON.parse(raw)
+  }
+  return {
+    id: sessionId,
+    isPremium: false,
+    answers: [],
+    emailCaptured: false,
+    startedAt: new Date().toISOString(),
+  }
+}
+
+export async function saveSession(env: Env, session: Session): Promise<void> {
+  await env.SESSIONS.put(
+    `session:${session.id}`,
+    JSON.stringify(session),
+    { expirationTtl: 60 * 60 * 24 * 365 } // 1 year
+  )
 }
