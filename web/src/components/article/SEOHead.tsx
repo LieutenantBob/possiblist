@@ -17,6 +17,15 @@ export function SEOHead({ factCard, editorial }: SEOHeadProps) {
     setMeta('og:image', `https://possiblist.io/og/${factCard.slug}.png`, 'property')
     setMeta('og:type', 'article', 'property')
 
+    // Canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null
+    if (!canonical) {
+      canonical = document.createElement('link')
+      canonical.rel = 'canonical'
+      document.head.appendChild(canonical)
+    }
+    canonical.href = `https://possiblist.io/article/${factCard.slug}`
+
     // JSON-LD
     const jsonLd = {
       '@context': 'https://schema.org',
