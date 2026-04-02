@@ -55,7 +55,6 @@ export function QuizCard({ card, onAnswered, onNext, alreadyAnswered }: QuizCard
       ) : (
         <RevealPanel
           card={card}
-          chosenIndex={selectedIndex!}
           correct={selectedIndex === card.quiz.correctIndex}
           onNext={onNext}
         />

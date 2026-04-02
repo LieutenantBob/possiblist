@@ -48,10 +48,22 @@ export function SEOHead({ factCard, editorial }: SEOHeadProps) {
 
     return () => {
       document.title = 'Possiblist° — What you believe vs. what is true'
+      // Clean up injected elements
+      removeMeta('description')
+      removeMeta('og:title', 'property')
+      removeMeta('og:description', 'property')
+      removeMeta('og:image', 'property')
+      removeMeta('og:type', 'property')
+      document.querySelector('link[rel="canonical"]')?.remove()
+      document.querySelector('script[data-possiblist-jsonld]')?.remove()
     }
   }, [factCard, editorial])
 
   return null
+}
+
+function removeMeta(name: string, attr: 'name' | 'property' = 'name') {
+  document.querySelector(`meta[${attr}="${name}"]`)?.remove()
 }
 
 function setMeta(name: string, content: string, attr: 'name' | 'property' = 'name') {

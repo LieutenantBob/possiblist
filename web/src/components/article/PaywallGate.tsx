@@ -11,7 +11,6 @@ export function PaywallGate({ teaser }: PaywallGateProps) {
       style={{ backgroundColor: 'var(--cream)', border: '1px solid var(--deep-05)' }}
       role="region"
       aria-label="Premium content"
-      tabIndex={0}
     >
       {/* Teaser */}
       <p

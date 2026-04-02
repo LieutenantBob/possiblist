@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import type { Editorial, FactCard } from '../../data/types'
 import { SourcesList } from './SourcesList'
 import { PaywallGate } from './PaywallGate'
@@ -12,7 +13,25 @@ interface ArticleRendererProps {
 
 export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
   const { isPremium } = useSubscription()
-  const { frontmatter, freeContent, premiumContent } = editorial
+  const { frontmatter, freeContent } = editorial
+  const [premiumHtml, setPremiumHtml] = useState<string | null>(null)
+
+  // Fetch premium content server-side only for verified subscribers
+  useEffect(() => {
+    if (!isPremium) return
+    let cancelled = false
+
+    fetch(`/api/articles/${factCard.slug}`, { credentials: 'include' })
+      .then(res => res.ok ? res.json() as Promise<{ premiumContent?: string }> : null)
+      .then(data => {
+        if (!cancelled && data?.premiumContent) {
+          setPremiumHtml(markdownToHtml(data.premiumContent))
+        }
+      })
+      .catch(() => { /* Premium fetch failed — show free section only */ })
+
+    return () => { cancelled = true }
+  }, [isPremium, factCard.slug])
 
   const readTime = Math.ceil(
     ((frontmatter.wordCountFree + (isPremium ? frontmatter.wordCountPremium : 0)) / 250)
@@ -24,10 +43,7 @@ export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
       <span className="category-badge">{frontmatter.category}</span>
 
       {/* SEO headline */}
-      <p
-        className="font-mono text-xs mt-4 mb-2"
-        style={{ color: 'var(--mist)' }}
-      >
+      <p className="font-mono text-xs mt-4 mb-2" style={{ color: 'var(--mist)' }}>
         {frontmatter.seoHeadline}
       </p>
 
@@ -66,19 +82,18 @@ export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
       <EmailCapture slug={factCard.slug} className="my-10" />
 
       {/* Paywall gate or premium content */}
-      {isPremium ? (
+      {isPremium && premiumHtml ? (
         <>
           <div
             className="prose-possiblist"
             style={{ lineHeight: 1.85, fontSize: '1.05rem' }}
-            dangerouslySetInnerHTML={{ __html: markdownToHtml(premiumContent) }}
+            dangerouslySetInnerHTML={{ __html: premiumHtml }}
           />
-          {/* Ad Slot 2 — mid-premium */}
           <AdSlot slot="article-mid" className="my-8" />
         </>
-      ) : (
+      ) : !isPremium ? (
         <PaywallGate teaser={factCard.premiumTeaser} />
-      )}
+      ) : null}
 
       {/* Sources */}
       <SourcesList sources={factCard.sources} />
@@ -89,20 +104,15 @@ export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
 /**
  * Minimal markdown to HTML converter for editorial content.
  * Content is git-committed (not user input), but we sanitize defensively.
- * Handles paragraphs, bold, italic, and links.
  */
 function markdownToHtml(md: string): string {
   return md
     .split('\n\n')
     .filter(p => p.trim())
     .map(p => {
-      // Escape HTML entities first to prevent injection
       let html = escapeHtml(p.trim())
-      // Bold
       html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      // Italic
       html = html.replace(/\*(.*?)\*/g, '<em>$1</em>')
-      // Links — only allow http/https URLs
       html = html.replace(
         /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
         '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'

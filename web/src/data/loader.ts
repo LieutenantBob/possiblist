@@ -59,10 +59,12 @@ export function getEditorial(slug: string): Editorial | undefined {
   const { frontmatter, body } = parseEditorialFrontmatter(raw)
 
   const parts = body.split('<!-- PAYWALL -->')
+  // Premium content is NOT included in the client bundle.
+  // It must be fetched via authenticated API for premium subscribers.
   return {
     frontmatter,
     freeContent: parts[0]?.trim() ?? '',
-    premiumContent: parts[1]?.trim() ?? '',
+    premiumContent: '',
   }
 }
 
@@ -74,7 +76,7 @@ export function getAllEditorials(): Editorial[] {
     return {
       frontmatter,
       freeContent: parts[0]?.trim() ?? '',
-      premiumContent: parts[1]?.trim() ?? '',
+      premiumContent: '',
     }
   })
 }

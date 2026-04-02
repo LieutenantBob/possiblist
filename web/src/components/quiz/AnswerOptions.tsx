@@ -10,12 +10,6 @@ export function AnswerOptions({ options, onSelect }: AnswerOptionsProps) {
         <button
           key={index}
           onClick={() => onSelect(index)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault()
-              onSelect(index)
-            }
-          }}
           className="w-full text-left px-5 py-4 rounded-lg border transition-colors duration-150 cursor-pointer font-body"
           style={{
             backgroundColor: 'var(--cream)',

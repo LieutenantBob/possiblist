@@ -7,12 +7,12 @@ export function SubscribeSuccess() {
   const [status, setStatus] = useState<'verifying' | 'success' | 'error'>('verifying')
 
   useEffect(() => {
-    if (!sessionId) {
+    if (!sessionId || !/^cs_(live|test)_[A-Za-z0-9]{10,}$/.test(sessionId)) {
       setStatus('error')
       return
     }
 
-    fetch(`/api/stripe/verify/${sessionId}`)
+    fetch(`/api/stripe/verify/${sessionId}`, { credentials: 'include' })
       .then(res => {
         if (res.ok) {
           setStatus('success')

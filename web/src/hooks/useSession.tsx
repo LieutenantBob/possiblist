@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { createContext, useContext, useState, useCallback, type ReactNode } from 'react'
 
 interface Answer {
   slug: string
@@ -10,14 +10,22 @@ interface Answer {
 
 interface Session {
   id: string
-  isPremium: boolean
-  stripeCustomerId?: string
   answers: Answer[]
   emailCaptured: boolean
   startedAt: string
 }
 
+interface SessionContextValue {
+  session: Session
+  recordAnswer: (answer: Omit<Answer, 'answeredAt'>) => void
+  markEmailCaptured: () => void
+  hasAnswered: (slug: string) => boolean
+  getAnswer: (slug: string) => Answer | undefined
+}
+
 const SESSION_KEY = 'possiblist_session'
+
+const SessionContext = createContext<SessionContextValue | null>(null)
 
 function generateId(): string {
   return crypto.randomUUID?.() ?? Math.random().toString(36).slice(2)
@@ -30,7 +38,7 @@ function loadSession(): Session {
       return JSON.parse(stored)
     }
   } catch {
-    // Ignore parse errors
+    localStorage.removeItem(SESSION_KEY)
   }
   return createSession()
 }
@@ -38,7 +46,6 @@ function loadSession(): Session {
 function createSession(): Session {
   return {
     id: generateId(),
-    isPremium: document.cookie.includes('pl_premium='),
     answers: [],
     emailCaptured: false,
     startedAt: new Date().toISOString(),
@@ -53,7 +60,7 @@ function saveSession(session: Session): void {
   }
 }
 
-export function useSession() {
+export function SessionProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session>(loadSession)
 
   const recordAnswer = useCallback((answer: Omit<Answer, 'answeredAt'>) => {
@@ -86,11 +93,23 @@ export function useSession() {
     return session.answers.find(a => a.slug === slug)
   }, [session.answers])
 
-  return {
-    session,
-    recordAnswer,
-    markEmailCaptured,
-    hasAnswered,
-    getAnswer,
+  return (
+    <SessionContext.Provider value={{
+      session,
+      recordAnswer,
+      markEmailCaptured,
+      hasAnswered,
+      getAnswer,
+    }}>
+      {children}
+    </SessionContext.Provider>
+  )
+}
+
+export function useSession(): SessionContextValue {
+  const ctx = useContext(SessionContext)
+  if (!ctx) {
+    throw new Error('useSession must be used within a SessionProvider')
   }
+  return ctx
 }

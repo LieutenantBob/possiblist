@@ -5,7 +5,6 @@ import { useShare } from '../../hooks/useShare'
 
 interface RevealPanelProps {
   card: FactCard
-  chosenIndex: number
   correct: boolean
   onNext: () => void
 }

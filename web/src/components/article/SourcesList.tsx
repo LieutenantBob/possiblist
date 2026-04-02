@@ -15,17 +15,18 @@ export function SourcesList({ sources }: SourcesListProps) {
         className="flex items-center gap-2 cursor-pointer bg-transparent border-none p-0 font-mono text-xs uppercase tracking-wider"
         style={{ color: 'var(--mist)' }}
         aria-expanded={expanded}
+        aria-controls="sources-list"
       >
         Sources ({sources.length})
-        <span style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0)', transition: 'transform 0.2s' }}>
+        <span aria-hidden="true" style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0)', transition: 'transform 0.2s' }}>
           ▾
         </span>
       </button>
 
       {expanded && (
-        <ul className="mt-4 space-y-3 list-none p-0">
-          {sources.map((source, i) => (
-            <li key={i} className="flex items-start gap-3">
+        <ul id="sources-list" className="mt-4 space-y-3 list-none p-0">
+          {sources.map((source) => (
+            <li key={source.url} className="flex items-start gap-3">
               <span
                 className="inline-block px-2 py-0.5 rounded font-mono text-[0.6rem] uppercase mt-0.5"
                 style={{
