@@ -1,0 +1,33 @@
+:root {
+  /* ── Palette ───────────────────────────────────── */
+  --parchment:      #F2EBD9;
+  --deep:           #1C1917;
+  --ink:            #2C2520;
+  --verdigris:      #3D7A6E;
+  --verdigris-10:   rgba(61,122,110,0.10);
+  --verdigris-20:   rgba(61,122,110,0.20);
+  --sienna:         #B85C38;
+  --sienna-10:      rgba(184,92,56,0.10);
+  --gold:           #C9963A;
+  --mist:           #8A8178;
+  --cream:          #EDE5D0;
+  --chalk:          #F8F4EC;
+  --deep-05:        rgba(28,25,23,0.05);
+  --deep-10:        rgba(28,25,23,0.10);
+
+  /* ── Typography ────────────────────────────────── */
+  --font-display:   'Cormorant SC', serif;
+  --font-italic:    'Cormorant Garamond', serif;
+  --font-body:      'Source Serif 4', serif;
+  --font-mono:      'JetBrains Mono', monospace;
+
+  /* ── Semantic colours ──────────────────────────── */
+  --color-correct:  var(--verdigris);
+  --color-wrong:    var(--sienna);
+  --color-bg:       var(--parchment);
+  --color-surface:  var(--cream);
+  --color-text:     var(--ink);
+  --color-subtle:   var(--mist);
+  --color-accent:   var(--verdigris);
+  --color-premium:  var(--gold);
+}
