@@ -1,17 +1,20 @@
 import { json, getSession, saveSession } from './index'
 import type { Env } from './index'
 
-// In v1, content is bundled at build time on the frontend.
-// The Worker serves the same JSON for API consumers and validates answers.
-// In production, these would be loaded from KV or R2.
+const KNOWN_SLUGS = new Set([
+  'extreme-poverty-declining',
+  'child-mortality-falling',
+  'life-expectancy-soaring',
+  'girls-education-advancing',
+  'nuclear-safety-vs-coal',
+  'ai-worldview-misconceptions',
+])
 
 export const handleQuiz = {
   async next(env: Env, sessionId: string): Promise<Response> {
     const session = await getSession(env, sessionId)
     const answeredSlugs = new Set(session.answers.map(a => a.slug))
 
-    // Return first unanswered card slug
-    // In v1, the frontend handles card ordering; this just tells the API consumer
     return json({
       answeredCount: session.answers.length,
       answeredSlugs: Array.from(answeredSlugs),
@@ -19,8 +22,9 @@ export const handleQuiz = {
   },
 
   getCard(slug: string): Response {
-    // In v1, fact cards are static JSON bundled in the frontend.
-    // This endpoint exists for API consumers and mobile clients.
+    if (!KNOWN_SLUGS.has(slug)) {
+      return json({ error: 'Unknown card' }, 404)
+    }
     return json({
       slug,
       message: 'Fact card data is bundled in the frontend in v1. Use /api/fact-cards for the full list.',
@@ -28,15 +32,28 @@ export const handleQuiz = {
   },
 
   async answer(request: Request, env: Env, sessionId: string, slug: string): Promise<Response> {
-    const body = await request.json() as { chosenIndex: number; timeToAnswer: number }
+    if (!KNOWN_SLUGS.has(slug)) {
+      return json({ error: 'Unknown card' }, 404)
+    }
 
-    if (typeof body.chosenIndex !== 'number' || body.chosenIndex < 0 || body.chosenIndex > 3) {
+    let body: { chosenIndex: number; timeToAnswer?: number; correct?: boolean }
+    try {
+      body = await request.json() as typeof body
+    } catch {
+      return json({ error: 'Invalid JSON body' }, 400)
+    }
+
+    if (typeof body.chosenIndex !== 'number' || !Number.isInteger(body.chosenIndex) ||
+        body.chosenIndex < 0 || body.chosenIndex > 3) {
       return json({ error: 'Invalid answer index' }, 400)
     }
 
+    const timeToAnswer = typeof body.timeToAnswer === 'number'
+      ? Math.max(0, Math.min(body.timeToAnswer, 300000))
+      : 0
+
     const session = await getSession(env, sessionId)
 
-    // Check if already answered
     if (session.answers.some(a => a.slug === slug)) {
       return json({ error: 'Already answered', slug }, 409)
     }
@@ -45,8 +62,8 @@ export const handleQuiz = {
       slug,
       answeredAt: new Date().toISOString(),
       chosenIndex: body.chosenIndex,
-      correct: false, // Frontend determines correctness from fact card data
-      timeToAnswer: body.timeToAnswer ?? 0,
+      correct: typeof body.correct === 'boolean' ? body.correct : false,
+      timeToAnswer,
     }
 
     const updatedSession = {
@@ -61,7 +78,7 @@ export const handleQuiz = {
       slug,
       totalAnswered: updatedSession.answers.length,
     }, 200, {
-      'Set-Cookie': `pl_session=${sessionId}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${60 * 60 * 24 * 365}`,
+      'Set-Cookie': `pl_session=${sessionId}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${60 * 60 * 24 * 365}; Secure`,
     })
   },
 
@@ -79,11 +96,28 @@ export const handleQuiz = {
     })
   },
 
-  article(request: Request, env: Env, slug: string): Response {
-    // In v1, articles are bundled in the frontend.
-    // This endpoint checks premium status for API consumers.
+  async article(request: Request, env: Env, slug: string): Promise<Response> {
+    if (!KNOWN_SLUGS.has(slug)) {
+      return json({ error: 'Unknown article' }, 404)
+    }
+
+    // Validate premium status via KV lookup, not just cookie presence
     const cookies = request.headers.get('Cookie') ?? ''
-    const isPremium = cookies.includes('pl_premium=')
+    const match = cookies.match(/pl_premium=([\w-]+)/)
+    const customerId = match?.[1]
+    let isPremium = false
+
+    if (customerId) {
+      const raw = await env.SESSIONS.get(`premium:${customerId}`)
+      if (raw) {
+        try {
+          const record = JSON.parse(raw) as { active: boolean }
+          isPremium = record.active === true
+        } catch {
+          // Invalid KV data — treat as not premium
+        }
+      }
+    }
 
     return json({
       slug,
@@ -95,21 +129,12 @@ export const handleQuiz = {
   },
 
   allCards(): Response {
-    // In v1, returns a list of available card slugs
     return json({
-      cards: [
-        'extreme-poverty-declining',
-        'child-mortality-falling',
-        'life-expectancy-soaring',
-        'girls-education-advancing',
-        'nuclear-safety-vs-coal',
-        'ai-worldview-misconceptions',
-      ],
+      cards: Array.from(KNOWN_SLUGS),
     })
   },
 
   researchSummary(): Response {
-    // In v1, research data is bundled in the frontend
     return json({
       message: 'Research summary is bundled in the frontend in v1.',
       endpoint: '/research',

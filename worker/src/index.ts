@@ -6,7 +6,11 @@ export interface Env {
   SESSIONS: KVNamespace
   STRIPE_SECRET_KEY: string
   STRIPE_WEBHOOK_SECRET: string
+  STRIPE_PRICE_ANNUAL: string
+  STRIPE_PRICE_MONTHLY: string
   RESEND_API_KEY: string
+  RESEND_AUDIENCE_ID: string
+  ALLOWED_ORIGIN: string
 }
 
 export interface Session {
@@ -28,9 +32,10 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url)
     const path = url.pathname
+    const origin = env.ALLOWED_ORIGIN || 'https://possiblist.io'
 
     if (request.method === 'OPTIONS') {
-      return new Response(null, { headers: corsHeaders() })
+      return new Response(null, { headers: corsHeaders(origin) })
     }
 
     try {
@@ -38,11 +43,16 @@ export default {
         return new Response('Not Found', { status: 404 })
       }
 
+      // Webhook does NOT get CORS — it's server-to-server from Stripe
+      if (path === '/api/stripe/webhook' && request.method === 'POST') {
+        return handleSubscription.webhook(request, env)
+      }
+
       const sessionId = getSessionId(request)
       const response = await route(path, request, env, sessionId)
-      return addCors(response)
-    } catch (error) {
-      return addCors(json({ error: 'Something has gone wrong. This is unusual.' }, 500))
+      return addCors(response, origin)
+    } catch {
+      return addCors(json({ error: 'Something has gone wrong. This is unusual.' }, 500), origin)
     }
   },
 }
@@ -90,17 +100,14 @@ async function route(path: string, request: Request, env: Env, sessionId: string
   }
 
   // Stripe
-  if (path === '/api/stripe/webhook' && method === 'POST') {
-    return handleSubscription.webhook(request, env)
-  }
   const verifyMatch = path.match(/^\/api\/stripe\/verify\/([\w-]+)$/)
   if (verifyMatch && method === 'GET') {
-    return handleSubscription.verify(env, verifyMatch[1])
+    return handleSubscription.verify(env, verifyMatch[1], sessionId)
   }
   if (path === '/api/stripe/checkout' && method === 'GET') {
     const url = new URL(request.url)
     const plan = url.searchParams.get('plan') ?? 'annual'
-    return handleSubscription.createCheckout(env, plan, request.url)
+    return handleSubscription.createCheckout(env, plan, sessionId, request.url)
   }
 
   return json({ error: 'Not Found' }, 404)
@@ -119,17 +126,19 @@ export function json(data: unknown, status = 200, headers: Record<string, string
   })
 }
 
-function corsHeaders(): HeadersInit {
+function corsHeaders(origin: string): HeadersInit {
   return {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': origin,
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Credentials': 'true',
   }
 }
 
-function addCors(response: Response): Response {
+function addCors(response: Response, origin: string): Response {
   const newResponse = new Response(response.body, response)
-  newResponse.headers.set('Access-Control-Allow-Origin', '*')
+  newResponse.headers.set('Access-Control-Allow-Origin', origin)
+  newResponse.headers.set('Access-Control-Allow-Credentials', 'true')
   return newResponse
 }
 
@@ -151,6 +160,6 @@ export async function saveSession(env: Env, session: Session): Promise<void> {
   await env.SESSIONS.put(
     `session:${session.id}`,
     JSON.stringify(session),
-    { expirationTtl: 60 * 60 * 24 * 365 } // 1 year
+    { expirationTtl: 60 * 60 * 24 * 365 }
   )
 }

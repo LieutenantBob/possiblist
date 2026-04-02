@@ -8,6 +8,12 @@ id = "placeholder-sessions-kv-id"
 preview_id = "placeholder-sessions-kv-preview-id"
 
 [vars]
-STRIPE_SECRET_KEY = ""
-STRIPE_WEBHOOK_SECRET = ""
-RESEND_API_KEY = ""
+ALLOWED_ORIGIN = "https://possiblist.io"
+
+# Secrets — configure via `wrangler secret put <NAME>`:
+# STRIPE_SECRET_KEY
+# STRIPE_WEBHOOK_SECRET
+# STRIPE_PRICE_ANNUAL
+# STRIPE_PRICE_MONTHLY
+# RESEND_API_KEY
+# RESEND_AUDIENCE_ID

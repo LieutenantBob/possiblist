@@ -88,6 +88,7 @@ export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
 
 /**
  * Minimal markdown to HTML converter for editorial content.
+ * Content is git-committed (not user input), but we sanitize defensively.
  * Handles paragraphs, bold, italic, and links.
  */
 function markdownToHtml(md: string): string {
@@ -95,14 +96,26 @@ function markdownToHtml(md: string): string {
     .split('\n\n')
     .filter(p => p.trim())
     .map(p => {
-      let html = p.trim()
+      // Escape HTML entities first to prevent injection
+      let html = escapeHtml(p.trim())
       // Bold
       html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       // Italic
       html = html.replace(/\*(.*?)\*/g, '<em>$1</em>')
-      // Links
-      html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
+      // Links — only allow http/https URLs
+      html = html.replace(
+        /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+        '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+      )
       return `<p>${html}</p>`
     })
     .join('\n')
+}
+
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
 }
