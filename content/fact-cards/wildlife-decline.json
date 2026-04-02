@@ -1,0 +1,72 @@
+{
+  "slug": "wildlife-decline",
+  "category": "environment",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "By how much have monitored wildlife populations declined on average since 1970?",
+    "options": [
+      "About 10%",
+      "About 30%",
+      "About 50%",
+      "About 69%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 48,
+      "mostCommonWrongAnswer": "About 30%",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "This Is the Card We Wish We Did Not Have to Write",
+  "metaDescription": "Monitored wildlife populations have declined by an average of 69% since 1970. Nearly half of people underestimate the scale. A possiblist looks at all the data — including the numbers that hurt.",
+  "summary": "The Living Planet Index, which tracks tens of thousands of vertebrate populations worldwide, shows an average decline of 69% since 1970. That is not a misprint, and it is not a worst-case outlier cherry-picked for shock value. It is the central estimate from the most comprehensive wildlife monitoring effort ever attempted. A possiblist does not get to look only at the encouraging graphs. This one goes in the wrong direction, it has been going in the wrong direction for over fifty years, and pretending otherwise would be the opposite of what this project exists to do.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "69% average decline",
+    "year": 2020,
+    "trend": "declining",
+    "trendLabel": "Index: 100 → 31 since 1970",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1970, "value": 100 },
+      { "year": 1985, "value": 75 },
+      { "year": 2000, "value": 55 },
+      { "year": 2010, "value": 42 },
+      { "year": 2020, "value": 31 }
+    ]
+  },
+  "nuance": "The Living Planet Index measures average population change, not species extinction. But the direction is unambiguous and the scale is staggering. This is one of the genuinely bad numbers, and a possiblist does not flinch from genuinely bad numbers. The index is also weighted toward well-monitored populations, which tend to be in regions with strong research infrastructure. Tropical and freshwater species — where declines are steepest — may actually be underrepresented. Some conservation successes exist: certain whale, tiger, and eagle populations have recovered dramatically where protections were enforced. But these are bright spots against an unmistakably dark backdrop.",
+  "brysonAside": "If you had told someone in 1970 that within fifty years we would lose, on average, more than two-thirds of the monitored wildlife on the planet, they would have assumed something cinematic had happened — an asteroid, perhaps, or a particularly ambitious Bond villain. Instead it was agriculture, infrastructure, and the quiet, incremental expansion of human appetite, which turns out to be more effective than any asteroid and considerably harder to dramatize.",
+  "sources": [
+    {
+      "name": "WWF Living Planet Report 2024",
+      "url": "https://livingplanet.panda.org",
+      "tier": 1,
+      "datasetName": "Living Planet Index — global vertebrate population trends",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Biodiversity",
+      "url": "https://ourworldindata.org/biodiversity",
+      "tier": 1,
+      "datasetName": "Living Planet Index and species population data",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "wildlife-decline",
+  "shareText": {
+    "wrong": "I underestimated the wildlife decline — monitored populations have dropped 69% since 1970. Being a possiblist means facing all the data, not just the hopeful parts. possiblist.io/q/wildlife-decline",
+    "correct": "I knew the wildlife decline number. Knowing what is actually happening is the first step to doing something about it. possiblist.io/q/wildlife-decline",
+    "score": null
+  },
+  "emailDigestLine": "Monitored wildlife populations have declined by 69% since 1970. A possiblist looks at all the data — especially the numbers that demand action.",
+  "premiumTeaser": "The Living Planet Index is both more alarming and more nuanced than the headline suggests. The methodology — tracking nearly 32,000 populations of over 5,000 species — reveals that freshwater species have been hit hardest (an 83% decline), while the drivers break down into a surprisingly small number of human activities. The premium analysis examines where conservation has actually worked, what it cost, and what it would take to bend this curve before it flattens on its own terms.",
+  "b2bClassroomNote": "Classroom discussion: This card is essential for credibility — present alongside positive-trend cards to model honest data analysis. Ask students why this decline receives less attention than individual species extinctions. Connects to SDG 14 (Life Below Water), SDG 15 (Life on Land), and the difference between systemic trends and media-friendly anecdotes.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "WWF and OWID data are consistent. The 69% figure is the central estimate from the 2024 Living Planet Report. This card is essential for the project's credibility — a possiblist publication that omits genuinely alarming data would undermine trust in the encouraging data."
+}

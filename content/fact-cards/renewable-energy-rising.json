@@ -1,0 +1,72 @@
+{
+  "slug": "renewable-energy-rising",
+  "category": "energy",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What share of global electricity now comes from renewable sources (including hydro)?",
+    "options": [
+      "~5%",
+      "~15%",
+      "~30%",
+      "~50%"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 60,
+      "mostCommonWrongAnswer": "~15%",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "The Sun and Wind Already Provide a Third of the World's Electricity — Surprise!",
+  "metaDescription": "Roughly 30% of global electricity now comes from renewable sources including hydro, up from 20% in 2010. 60% of people underestimate this.",
+  "summary": "If you asked most people what fraction of the world's electricity comes from renewables, they would guess something disappointingly small. The actual figure — about 30%, including hydropower — tends to produce a moment of confused silence. Solar and wind have grown so fast that they have quietly overtaken the share that natural gas held a decade ago. The transition is not finished, not even close, but it is considerably further along than the prevailing mood of despair would suggest.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~30%",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "20% → 30% since 2010",
+    "chartType": "line",
+    "chartData": [
+      { "year": 2000, "value": 19 },
+      { "year": 2010, "value": 20 },
+      { "year": 2015, "value": 23 },
+      { "year": 2020, "value": 28 },
+      { "year": 2024, "value": 30 }
+    ]
+  },
+  "nuance": "The 30% figure includes hydropower, which has been around for over a century and accounts for roughly half the renewable total. Solar and wind specifically have surged but still face intermittency challenges requiring grid-scale storage. Moreover, electricity is only about 20% of total final energy consumption — transport, heating, and industrial processes remain heavily dependent on fossil fuels. The transition in electricity generation is real; the transition in total energy use has barely begun.",
+  "brysonAside": "The cost of solar panels has fallen by about 99% since 1976, which is the kind of statistic that should, by rights, be painted on the side of buildings. Instead, it has been quietly filed away in energy reports that no one reads at parties, which is a shame, because it is arguably the most encouraging price chart in human history.",
+  "sources": [
+    {
+      "name": "International Renewable Energy Agency (IRENA)",
+      "url": "https://www.irena.org/Statistics",
+      "tier": 1,
+      "datasetName": "Renewable Energy Statistics",
+      "accessedYear": 2026
+    },
+    {
+      "name": "International Energy Agency — Global Energy Review",
+      "url": "https://www.iea.org/reports/global-energy-review",
+      "tier": 1,
+      "datasetName": "Share of renewables in electricity generation",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "renewable-energy-rising",
+  "shareText": {
+    "wrong": "I didn't realise 30% of global electricity is already renewable. 60% of people underestimate this. possiblist.io/q/renewable-energy-rising",
+    "correct": "I knew renewables were further along than most think — try the next question. possiblist.io/q/renewable-energy-rising",
+    "score": null
+  },
+  "emailDigestLine": "Nearly a third of the world's electricity is already renewable — and the curve is still steepening.",
+  "premiumTeaser": "The premium deep-dive follows the astonishing cost curve of solar from $76 per watt in 1977 to under $0.20 today, explains why grid storage is the real bottleneck, and examines the countries where renewables have already passed 90% — and what they did differently.",
+  "b2bClassroomNote": "Classroom discussion: Have students estimate the renewable share before revealing. Connects to SDG 7 (Affordable and Clean Energy) and introduces learning curves, grid intermittency, and the distinction between electricity and total energy.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "IRENA and IEA data closely aligned. Nuance distinguishes electricity from total energy and addresses intermittency honestly."
+}

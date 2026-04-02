@@ -1,0 +1,71 @@
+{
+  "slug": "where-most-people-live",
+  "category": "demographics",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "medium",
+  "quiz": {
+    "question": "Where does the majority of the world's population live?",
+    "options": [
+      "Africa",
+      "Europe",
+      "The Americas",
+      "Asia"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 58,
+      "mostCommonWrongAnswer": "Africa",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Six Out of Ten Humans Live on One Continent — and It's Not the One You Think",
+  "metaDescription": "About 60% of all people — 4.7 billion — live in Asia. 58% of survey respondents get this wrong, most guessing Africa.",
+  "summary": "If you were to gather every human being on Earth into a single queue — an enterprise that would stretch roughly to Mars and cause unimaginable problems for catering — about six out of every ten people in that queue would be Asian. Asia is home to approximately 4.7 billion people, which is more than Africa, Europe, and the Americas combined. This has been the case for centuries, and yet a majority of people surveyed guess incorrectly, most commonly selecting Africa, which currently holds about 18%.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~60% in Asia (~4.7 billion)",
+    "year": 2024,
+    "trend": "stable",
+    "trendLabel": "55% → 60% since 1950",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1950, "value": 55 },
+      { "year": 1980, "value": 58 },
+      { "year": 2000, "value": 60 },
+      { "year": 2024, "value": 60 }
+    ]
+  },
+  "nuance": "Asia's share is expected to decline slowly over the coming decades as population growth shifts to sub-Saharan Africa. By 2100, under median UN projections, Africa's share could rise from 18% to over 35%, while Asia's could fall to around 45%. China and India alone account for roughly 35% of all humans today, but China's population is already shrinking. The mental map most people carry — shaped by news coverage of African population growth — has leapt ahead of where the numbers actually are right now.",
+  "brysonAside": "It is a peculiar feature of the human mind that we can know, in a vague sort of way, that China and India each contain over a billion people, and yet still be startled to learn that most humans are Asian. It is as if we store facts about continents in a different mental filing cabinet from facts about countries, and the two cabinets do not communicate.",
+  "sources": [
+    {
+      "name": "UN World Population Prospects",
+      "url": "https://population.un.org/wpp/",
+      "tier": 1,
+      "datasetName": "Population by region, medium variant",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — World Population",
+      "url": "https://ourworldindata.org/world-population-growth",
+      "tier": 1,
+      "datasetName": "Population by world region",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "where-most-people-live",
+  "shareText": {
+    "wrong": "I guessed wrong about where most people live. 58% of people do too. possiblist.io/q/where-most-people-live",
+    "correct": "I knew most people live in Asia — but the next question might trip you up. possiblist.io/q/where-most-people-live",
+    "score": null
+  },
+  "emailDigestLine": "Six in ten humans live on a single continent, and most people guess the wrong one.",
+  "premiumTeaser": "The premium deep-dive explores why our mental map of population is so skewed, traces how Asia came to dominate global demography for most of recorded history, and examines the extraordinary shift underway as sub-Saharan Africa becomes the engine of global population growth.",
+  "b2bClassroomNote": "Classroom discussion: Have students draw a pie chart of world population by continent before revealing the actual figures. Connects to SDG 11 (Sustainable Cities) and introduces demographic transition theory.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "UN WPP and OWID data closely aligned. Nuance addresses the coming demographic shift to Africa honestly."
+}

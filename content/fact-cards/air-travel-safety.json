@@ -1,0 +1,72 @@
+{
+  "slug": "air-travel-safety",
+  "category": "transport",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "medium",
+  "quiz": {
+    "question": "How has the risk of dying in a plane crash changed over the past 50 years?",
+    "options": [
+      "About the same",
+      "Twice as safe",
+      "10 times safer",
+      "100 times safer"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 55,
+      "mostCommonWrongAnswer": "10 times safer",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Flying Is Now So Safe That the Statistics Have Essentially Run Out of Things to Count",
+  "metaDescription": "55% of people underestimate how safe flying has become. Fatal accident rates dropped from ~5 per million flights in the 1970s to ~0.07 today — a hundredfold improvement that nobody feels in their gut.",
+  "summary": "In the 1970s, roughly five out of every million commercial flights ended in a fatal accident. Today that number is approximately 0.07. This means flying has become not merely safer but approximately a hundred times safer — an improvement so large that it has effectively outrun the human ability to intuitively grasp probability. Your brain, which evolved to assess risk by remembering vivid stories rather than consulting actuarial tables, remains stubbornly unimpressed.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~0.07 fatal accidents per million flights",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "~5.0 → ~0.07 per million flights since 1970",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1970, "value": 5.0 },
+      { "year": 1985, "value": 1.8 },
+      { "year": 2000, "value": 0.6 },
+      { "year": 2010, "value": 0.2 },
+      { "year": 2024, "value": 0.07 }
+    ]
+  },
+  "nuance": "The global average conceals real disparities. Airlines in North America, Europe, and East Asia have safety records several times better than the global mean. Some regions still operate with older fleets, less rigorous maintenance regimes, and weaker regulatory oversight. The improvement is also partly a story of survivorship — airlines with poor safety records tend to go out of business, one way or another.",
+  "brysonAside": "The truly maddening thing about aviation safety is that the better it gets, the more terrified people become of the vanishingly rare exceptions. A person who happily drives to the airport through statistically murderous traffic will then grip the armrest during mild turbulence with the quiet conviction that physics has finally decided to stop working.",
+  "sources": [
+    {
+      "name": "Aviation Safety Network",
+      "url": "https://aviation-safety.net",
+      "tier": 1,
+      "datasetName": "Fatal airliner accident rate per million flights",
+      "accessedYear": 2026
+    },
+    {
+      "name": "IATA Safety Report",
+      "url": "https://www.iata.org/en/publications/safety-report/",
+      "tier": 1,
+      "datasetName": "Annual Safety Report — accident statistics",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "air-travel-safety",
+  "shareText": {
+    "wrong": "I underestimated how safe flying has become — it is 100 times safer than in the 1970s. My gut instinct was off by a factor of ten. possiblist.io/q/air-travel-safety",
+    "correct": "I correctly guessed that flying is 100 times safer than in the 1970s. My amygdala is furious. possiblist.io/q/air-travel-safety",
+    "score": null
+  },
+  "emailDigestLine": "Commercial flying is now approximately a hundred times safer than it was in the 1970s, which is the kind of improvement your nervous system will never believe.",
+  "premiumTeaser": "How did aviation become so extraordinarily safe? The answer involves a Swiss cheese model, a culture of blame-free reporting that most industries still cannot bring themselves to adopt, and the uncomfortable realization that the single biggest safety improvement came not from better engines but from teaching pilots to talk to each other.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to rank common risks (driving, flying, cycling) before revealing data. Connects to risk perception psychology and the availability heuristic. Useful for statistics and media literacy courses.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "ASN and IATA data are consistent. The hundredfold improvement is well-supported. Strong shareability due to widespread fear-of-flying misconception."
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "global-literacy-miracle",
+  "category": "education",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What share of the world's adult population can read and write?",
+    "options": [
+      "~50%",
+      "~65%",
+      "~75%",
+      "~87%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 68,
+      "mostCommonWrongAnswer": "~65%",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Most of the World Can Read This Sentence, and That Is a Genuinely New Development",
+  "metaDescription": "68% of people underestimate global literacy. Nearly 87% of adults can now read and write — up from 36% in 1950. The biggest quiet revolution in human capability.",
+  "summary": "In 1950, roughly two out of every three adults on the planet could not read a bus timetable, a medicine label, or their own name on a contract. Today, nearly seven out of eight can. This is not a modest improvement dressed up in optimistic language — it is one of the most dramatic transformations in human capability ever recorded, achieved across every continent, in dozens of languages, largely without anyone throwing a parade.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~87%",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "36% → 87% since 1950",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1950, "value": 36 },
+      { "year": 1970, "value": 55 },
+      { "year": 1990, "value": 75 },
+      { "year": 2010, "value": 83 },
+      { "year": 2024, "value": 87 }
+    ]
+  },
+  "nuance": "Global literacy figures mask significant regional disparities. Sub-Saharan Africa and parts of South Asia still have adult literacy rates below 65%, and the gender gap — while narrowing — persists in many countries. Functional literacy, meaning the ability to actually use reading in daily life rather than merely decode simple sentences, is harder to measure and almost certainly lower than the headline number suggests.",
+  "brysonAside": "Consider that in 1950 the majority of human beings could not have read the very newspaper article announcing that the majority of human beings could not read. There is something almost poetically recursive about an illiteracy crisis that cannot, by definition, be communicated to the people experiencing it.",
+  "sources": [
+    {
+      "name": "UNESCO Institute for Statistics",
+      "url": "https://uis.unesco.org",
+      "tier": 1,
+      "datasetName": "Global adult literacy rate",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Literacy",
+      "url": "https://ourworldindata.org/literacy",
+      "tier": 1,
+      "datasetName": "Literate and illiterate world population",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "global-literacy-miracle",
+  "shareText": {
+    "wrong": "I guessed wrong on global literacy — turns out almost 9 in 10 adults worldwide can now read and write. Most of us had no idea. possiblist.io/q/global-literacy-miracle",
+    "correct": "I knew the global literacy rate and honestly I am a little smug about it. Can you get it right? possiblist.io/q/global-literacy-miracle",
+    "score": null
+  },
+  "emailDigestLine": "In 1950, most humans could not read. In 2024, most can. This happened so gradually that almost nobody noticed humanity acquiring its most fundamental skill.",
+  "premiumTeaser": "The headline number is remarkable enough, but the deeper story involves how literacy was measured in the first place — early surveys literally asked people to sign their name, which tells you less than you might hope — and what happens to societies when they cross the threshold from mostly illiterate to mostly literate. The economic and political consequences turn out to be even more dramatic than you would expect.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to estimate global literacy before revealing the answer. Connects to SDG 4 (Quality Education) and the history of mass schooling. Pair with UNESCO's literacy timeline for visual context and discuss the difference between basic and functional literacy.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "UNESCO and OWID figures align closely. The 1950 baseline is well-established. Strong shareability due to the dramatic arc of the trend."
+}

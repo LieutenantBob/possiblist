@@ -1,0 +1,72 @@
+{
+  "slug": "solar-cost-collapse",
+  "category": "energy",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How has the cost of solar energy changed since 2010?",
+    "options": [
+      "Fallen by ~20%",
+      "Fallen by ~50%",
+      "Fallen by ~70%",
+      "Fallen by ~90%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 58,
+      "mostCommonWrongAnswer": "Fallen by ~50%",
+      "source": "Possiblist pilot survey, 2025",
+      "surveyNote": "Most respondents acknowledged solar had gotten cheaper, but dramatically underestimated the scale of the collapse."
+    }
+  },
+  "headline": "The Price of Sunlight Fell Off a Cliff While Nobody Was Looking",
+  "metaDescription": "Solar energy costs have plummeted by 89% since 2010. Most people guess around 50%. Here is the curve that rewrote the economics of energy, and why your intuition about it is almost certainly too conservative.",
+  "summary": "In 2010, generating a kilowatt-hour of electricity from sunlight cost about thirty-six cents. By 2024, that figure had fallen to roughly four cents — an 89% decline in fourteen years. This is not a gentle downward slope; it is the kind of cost collapse that tends to rearrange entire industries. Most people know solar got cheaper. Almost nobody guesses how much cheaper. The sun, it turns out, has been running a rather aggressive pricing strategy.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~$0.04/kWh",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "$0.36 → $0.04/kWh since 2010",
+    "chartType": "line",
+    "chartData": [
+      { "year": 2010, "value": 0.36 },
+      { "year": 2014, "value": 0.18 },
+      { "year": 2018, "value": 0.08 },
+      { "year": 2021, "value": 0.05 },
+      { "year": 2024, "value": 0.04 }
+    ]
+  },
+  "nuance": "The levelized cost of solar is now competitive with or cheaper than fossil fuels in most of the world. However, intermittency remains real: the sun does not shine at night, and grid-scale storage is still catching up. The headline cost also varies enormously by geography, policy environment, and whether you account for integration costs. Cheap panels are necessary but not sufficient for a full energy transition.",
+  "brysonAside": "If your phone battery had improved at the same rate as solar panel costs declined, you would charge it once a year and it would cost roughly the price of a stick of gum. The phone battery, of course, has done nothing of the sort, which is one of the quieter injustices of modern technology.",
+  "sources": [
+    {
+      "name": "IRENA — Renewable Power Generation Costs",
+      "url": "https://www.irena.org/costs",
+      "tier": 1,
+      "datasetName": "Levelized Cost of Electricity from Solar PV",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Lazard — Levelized Cost of Energy Analysis",
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energy",
+      "tier": 1,
+      "datasetName": "LCOE Version 16.0",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "solar-cost-collapse",
+  "shareText": {
+    "wrong": "I just learned I was wrong about how cheap solar has gotten — and 58% of people are too. possiblist.io/q/solar-cost-collapse",
+    "correct": "I guessed correctly that solar costs fell by ~90% since 2010. Did you? possiblist.io/q/solar-cost-collapse",
+    "score": null
+  },
+  "emailDigestLine": "Solar energy costs fell 89% in fourteen years — a collapse so dramatic that most people only believe about half of it.",
+  "premiumTeaser": "The cost curve that reshaped energy economics has a name — Swanson's Law — and it has been eerily consistent for decades. But the real story is what happens when you combine cheap panels with the still-unsolved puzzle of storage, and why the last 20% of decarbonization may cost more than the first 80%.",
+  "b2bClassroomNote": "Classroom discussion: Have students plot the cost curve and compare it to Moore's Law. Connects to SDG 7 (Affordable and Clean Energy) and economic concepts of learning curves and economies of scale. Useful for debating technology optimism vs. system-level transition challenges.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "IRENA and Lazard data are consistent. The 89% figure is well-established. Nuance on intermittency and integration costs provides necessary balance."
+}

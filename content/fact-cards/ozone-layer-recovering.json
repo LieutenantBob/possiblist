@@ -1,0 +1,72 @@
+{
+  "slug": "ozone-layer-recovering",
+  "category": "environment",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What has happened to the ozone hole since the Montreal Protocol banned CFCs in 1987?",
+    "options": [
+      "It kept getting worse",
+      "It stopped growing but hasn't shrunk",
+      "It has been slowly recovering",
+      "It has fully recovered"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 55,
+      "mostCommonWrongAnswer": "It stopped growing but hasn't shrunk",
+      "source": "Possiblist pilot survey, 2025",
+      "surveyNote": "Respondents split between 'stopped growing' and 'kept getting worse,' suggesting most people filed the ozone layer under 'problems we failed to solve' and never reopened the folder."
+    }
+  },
+  "headline": "Humanity Actually Fixed an Environmental Crisis and Then Collectively Forgot About It",
+  "metaDescription": "The ozone layer is recovering, on track for full repair by ~2066. Most people either think it's still getting worse or don't know. Here is the story of the most successful environmental treaty ever signed — and why almost nobody remembers.",
+  "summary": "In 1987, the nations of the world agreed to stop producing the chemicals that were eating a hole in the ozone layer. Then — and this is the remarkable part — they actually did it. The ozone layer has been slowly recovering ever since, and scientists expect it to return to 1980 levels by approximately 2066. This is, by any reasonable measure, one of humanity's greatest collective achievements: a global environmental crisis identified, addressed, and reversed. It is also one of the least celebrated, having been filed away in the public memory somewhere between 'things we worried about in the 1980s' and 'whatever happened to that.'",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~180 Dobson units (recovering)",
+    "year": 2024,
+    "trend": "recovering",
+    "trendLabel": "Depleted → recovering, full repair by ~2066",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1980, "value": 280 },
+      { "year": 1995, "value": 100 },
+      { "year": 2000, "value": 110 },
+      { "year": 2010, "value": 140 },
+      { "year": 2024, "value": 180 }
+    ]
+  },
+  "nuance": "Recovery is real but slow — the ozone layer will not be fully restored until the 2060s because CFCs persist in the atmosphere for decades. There have also been setbacks: illegal CFC emissions were detected from eastern China around 2018, temporarily slowing progress. And the Montreal Protocol benefited from conditions that climate change does not share — the chemicals had clear substitutes, the affected industries were concentrated, and the science was unambiguous early on.",
+  "brysonAside": "The Montreal Protocol is arguably the most successful international environmental treaty ever signed, and yet if you mentioned it at a dinner party, most people would assume you were talking about a Jason Bourne film. It solved a genuine existential threat through global cooperation, rational policy, and prompt action — which may be why we find it so difficult to remember. It doesn't fit any of our favourite narratives.",
+  "sources": [
+    {
+      "name": "NASA Ozone Watch",
+      "url": "https://ozonewatch.gsfc.nasa.gov",
+      "tier": 1,
+      "datasetName": "Antarctic Ozone Hole Area and Minimum Ozone",
+      "accessedYear": 2026
+    },
+    {
+      "name": "UNEP — Scientific Assessment of Ozone Depletion",
+      "url": "https://ozone.unep.org/science/assessment/sap",
+      "tier": 1,
+      "datasetName": "Scientific Assessment of Ozone Depletion: 2022",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "ozone-layer-recovering",
+  "shareText": {
+    "wrong": "I didn't know the ozone layer is actually recovering — and 55% of people don't either. possiblist.io/q/ozone-layer-recovering",
+    "correct": "I knew the ozone layer is recovering — but most people have no idea. possiblist.io/q/ozone-layer-recovering",
+    "score": null
+  },
+  "emailDigestLine": "The ozone layer is recovering — on track for full repair by 2066 — and most people either don't know or assume we failed. We didn't.",
+  "premiumTeaser": "The Montreal Protocol worked for reasons that are instructive and, for the climate crisis, somewhat depressing. Understanding why one global environmental problem got solved while another hasn't requires looking at industrial economics, the psychology of substitution, and what happens when the science is clear but the solution is inconvenient.",
+  "b2bClassroomNote": "Classroom discussion: Compare the Montreal Protocol response to climate change negotiations. What made one succeed where the other struggles? Connects to SDG 13 (Climate Action), collective action problems, and the role of clear scientific consensus in policy. Excellent case study for environmental governance courses.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "NASA and UNEP data are authoritative. Dobson unit chart shows clear recovery trajectory. Nuance on illegal emissions and non-transferability to climate change provides important context."
+}

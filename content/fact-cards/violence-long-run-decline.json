@@ -1,0 +1,72 @@
+{
+  "slug": "violence-long-run-decline",
+  "category": "security",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "Compared to 600 years ago, is the average person today more or less likely to die by violence?",
+    "options": [
+      "Much more likely",
+      "Slightly more likely",
+      "About the same",
+      "Much less likely"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 67,
+      "mostCommonWrongAnswer": "Much more likely",
+      "source": "Possiblist pilot survey, 2025",
+      "surveyNote": "Two-thirds of respondents believed violence has increased, which is roughly the opposite of what happened. The twenty-four-hour news cycle turns out to be a poor substitute for historical data."
+    }
+  },
+  "headline": "You Live in the Least Violent Era in Human History (Which Is Not How It Feels, Admittedly)",
+  "metaDescription": "The average person today is far less likely to die by violence than at any point in the past 600 years. 67% of people believe the opposite. Here is what the long arc of violence actually looks like.",
+  "summary": "In medieval Europe, your chances of dying by violence ran somewhere around fifty per hundred thousand people per year. Today, the global rate is approximately six. That is not a modest improvement; it is a transformation so profound that it ought to be front-page news, except that good news over long timescales does not really fit the front-page format. Most people, when asked, believe violence has increased — a conviction that says more about the vividness of modern reporting than about the trajectory of human behaviour.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~6 per 100,000",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "~50 → ~6 per 100,000 over 600 years",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1400, "value": 50 },
+      { "year": 1600, "value": 30 },
+      { "year": 1800, "value": 15 },
+      { "year": 1950, "value": 10 },
+      { "year": 2024, "value": 6 }
+    ]
+  },
+  "nuance": "This long-run decline is real but unevenly distributed. Some regions remain extraordinarily violent. The decline also predates modern policing and is partly attributed to state formation, changing norms, and commerce replacing conquest. And the trend is not guaranteed to continue — nuclear weapons, for instance, introduce a category of risk that medieval warlords could not have imagined. Past performance, as they say, is no guarantee of future results.",
+  "brysonAside": "It is one of the more remarkable facts of human existence that you are considerably safer walking through a modern city at night than you would have been attending a medieval banquet, where the cutlery was less decorative and rather more frequently weaponised.",
+  "sources": [
+    {
+      "name": "Steven Pinker — The Better Angels of Our Nature",
+      "url": "https://stevenpinker.com/publications/better-angels-our-nature",
+      "tier": 1,
+      "datasetName": "Historical homicide rates compilation",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Homicides",
+      "url": "https://ourworldindata.org/homicides",
+      "tier": 1,
+      "datasetName": "Intentional homicides per 100,000 people",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "violence-long-run-decline",
+  "shareText": {
+    "wrong": "I thought the world was more violent than ever. Turns out 67% of us get this wrong. possiblist.io/q/violence-long-run-decline",
+    "correct": "I knew violence has declined over centuries — but most people believe the opposite. possiblist.io/q/violence-long-run-decline",
+    "score": null
+  },
+  "emailDigestLine": "You are roughly eight times less likely to die by violence than your ancestors 600 years ago — a fact that 67% of people get exactly backwards.",
+  "premiumTeaser": "The decline of violence is one of history's most important trends and one of its least intuitive. The deeper question is why it happened at all, and whether the forces that drove it — state monopoly on force, expanding circles of empathy, the economics of trade over plunder — are durable or merely fortunate.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to guess the direction of change before revealing the data. Connects to the availability heuristic, media literacy, and the distinction between rates and absolute numbers. Pairs with Pinker's thesis and its critics for a structured debate exercise.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "Pinker's data compilation is contested at the margins but the broad trend is supported by multiple independent historians. OWID data corroborates modern figures. Nuance on regional variation and existential risk provides needed balance."
+}

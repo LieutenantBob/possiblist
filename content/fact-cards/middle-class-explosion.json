@@ -1,0 +1,72 @@
+{
+  "slug": "middle-class-explosion",
+  "category": "economics",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "Roughly how many people worldwide now live at 'middle income' level ($10-$100/day)?",
+    "options": [
+      "~1 billion",
+      "~2 billion",
+      "~4 billion",
+      "~6 billion"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 61,
+      "mostCommonWrongAnswer": "~1 billion or ~2 billion",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Half of Humanity Now Lives at a Standard That Did Not Exist for Most of History",
+  "metaDescription": "61% of people dramatically underestimate the global middle class. Roughly 4 billion people — half of humanity — now live on $10-$100 per day. This is historically unprecedented.",
+  "summary": "When people picture the global economy, they tend to imagine a small wealthy elite and a vast impoverished majority. This mental image is approximately forty years out of date. Roughly four billion people — about half of everyone alive — now live at what researchers call middle-income level, spending between ten and one hundred dollars a day. This is not a rounding error or a generous definition. It is the largest economic migration in human history, and it happened so steadily that most people in wealthy countries simply did not notice.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~4 billion",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "~1 billion → ~4 billion since 1975",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1975, "value": 1.0 },
+      { "year": 1990, "value": 1.5 },
+      { "year": 2000, "value": 2.0 },
+      { "year": 2010, "value": 2.8 },
+      { "year": 2024, "value": 4.0 }
+    ]
+  },
+  "nuance": "The $10-$100/day definition of middle income is broad enough to encompass enormous variation in lived experience — a family at $11/day in Lagos faces a radically different reality than one at $90/day in Shanghai. The expansion has also been geographically uneven, driven overwhelmingly by Asia and particularly China. Much of Sub-Saharan Africa has seen far slower growth. And middle-income status can be precarious: economic shocks, health crises, or conflict can push millions back below the threshold in months.",
+  "brysonAside": "Here is a number that ought to rearrange your mental furniture: every single day for the past several decades, roughly a quarter of a million people have joined the global middle class. That is a mid-sized city, every day, switching from survival mode to something resembling a consumer economy. You would think someone would have mentioned it.",
+  "sources": [
+    {
+      "name": "Brookings Institution — The Unprecedented Expansion of the Global Middle Class",
+      "url": "https://www.brookings.edu/research/the-unprecedented-expansion-of-the-global-middle-class-2/",
+      "tier": 1,
+      "datasetName": "Global middle class population estimates",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Global Living Conditions",
+      "url": "https://ourworldindata.org/a-history-of-global-living-conditions",
+      "tier": 1,
+      "datasetName": "Income distribution and living standards",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "middle-class-explosion",
+  "shareText": {
+    "wrong": "I guessed wrong about the global middle class. Half of humanity — 4 billion people — now lives at middle-income level. I had no idea. possiblist.io/q/middle-class-explosion",
+    "correct": "I knew half the world was now middle income. Apparently 61% of people do not. Are you in the majority? possiblist.io/q/middle-class-explosion",
+    "score": null
+  },
+  "emailDigestLine": "Roughly four billion people now live at middle-income level — half of humanity. Most people guess the number is a quarter of that or less.",
+  "premiumTeaser": "The real story is not just how many people joined the middle class but what happens next. Brookings researchers have mapped the consumption patterns, political expectations, and environmental footprint of this new middle — and the implications for everything from democracy to carbon emissions are both hopeful and deeply complicated. There is also the question of what 'middle class' actually means when the definition spans a tenfold income range.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to draw what they think the global income distribution looks like, then compare to actual data. Connects to SDG 1 (No Poverty), SDG 8 (Decent Work and Economic Growth), and Gapminder's Dollar Street. Excellent for challenging the outdated 'developed vs developing' binary.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "Brookings and OWID data are consistent. The ~4 billion figure is well-established in the literature. Nuance on regional variation and definitional breadth is essential and well-handled."
+}

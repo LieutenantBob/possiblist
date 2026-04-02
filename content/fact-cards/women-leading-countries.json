@@ -1,0 +1,72 @@
+{
+  "slug": "women-leading-countries",
+  "category": "governance",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How many countries have ever had a woman as head of state or government?",
+    "options": [
+      "About 15",
+      "About 35",
+      "About 60",
+      "About 80"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 64,
+      "mostCommonWrongAnswer": "About 35",
+      "source": "Possiblist pilot survey, 2025",
+      "surveyNote": "Most respondents could name a handful of women leaders and extrapolated from there — which turns out to be a poor strategy for estimating cumulative historical totals."
+    }
+  },
+  "headline": "More Countries Have Had a Woman in Charge Than You Think (Which Says Something About What You Think)",
+  "metaDescription": "Around 70 countries have had a woman as head of state or government. Most people guess about half that. Here is the quiet accumulation of a political shift that hasn't made it into the popular mental model.",
+  "summary": "Ask people to guess how many countries have ever been led by a woman, and the most common answer lands somewhere around thirty-five. The actual figure is closer to seventy. This is not because progress has been swift — it has been glacially, exasperatingly slow — but because it has been accumulating for longer than most people realize. The gap between perception and reality here is itself revealing: we tend to remember the exceptions rather than notice the trend.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~70 countries",
+    "year": 2024,
+    "trend": "increasing",
+    "trendLabel": "1 → 70 countries since 1960",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1960, "value": 1 },
+      { "year": 1980, "value": 8 },
+      { "year": 2000, "value": 28 },
+      { "year": 2010, "value": 40 },
+      { "year": 2024, "value": 70 }
+    ]
+  },
+  "nuance": "The cumulative count is higher than most expect, but the snapshot is less encouraging. At any given moment, only about 10-15% of countries have a woman in the top role. Many of these tenures were brief, some were ceremonial, and the pipeline to leadership remains spectacularly leaky. Progress is real but neither linear nor irreversible.",
+  "brysonAside": "Sirimavo Bandaranaike of Sri Lanka became the world's first female prime minister in 1960, and you could be forgiven for thinking the rest of the world would have taken the hint rather more quickly than it did.",
+  "sources": [
+    {
+      "name": "UN Women — Women in Politics",
+      "url": "https://www.unwomen.org/en/digital-library/publications",
+      "tier": 1,
+      "datasetName": "Women in Politics Map",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Council on Foreign Relations — Women's Power Index",
+      "url": "https://www.cfr.org/article/womens-power-index",
+      "tier": 1,
+      "datasetName": "Women's Power Index",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "women-leading-countries",
+  "shareText": {
+    "wrong": "I underestimated how many countries have had a woman leader — and 64% of people do too. possiblist.io/q/women-leading-countries",
+    "correct": "I correctly guessed that ~60+ countries have had a woman head of state. How about you? possiblist.io/q/women-leading-countries",
+    "score": null
+  },
+  "emailDigestLine": "Around 70 countries have had a woman as head of state or government — roughly double what most people guess, and still far fewer than it should be.",
+  "premiumTeaser": "The number is higher than you expected, but the story behind it is more complicated than a simple progress narrative. Some of these leaders inherited power through family dynasties, some were transitional figures, and the question of what counts as 'real' leadership turns out to be more contested than you might think.",
+  "b2bClassroomNote": "Classroom discussion: Have students list women leaders they can name, then reveal the full count. Connects to SDG 5 (Gender Equality) and the availability heuristic — we judge frequency by how easily examples come to mind. Pairs well with data on parliamentary representation.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "UN Women and CFR data align. The ~70 figure includes both heads of state and heads of government. Nuance on snapshot vs. cumulative counts is important editorial context."
+}

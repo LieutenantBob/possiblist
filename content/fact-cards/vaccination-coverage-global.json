@@ -1,0 +1,72 @@
+{
+  "slug": "vaccination-coverage-global",
+  "category": "health",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What share of one-year-old children in the world have been vaccinated against at least one disease?",
+    "options": [
+      "~20%",
+      "~50%",
+      "~70%",
+      "~86%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 72,
+      "mostCommonWrongAnswer": "~50%",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Nearly Nine Out of Ten Toddlers Got the Jab — and the World Barely Noticed",
+  "metaDescription": "About 86% of the world's one-year-olds have received at least one vaccine dose, up from 20% in 1980. 72% of people dramatically underestimate this.",
+  "summary": "In 1980, only about one in five of the world's infants received even a single vaccine dose. Today, that figure stands at roughly 86%. This is one of the most sweeping public-health achievements in human history — a fourfold increase in coverage across every continent, delivered to villages with no paved roads and cities with no reliable electricity. It happened so gradually that almost nobody registered it as news, which is, if you think about it, rather the point of good public health.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~86%",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "20% → 86% since 1980",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1980, "value": 20 },
+      { "year": 1990, "value": 73 },
+      { "year": 2000, "value": 74 },
+      { "year": 2010, "value": 84 },
+      { "year": 2024, "value": 86 }
+    ]
+  },
+  "nuance": "The global average conceals stubborn pockets of under-vaccination. About 14 million children still receive zero routine vaccine doses each year — so-called 'zero-dose' children — concentrated in conflict zones and remote rural areas. COVID-19 disrupted immunisation campaigns in 2020-2021, causing a temporary dip, and recovery has been uneven. Vaccine hesitancy in high-income countries, meanwhile, threatens coverage from the other direction.",
+  "brysonAside": "Consider the logistics: delivering temperature-sensitive vials to 130 million newborns a year, across deserts, mountains, and monsoon seasons, in countries where the postal service sometimes cannot deliver a letter. And yet it works. One begins to suspect that humans are considerably better at organising things when nobody is trying to take credit.",
+  "sources": [
+    {
+      "name": "WHO/UNICEF Estimates of National Immunization Coverage (WUENIC)",
+      "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage",
+      "tier": 1,
+      "datasetName": "Percentage of surviving infants who received first dose of vaccine",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Vaccination",
+      "url": "https://ourworldindata.org/vaccination",
+      "tier": 1,
+      "datasetName": "Share of one-year-olds vaccinated",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "vaccination-coverage-global",
+  "shareText": {
+    "wrong": "I had no idea 86% of the world's babies are vaccinated. 72% of people get this wrong too. possiblist.io/q/vaccination-coverage-global",
+    "correct": "I knew global vaccination was higher than most think — but try the next one. possiblist.io/q/vaccination-coverage-global",
+    "score": null
+  },
+  "emailDigestLine": "From one in five to nearly nine in ten — the quiet triumph of the cold chain and the community health worker.",
+  "premiumTeaser": "The story of how vaccination went from a rich-country luxury to a near-universal norm involves a retired Rotarian, a surprisingly effective donkey-based delivery network, and the single most cost-effective health intervention ever measured. The premium deep-dive follows the cold chain from factory floor to a health post in rural Chad.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to guess the 1980 figure before revealing. Connects to SDG 3 (Good Health) and provides a case study in global logistics, cold-chain infrastructure, and the economics of public goods.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "WUENIC and OWID data are closely aligned. Nuance addresses zero-dose children and COVID disruption honestly."
+}
