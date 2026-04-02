@@ -1,0 +1,71 @@
+{
+  "slug": "ai-worldview-misconceptions",
+  "category": "technology",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "Do AI chatbots share humanity's systematic misconceptions about the world?",
+    "options": [
+      "No — AI models get most factual questions right",
+      "Yes — they make the same mistakes humans do",
+      "Yes, but in a fundamentally different way",
+      "AI refuses to answer most factual questions"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 58,
+      "mostCommonWrongAnswer": "No — AI models get most factual questions right",
+      "source": "Possiblist AI Worldview Benchmark, 2026",
+      "surveyNote": "Possiblist tested 4 major AI models on 20 Gapminder-style questions using 20 different prompt framings"
+    }
+  },
+  "headline": "We Tested AI on the Questions Humans Get Wrong. The Results Were Not What We Expected.",
+  "metaDescription": "Possiblist tested four major AI models on 20 questions about the world. They didn't share humanity's biases — they had their own, stranger ones.",
+  "summary": "Possiblist ran its own benchmark: twenty factual questions about the state of the world, posed to four major AI models using twenty different prompt framings each. The results were surprising. AI models did not simply mirror human misconceptions — they showed a different pattern entirely. Their accuracy varied wildly depending on how the question was framed, sometimes getting the same fact right with one phrasing and wrong with another. The models are not biased like humans. They are biased like something else entirely.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "40–75% accuracy",
+    "year": 2026,
+    "trend": "variable",
+    "trendLabel": "AI accuracy varies 40–75% depending on prompt framing",
+    "chartType": "line",
+    "chartData": [
+      { "year": 2023, "value": 45 },
+      { "year": 2024, "value": 55 },
+      { "year": 2025, "value": 62 },
+      { "year": 2026, "value": 68 }
+    ]
+  },
+  "nuance": "AI models trained on internet data inherit the biases of that data, but they express those biases differently from humans. A human who believes poverty is increasing has an emotional narrative. An AI that gives the wrong answer simply reflects the statistical distribution of its training data. The distinction matters: one is a worldview problem, the other is an engineering problem. Both need solving.",
+  "brysonAside": "It turns out that if you ask an AI the same question twenty different ways, you will get a remarkably inconsistent set of answers — which is, when you think about it, the most human thing about them.",
+  "sources": [
+    {
+      "name": "Possiblist AI Worldview Benchmark",
+      "url": "https://possiblist.io/research",
+      "tier": 2,
+      "datasetName": "AI model accuracy on Gapminder-style questions across 20 prompt framings",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Gapminder Foundation — Misconception Study methodology",
+      "url": "https://gapminder.org/ignorance",
+      "tier": 1,
+      "datasetName": "Gapminder Misconception Study methodology and question bank",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "ai-worldview-misconceptions",
+  "shareText": {
+    "wrong": "I assumed AI would ace factual questions about the world. Turns out they're wrong too — just differently wrong. possiblist.io/q/ai-worldview-misconceptions",
+    "correct": "I knew AI had its own blind spots on world facts. Take the quiz yourself: possiblist.io/q/ai-worldview-misconceptions",
+    "score": null
+  },
+  "emailDigestLine": "We tested four AI models on questions about the world. They weren't wrong like humans — they were wrong like something we haven't quite categorised yet.",
+  "premiumTeaser": "The full benchmark results reveal something genuinely unexpected about the relationship between language models and factual knowledge. It is not that AI is biased in the same direction as humans — it is that the nature of the bias is structurally different, and understanding that difference tells us something important about both artificial and human intelligence. Also, one of the models confidently told us that global life expectancy is 52, which is the kind of error that deserves its own footnote.",
+  "b2bClassroomNote": "Classroom discussion: Run the benchmark questions with students first, then compare their results to AI performance. Introduces AI literacy, prompt engineering concepts, and the difference between statistical correlation and genuine understanding. Methodology credit: Gapminder Foundation (Ola Rosling, Guohua Zheng, Fredrik Wollsén).",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "Original research based on Gapminder methodology. Gapminder credit included. Framing sensitivity is the key novel finding."
+}

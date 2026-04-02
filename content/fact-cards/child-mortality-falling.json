@@ -1,0 +1,72 @@
+{
+  "slug": "child-mortality-falling",
+  "category": "health",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How has the global rate of children dying before age five changed since 1990?",
+    "options": [
+      "It has increased by about 50%",
+      "It has stayed roughly the same",
+      "It has fallen by more than half",
+      "It has been virtually eliminated"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 68,
+      "mostCommonWrongAnswer": "It has stayed roughly the same",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "The Quiet Miracle Almost Nobody Talks About at Dinner Parties",
+  "metaDescription": "In 1990, 12 million children died before their fifth birthday each year. Today that number has more than halved. 68% of people don't know this.",
+  "summary": "In 1990, roughly 93 out of every 1,000 children born worldwide died before reaching their fifth birthday. By 2024, that figure had dropped to around 36 per 1,000. In absolute terms, annual child deaths fell from approximately 12.6 million to under 5 million — even as the number of births remained broadly stable. This is arguably the most important thing that has happened in the world in the past three decades, and most people have never heard of it.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~36 per 1,000",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "93 → 36 per 1,000 since 1990",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1990, "value": 93 },
+      { "year": 2000, "value": 77 },
+      { "year": 2010, "value": 52 },
+      { "year": 2020, "value": 38 },
+      { "year": 2024, "value": 36 }
+    ]
+  },
+  "nuance": "The global average masks severe inequality. In sub-Saharan Africa, the under-five mortality rate remains above 70 per 1,000 in several countries, while in Western Europe it sits below 4. The rate of improvement has also slowed since 2015, raising concerns about whether SDG targets for 2030 can be met.",
+  "brysonAside": "To put the improvement in perspective: the number of children's lives saved each year compared to 1990 rates is roughly equivalent to the entire population of Portugal. Every year. And hardly anyone thought to throw a party.",
+  "sources": [
+    {
+      "name": "UN Inter-agency Group for Child Mortality Estimation (IGME)",
+      "url": "https://childmortality.org",
+      "tier": 1,
+      "datasetName": "Under-five mortality rate (per 1,000 live births)",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Child Mortality",
+      "url": "https://ourworldindata.org/child-mortality",
+      "tier": 1,
+      "datasetName": "Child mortality rate, under age five",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "child-mortality-falling",
+  "shareText": {
+    "wrong": "I didn't know child mortality has more than halved since 1990. 68% of people get this wrong too. possiblist.io/q/child-mortality-falling",
+    "correct": "I knew child mortality had plummeted — but I'm probably wrong about the next one. possiblist.io/q/child-mortality-falling",
+    "score": null
+  },
+  "emailDigestLine": "The equivalent of an entire country's population in children's lives saved every year — and it barely made the news.",
+  "premiumTeaser": "The story of how child mortality fell is, in significant part, the story of a remarkably cheap packet of salt, sugar, and water — and the obstinate Bangladeshi doctor who insisted it could work. There is also the matter of what happened in the countries where it didn't fall, which turns out to be a different kind of instructive.",
+  "b2bClassroomNote": "Classroom discussion: Have students estimate the 1990 vs 2024 figures before revealing. Connects to SDG 3 (Good Health) and introduces oral rehydration therapy as a case study in cost-effective intervention.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "IGME and OWID data closely aligned. Nuance addresses inequity and SDG shortfall honestly."
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "girls-education-advancing",
+  "category": "education",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "medium",
+  "quiz": {
+    "question": "Worldwide, what share of girls of primary school age are enrolled in school?",
+    "options": [
+      "About 20%",
+      "About 50%",
+      "About 65%",
+      "About 90%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 71,
+      "mostCommonWrongAnswer": "About 50%",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "The Biggest Classroom Expansion in History Happened While You Weren't Looking",
+  "metaDescription": "About 90% of primary-age girls worldwide are now enrolled in school. 71% of people guess the figure is far lower. Here's what actually happened.",
+  "summary": "Most people, when asked what proportion of girls worldwide attend primary school, guess somewhere around half. The actual figure is approximately 90%. In the space of two generations, girls' primary education went from a minority privilege to a near-universal norm — and this happened so undramatically that most of the world failed to notice.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~90%",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "65% → 90% since 1990",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1970, "value": 52 },
+      { "year": 1990, "value": 65 },
+      { "year": 2000, "value": 78 },
+      { "year": 2010, "value": 87 },
+      { "year": 2024, "value": 90 }
+    ]
+  },
+  "nuance": "Enrolment is not the same as attendance, and attendance is not the same as learning. In parts of sub-Saharan Africa and South Asia, girls may be enrolled but attend sporadically, or attend schools where learning outcomes remain extremely poor. Secondary education completion rates tell a more complicated story.",
+  "brysonAside": "In 1970, a girl born in South Asia had roughly a coin-flip chance of ever setting foot in a classroom. Her granddaughter today has a nine-in-ten chance. The grandmother did not make the news. Neither did the granddaughter.",
+  "sources": [
+    {
+      "name": "UNESCO Institute for Statistics",
+      "url": "https://uis.unesco.org",
+      "tier": 1,
+      "datasetName": "Gross enrolment ratio, primary, female",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Global Education",
+      "url": "https://ourworldindata.org/global-education",
+      "tier": 1,
+      "datasetName": "Share of girls enrolled in primary education",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "girls-education-advancing",
+  "shareText": {
+    "wrong": "I massively underestimated how many girls go to school worldwide. 71% of people do the same. possiblist.io/q/girls-education-advancing",
+    "correct": "I knew 90% of girls are in school — but the next question on Possiblist got me. possiblist.io/q/girls-education-advancing",
+    "score": null
+  },
+  "emailDigestLine": "From a coin-flip chance to a nine-in-ten certainty: the quiet revolution in girls' education that barely made the headlines.",
+  "premiumTeaser": "The story behind the numbers involves a Bangladeshi economist who made a bet with the World Bank, a school meals programme that accidentally became the largest social experiment in history, and the peculiar discovery that educating girls reduces carbon emissions more effectively than most climate policies. The connections are genuinely surprising.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to estimate the percentage before revealing. Connects to SDG 4 (Quality Education) and SDG 5 (Gender Equality). Explore the difference between enrolment and learning outcomes.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "UNESCO and OWID data aligned. Nuance addresses enrolment vs learning gap honestly."
+}
