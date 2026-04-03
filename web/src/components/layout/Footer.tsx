@@ -11,6 +11,7 @@ export function Footer() {
           {[
             { to: '/', label: 'Home' },
             { to: '/about', label: 'About' },
+            { to: '/manifesto', label: 'Manifesto' },
             { to: '/research', label: 'Research' },
             { to: '/subscribe', label: 'Subscribe' },
           ].map(link => (

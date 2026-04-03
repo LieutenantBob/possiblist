@@ -11,6 +11,7 @@ import { Research } from './pages/Research'
 import { About } from './pages/About'
 import { Login } from './pages/Login'
 import { MyPossiblist } from './pages/MyPossiblist'
+import { Manifesto } from './pages/Manifesto'
 
 export function App() {
   return (
@@ -28,6 +29,7 @@ export function App() {
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/my-possiblist" element={<MyPossiblist />} />
+            <Route path="/manifesto" element={<Manifesto />} />
             <Route path="/:slug" element={<RedirectToQuiz />} />
           </Route>
         </Routes>
