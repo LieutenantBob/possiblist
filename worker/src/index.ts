@@ -1,6 +1,7 @@
 import { handleQuiz } from './quiz'
 import { handleSubscription } from './subscription'
 import { handleEmail } from './email'
+import { handleAuth } from './auth'
 
 export interface Env {
   SESSIONS: KVNamespace
@@ -11,6 +12,14 @@ export interface Env {
   RESEND_API_KEY: string
   RESEND_AUDIENCE_ID: string
   ALLOWED_ORIGIN: string
+  GOOGLE_CLIENT_ID: string
+  GOOGLE_CLIENT_SECRET: string
+  APPLE_CLIENT_ID: string
+  APPLE_CLIENT_SECRET: string
+  APPLE_TEAM_ID: string
+  APPLE_KEY_ID: string
+  META_CLIENT_ID: string
+  META_CLIENT_SECRET: string
 }
 
 export interface Session {
@@ -92,6 +101,28 @@ async function route(path: string, request: Request, env: Env, sessionId: string
   // Research
   if (path === '/api/research/summary' && method === 'GET') {
     return handleQuiz.researchSummary()
+  }
+
+  // Auth — available to all users
+  const oauthStartMatch = path.match(/^\/api\/auth\/(google|apple|meta)$/)
+  if (oauthStartMatch && method === 'GET') {
+    return handleAuth.oauthStart(env, oauthStartMatch[1])
+  }
+  const oauthCallbackMatch = path.match(/^\/api\/auth\/(google|apple|meta)\/callback$/)
+  if (oauthCallbackMatch && method === 'GET') {
+    return handleAuth.oauthCallback(env, oauthCallbackMatch[1], request)
+  }
+  if (path === '/api/auth/register' && method === 'POST') {
+    return handleAuth.register(request, env)
+  }
+  if (path === '/api/auth/login' && method === 'POST') {
+    return handleAuth.login(request, env)
+  }
+  if (path === '/api/auth/logout' && method === 'POST') {
+    return handleAuth.logout(request, env)
+  }
+  if (path === '/api/auth/me' && method === 'GET') {
+    return handleAuth.me(env, request)
   }
 
   // Email
