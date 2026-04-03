@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom'
+import { CatchphraseBar } from './CatchphraseBar'
 
 export function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="w-full px-4 py-12 mt-16" style={{ borderTop: '1px solid var(--deep-05)' }}>
+    <footer className="w-full mt-16">
+      {/* Random catchphrase */}
+      <CatchphraseBar />
+
+      <div className="px-4 py-12" style={{ borderTop: '1px solid var(--deep-05)' }}>
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         {/* Navigation */}
         <nav className="flex flex-wrap gap-x-4 gap-y-1 justify-center md:justify-start">
@@ -50,6 +55,7 @@ export function Footer() {
         <p className="font-mono text-[0.65rem]" style={{ color: 'var(--mist)' }}>
           © Possiblist {year}
         </p>
+      </div>
       </div>
     </footer>
   )
