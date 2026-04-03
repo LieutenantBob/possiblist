@@ -102,3 +102,4 @@ Would love to hear what you think.
 - **21 questions. Your worldview may not survive.**
 - **Being wrong is the beginning of being less wrong.**
 - **Not optimism. Not pessimism. The third thing.**
+- **Pessimists see the glass as half empty. Optimists see it as half full. Possibilists remember that it is refillable.**
