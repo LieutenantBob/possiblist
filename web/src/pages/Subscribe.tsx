@@ -163,6 +163,113 @@ export function Subscribe() {
         </div>
       </div>
 
+      {/* --- Milestone Roadmap --- */}
+      <div className="mb-14 max-w-lg mx-auto">
+        <h2
+          className="font-display font-semibold text-center mb-2"
+          style={{ fontSize: '1.5rem', color: 'var(--deep)' }}
+        >
+          What We Build Together
+        </h2>
+        <p className="font-italic italic text-center mb-8" style={{ color: 'var(--mist)', fontSize: '0.85rem' }}>
+          New features unlock as the movement grows. Not because we are withholding them
+          — because some things only work when enough people are in the room.
+        </p>
+
+        <div className="space-y-0">
+          {[
+            {
+              members: 'Now',
+              unlocked: true,
+              title: 'The Foundation',
+              features: 'Full articles, action cards, matched giving, Possiblist Score, AI benchmark',
+            },
+            {
+              members: '1,000',
+              unlocked: false,
+              title: 'The Forum',
+              features: 'Moderated discussion under each article — Letters to the Editor, not Reddit. Your first chance to hear what other possibilists think.',
+            },
+            {
+              members: '2,500',
+              unlocked: false,
+              title: 'Possiblist Grants',
+              features: 'Member-proposed, member-voted micro-projects. £500–£5,000 for the smallest useful thing that will move a specific number.',
+            },
+            {
+              members: '5,000',
+              unlocked: false,
+              title: 'Possiblist Positions',
+              features: 'Collectively drafted, evidence-based position statements. Individual judgement, collective voice. "5,000 Possibilists believe, based on these data sources, that..."',
+            },
+            {
+              members: '10,000',
+              unlocked: false,
+              title: 'The Possiblist Index',
+              features: 'An annual publication: The State of Being Wrong. Which misconceptions improved this year? Which got worse? Citeable by media, referenced by policymakers.',
+            },
+            {
+              members: '25,000',
+              unlocked: false,
+              title: 'Local Chapters',
+              features: 'Possiblist London. Possiblist Berlin. Possiblist Nairobi. Monthly meetups: one quiz, one discussion, one action. Not activism — intellectual community with practical output.',
+            },
+          ].map((milestone, i) => (
+            <div key={milestone.members} className="flex gap-4">
+              {/* Timeline line */}
+              <div className="flex flex-col items-center">
+                <div
+                  className="w-8 h-8 rounded-full flex items-center justify-center font-mono text-[0.55rem] flex-shrink-0"
+                  style={{
+                    backgroundColor: milestone.unlocked ? 'var(--verdigris)' : 'var(--deep-05)',
+                    color: milestone.unlocked ? 'var(--parchment)' : 'var(--mist)',
+                    border: milestone.unlocked ? 'none' : '1px solid var(--deep-10)',
+                  }}
+                >
+                  {milestone.unlocked ? '✓' : milestone.members}
+                </div>
+                {i < 5 && (
+                  <div
+                    className="w-px flex-1 my-1"
+                    style={{ backgroundColor: 'var(--deep-10)', minHeight: '24px' }}
+                  />
+                )}
+              </div>
+
+              {/* Content */}
+              <div className="pb-6">
+                <div className="flex items-center gap-2 mb-1">
+                  <p
+                    className="font-body font-semibold text-sm"
+                    style={{ color: milestone.unlocked ? 'var(--verdigris)' : 'var(--deep)' }}
+                  >
+                    {milestone.title}
+                  </p>
+                  {!milestone.unlocked && (
+                    <span
+                      className="font-mono text-[0.55rem] uppercase tracking-wider px-1.5 py-0.5 rounded"
+                      style={{ backgroundColor: 'var(--deep-05)', color: 'var(--mist)' }}
+                    >
+                      {milestone.members} members
+                    </span>
+                  )}
+                </div>
+                <p className="font-body text-xs leading-relaxed" style={{ color: 'var(--mist)' }}>
+                  {milestone.features}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <p
+          className="font-italic italic text-center mt-6 text-sm"
+          style={{ color: 'var(--mist)' }}
+        >
+          The price stays the same. What the movement can do grows with every member who joins.
+        </p>
+      </div>
+
       {/* --- Pricing --- */}
       <div className="flex flex-col sm:flex-row gap-6 justify-center items-stretch max-w-lg mx-auto mb-14">
         {/* Annual */}
