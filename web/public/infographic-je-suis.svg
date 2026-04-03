@@ -1,0 +1,43 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&amp;family=Cormorant+Garamond:ital,wght@0,400;1,300;1,400&amp;family=Source+Serif+4:wght@400;600&amp;family=JetBrains+Mono:wght@300;400');
+    </style>
+  </defs>
+
+  <!-- Background: parchment -->
+  <rect width="1200" height="630" fill="#F2EBD9"/>
+
+  <!-- Subtle border -->
+  <rect x="30" y="30" width="1140" height="570" rx="8" fill="none" stroke="#2C2520" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Wordmark top-left -->
+  <text x="60" y="60" font-family="'Cormorant SC', Georgia, serif" font-size="20" font-weight="600" fill="#1C1917" opacity="0.4">Possiblist</text>
+  <text x="178" y="60" font-family="'Cormorant SC', Georgia, serif" font-size="20" font-weight="600" fill="#3D7A6E" opacity="0.4">°</text>
+
+  <!-- The main statement -->
+  <text x="600" y="230" font-family="'Cormorant SC', Georgia, serif" font-size="96" font-weight="600" fill="#1C1917" text-anchor="middle" letter-spacing="0.02em">
+    je suis
+  </text>
+  <text x="600" y="340" font-family="'Cormorant SC', Georgia, serif" font-size="96" font-weight="600" fill="#3D7A6E" text-anchor="middle" letter-spacing="0.02em">
+    possiblist
+  </text>
+  <!-- The golden degree mark — larger, slightly offset, like a badge -->
+  <text x="960" y="310" font-family="'Cormorant SC', Georgia, serif" font-size="72" font-weight="600" fill="#C9963A">°</text>
+
+  <!-- The subtext — the punchline -->
+  <text x="600" y="420" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" fill="#8A8178" text-anchor="middle" font-style="italic">
+    I looked at the data. It was not what I expected.
+  </text>
+  <text x="600" y="452" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" fill="#8A8178" text-anchor="middle" font-style="italic">
+    I changed my mind. This is apparently revolutionary.
+  </text>
+
+  <!-- Chimpanzee score line — small, understated, very Possiblist -->
+  <text x="600" y="520" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8A8178" text-anchor="middle" letter-spacing="0.05em" opacity="0.6">
+    SCORING HIGHER THAN A CHIMPANZEE SINCE 2026
+  </text>
+
+  <!-- URL bottom right -->
+  <text x="1140" y="580" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="300" fill="#8A8178" text-anchor="end">possiblist.io</text>
+</svg>
