@@ -69,5 +69,26 @@
   "premiumTeaser": "The story of how child mortality fell is, in significant part, the story of a remarkably cheap packet of salt, sugar, and water — and the obstinate Bangladeshi doctor who insisted it could work. There is also the matter of what happened in the countries where it didn't fall, which turns out to be a different kind of instructive.",
   "b2bClassroomNote": "Classroom discussion: Have students estimate the 1990 vs 2024 figures before revealing. Connects to SDG 3 (Good Health) and introduces oral rehydration therapy as a case study in cost-effective intervention.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "IGME and OWID data closely aligned. Nuance addresses inequity and SDG shortfall honestly."
+  "publishingNote": "IGME and OWID data closely aligned. Nuance addresses inequity and SDG shortfall honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"The Blue Sweater\" by Jacqueline Novogratz (summary)",
+      "url": "https://www.gapminder.org/videos/the-blue-sweater-jacqueline-novogratz/",
+      "time": "10 min read",
+      "description": "Novogratz traces a single blue sweater from her closet in Virginia to a boy in Rwanda, weaving a story about how global health interventions connect lives across continents in ways we rarely see."
+    },
+    "fund": {
+      "org": "Gavi, the Vaccine Alliance",
+      "url": "https://possiblist.io/give/gavi",
+      "directUrl": "https://www.gavi.org/donate",
+      "description": "Gavi is the organisation behind the vaccination campaigns that drove much of this chart's decline. When you see child mortality falling, you are largely looking at Gavi's supply chain at work.",
+      "impact": "$1 = one child vaccinated against measles",
+      "rating": null
+    },
+    "act": {
+      "action": "Check if your workplace pension excludes tobacco stocks",
+      "time": "~10 min",
+      "description": "Tobacco is still a leading contributor to child mortality through secondhand smoke and maternal health effects. Most pension providers now offer tobacco-free options — finding out if yours does takes a single email."
+    }
+  }
 }

@@ -69,5 +69,26 @@
   "premiumTeaser": "In 1977, a single watt of solar capacity cost $76. Today it costs less than a postage stamp. The full story traces that price collapse, explains why grid storage — not generation — is the real bottleneck, and visits the countries where renewables have already passed 90% of electricity supply.",
   "b2bClassroomNote": "Classroom discussion: Have students estimate the renewable share before revealing. Connects to SDG 7 (Affordable and Clean Energy) and introduces learning curves, grid intermittency, and the distinction between electricity and total energy.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "IRENA and IEA data closely aligned. Nuance distinguishes electricity from total energy and addresses intermittency honestly."
+  "publishingNote": "IRENA and IEA data closely aligned. Nuance distinguishes electricity from total energy and addresses intermittency honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Electrify\" by Saul Griffith (summary/review)",
+      "url": "https://www.rewiringamerica.org/electrify-book",
+      "time": "10 min read",
+      "description": "Griffith's argument is that the 30% figure on this chart is the beginning, not the middle — and that electrifying everything is more achievable than most people assume. The summary gives you the core thesis without the full 300 pages."
+    },
+    "fund": {
+      "org": "Rewiring America",
+      "url": "https://possiblist.io/give/rewiring-america",
+      "directUrl": "https://www.rewiringamerica.org/donate",
+      "description": "Rewiring America works on the gap this chart's nuance section explains — electricity is only 20% of total energy. They help households switch the other 80% to clean sources.",
+      "impact": "Helps households switch to clean energy",
+      "rating": null
+    },
+    "act": {
+      "action": "Look up your home's energy efficiency rating",
+      "time": "~10 min",
+      "description": "The renewable share on this chart matters more when less energy is wasted. Most homes have an efficiency rating on file — checking yours reveals whether your biggest energy gain comes from the grid or from your walls."
+    }
+  }
 }

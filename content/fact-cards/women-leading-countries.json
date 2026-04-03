@@ -69,5 +69,26 @@
   "premiumTeaser": "The number is higher than you expected, but the story behind it is more complicated than a simple progress narrative. Some of these leaders inherited power through family dynasties, some were transitional figures, and the question of what counts as 'real' leadership turns out to be more contested than you might think.",
   "b2bClassroomNote": "Classroom discussion: Have students list women leaders they can name, then reveal the full count. Connects to SDG 5 (Gender Equality) and the availability heuristic — we judge frequency by how easily examples come to mind. Pairs well with data on parliamentary representation.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "UN Women and CFR data align. The ~70 figure includes both heads of state and heads of government. Nuance on snapshot vs. cumulative counts is important editorial context."
+  "publishingNote": "UN Women and CFR data align. The ~70 figure includes both heads of state and heads of government. Nuance on snapshot vs. cumulative counts is important editorial context.",
+  "actionCard": {
+    "learn": {
+      "title": "UN Women \"Women in Politics 2024\" map",
+      "url": "https://www.unwomen.org/en/digital-library/publications",
+      "time": "10 min read",
+      "description": "The UN Women map shows both the cumulative count on this chart and the snapshot figure the nuance section warns about. Seeing both at once explains why progress can be real and exasperatingly slow at the same time."
+    },
+    "fund": {
+      "org": "She Should Run",
+      "url": "https://possiblist.io/give/she-should-run",
+      "directUrl": "https://sheshouldrun.org/donate/",
+      "description": "She Should Run builds the pipeline this chart needs to keep climbing — encouraging and supporting women who are considering running for office but have not yet taken the step.",
+      "impact": "Pipeline programmes for women entering politics",
+      "rating": null
+    },
+    "act": {
+      "action": "Find out if your local council has gender balance",
+      "time": "~5 min",
+      "description": "This chart tracks heads of state, but representation starts local. Most council websites list their members — checking yours takes five minutes and connects the global trend to your own postcode."
+    }
+  }
 }

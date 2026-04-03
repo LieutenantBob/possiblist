@@ -69,5 +69,26 @@
   "premiumTeaser": "The headline number is remarkable enough, but the deeper story involves how literacy was measured in the first place — early surveys literally asked people to sign their name, which tells you less than you might hope — and what happens to societies when they cross the threshold from mostly illiterate to mostly literate. The economic and political consequences turn out to be even more dramatic than you would expect.",
   "b2bClassroomNote": "Classroom discussion: Ask students to estimate global literacy before revealing the answer. Connects to SDG 4 (Quality Education) and the history of mass schooling. Pair with UNESCO's literacy timeline for visual context and discuss the difference between basic and functional literacy.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "UNESCO and OWID figures align closely. The 1950 baseline is well-established. Strong shareability due to the dramatic arc of the trend."
+  "publishingNote": "UNESCO and OWID figures align closely. The 1950 baseline is well-established. Strong shareability due to the dramatic arc of the trend.",
+  "actionCard": {
+    "learn": {
+      "title": "\"The Sense of an Ending\" — UNESCO literacy timeline",
+      "url": "https://uis.unesco.org/en/topic/literacy",
+      "time": "10 min read",
+      "description": "UNESCO's literacy timeline traces the 36% to 87% arc of this chart decade by decade, showing how mass literacy spread through different regions at different speeds — and where it has not yet arrived."
+    },
+    "fund": {
+      "org": "Pratham",
+      "url": "https://possiblist.io/give/pratham",
+      "directUrl": "https://www.pratham.org/donate/",
+      "description": "Pratham works on the gap between the headline literacy number and what children can actually read. Their structured reading programmes address the functional literacy challenge the nuance section describes.",
+      "impact": "\u00a310 = one child in a structured reading programme for a year",
+      "rating": "GiveWell Top Charity"
+    },
+    "act": {
+      "action": "Volunteer for adult literacy tutoring in your area",
+      "time": "~15 min to sign up",
+      "description": "The 87% global figure means roughly 770 million adults still cannot read. Some of them live near you. Most local literacy programmes are short of volunteers, and signing up takes less time than reading this card."
+    }
+  }
 }

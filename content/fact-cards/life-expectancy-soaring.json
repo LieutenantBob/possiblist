@@ -70,5 +70,26 @@
   "premiumTeaser": "The story of how we doubled the human lifespan involves, in no particular order: a Viennese doctor who was mocked to death for suggesting that hand-washing might help, a retired military engineer who accidentally revolutionised sewage, and a statistician whose bar charts caused a national scandal. It is, in the proper sense, extraordinary.",
   "b2bClassroomNote": "Classroom discussion: Ask students why the 1900 figure seems so low (infant mortality effect). Connects to SDG 3 and introduces the concept of life expectancy as a composite measure. Pair with Gapminder's Trendalyzer for interactive exploration.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "UN and OWID data are closely aligned. COVID dip noted in nuance. Strong Bryson-style aside."
+  "publishingNote": "UN and OWID data are closely aligned. COVID dip noted in nuance. Strong Bryson-style aside.",
+  "actionCard": {
+    "learn": {
+      "title": "Hans Rosling's 200 Countries, 200 Years TED Talk",
+      "url": "https://www.gapminder.org/videos/200-years-that-changed-the-world/",
+      "time": "20 min watch",
+      "description": "Rosling animates two centuries of life expectancy and income data in four minutes flat. It is the single best visual explanation of how the world went from 32 to 73 — and why the change feels invisible."
+    },
+    "fund": {
+      "org": "WaterAid",
+      "url": "https://possiblist.io/give/wateraid",
+      "directUrl": "https://www.wateraid.org/donate",
+      "description": "Clean water and sanitation are behind a disproportionate share of this chart's upward slope. WaterAid works in the countries where waterborne disease still drags life expectancy down.",
+      "impact": "\u00a320 = clean water access for one person for a year",
+      "rating": "GWWC Recommended"
+    },
+    "act": {
+      "action": "Write to your water utility asking for their latest water quality report",
+      "time": "~5 min",
+      "description": "Safe water is the foundation of the life expectancy gains on this chart. Knowing what is in your own tap water connects the global story to your postcode — and the reports are public, even if nobody reads them."
+    }
+  }
 }

@@ -69,5 +69,26 @@
   "premiumTeaser": "The 2014 peak was driven almost entirely by two organisations operating in three countries — and when their territory collapsed, so did the death toll. The full story traces that collapse, asks what happened to the underlying conditions that produced those groups, and examines Paul Slovic's research on why a risk that kills fewer people than bathtub drownings dominates our foreign policy.",
   "b2bClassroomNote": "Classroom discussion: Ask students to draw the trend line before revealing. Connects to SDG 16 (Peace, Justice) and introduces availability bias, dread risk, and the relationship between media coverage and risk perception.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "GTD and OWID data closely aligned. Chart values in thousands. Nuance addresses regional variation and definitional challenges honestly."
+  "publishingNote": "GTD and OWID data closely aligned. Chart values in thousands. Nuance addresses regional variation and definitional challenges honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Factfulness\" Chapter 4: The Fear Instinct",
+      "url": "https://www.gapminder.org/factfulness-book/",
+      "time": "10 min read",
+      "description": "Rosling explains why your brain is wired to overestimate threats that are vivid, involuntary, and dramatic — the exact combination that makes terrorism feel like it is rising when the data shows it falling."
+    },
+    "fund": {
+      "org": "International Crisis Group",
+      "url": "https://possiblist.io/give/international-crisis-group",
+      "directUrl": "https://www.crisisgroup.org/donate",
+      "description": "ICG does conflict prevention and early warning research — the kind of work that bends curves like this one downward before the crisis makes the news.",
+      "impact": "Conflict prevention and early warning research",
+      "rating": null
+    },
+    "act": {
+      "action": "Check whether your news sources cover conflict resolution, not just conflict",
+      "time": "~5 min",
+      "description": "The perception gap on this chart is partly a media gap. If your news diet includes crisis coverage but never resolution coverage, your mental model will always lag behind the data."
+    }
+  }
 }

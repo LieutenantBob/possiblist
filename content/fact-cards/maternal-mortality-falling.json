@@ -69,5 +69,26 @@
   "premiumTeaser": "The deeper story here involves what actually causes maternal deaths — the answer is surprisingly concentrated in a handful of preventable conditions — and why some countries managed to cut their rates by 80% or more while others barely moved the needle. The role of community health workers, many of them women who nearly died in childbirth themselves, turns out to be one of the more quietly heroic chapters in modern public health.",
   "b2bClassroomNote": "Classroom discussion: Ask students to estimate the trend before showing data. Connects to SDG 3 (Good Health and Well-being), SDG 5 (Gender Equality), and the relationship between healthcare infrastructure and outcomes. Pair with WHO country-level data for comparative analysis.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "WHO and OWID estimates are closely aligned. The ~38% decline is robust. Nuance on regional disparities is essential and well-handled."
+  "publishingNote": "WHO and OWID estimates are closely aligned. The ~38% decline is robust. Nuance on regional disparities is essential and well-handled.",
+  "actionCard": {
+    "learn": {
+      "title": "WHO Maternal Health fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+      "time": "10 min read",
+      "description": "The WHO fact sheet breaks down the causes behind this chart's decline — and the causes behind the deaths that remain. Most are preventable with interventions so basic they barely qualify as medical."
+    },
+    "fund": {
+      "org": "M\u00e9decins Sans Fronti\u00e8res",
+      "url": "https://possiblist.io/give/msf-maternal",
+      "directUrl": "https://www.msf.org/donate",
+      "description": "MSF provides obstetric care in crisis settings — the places where this chart's decline has been slowest and the gap between 342 and 223 feels widest.",
+      "impact": "\u00a335 = one safe delivery kit",
+      "rating": null
+    },
+    "act": {
+      "action": "Find out if your employer offers paid parental leave to all staff",
+      "time": "~5 min",
+      "description": "Maternal mortality is a medical statistic, but maternal health is shaped by policy. Knowing whether your workplace supports all parents — not just some — connects this global trend to your own corridor."
+    }
+  }
 }

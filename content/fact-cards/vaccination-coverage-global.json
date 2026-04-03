@@ -69,5 +69,26 @@
   "premiumTeaser": "The story of how vaccination went from a rich-country luxury to a near-universal norm involves a retired Rotarian, a surprisingly effective donkey-based delivery network, and the single most cost-effective health intervention ever measured. The premium deep-dive follows the cold chain from factory floor to a health post in rural Chad.",
   "b2bClassroomNote": "Classroom discussion: Ask students to guess the 1980 figure before revealing. Connects to SDG 3 (Good Health) and provides a case study in global logistics, cold-chain infrastructure, and the economics of public goods.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "WUENIC and OWID data are closely aligned. Nuance addresses zero-dose children and COVID disruption honestly."
+  "publishingNote": "WUENIC and OWID data are closely aligned. Nuance addresses zero-dose children and COVID disruption honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Every Last Child\" documentary (UNICEF)",
+      "url": "https://www.unicef.org/immunization",
+      "time": "20 min watch",
+      "description": "Follows the cold chain from factory floor to remote health post — the logistics behind the 20% to 86% climb on this chart. It makes the motorbikes-on-unpaved-roads reality tangible."
+    },
+    "fund": {
+      "org": "UNICEF Supply Division",
+      "url": "https://possiblist.io/give/unicef",
+      "directUrl": "https://www.unicef.org/donate",
+      "description": "UNICEF procures and delivers vaccines to over 100 countries. The 86% coverage figure on this chart is, in large part, UNICEF's supply chain made visible in data.",
+      "impact": "$2 = enough vaccine doses to protect one child against polio",
+      "rating": null
+    },
+    "act": {
+      "action": "Check your own vaccination records are up to date",
+      "time": "~10 min",
+      "description": "The 86% figure on this chart tracks children — but adult boosters lapse quietly. Checking your own records takes ten minutes and closes a gap that most people do not realise they have."
+    }
+  }
 }

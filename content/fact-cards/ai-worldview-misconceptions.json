@@ -68,5 +68,26 @@
   "premiumTeaser": "The full benchmark results reveal something genuinely unexpected about the relationship between language models and factual knowledge. It is not that AI is biased in the same direction as humans — it is that the nature of the bias is structurally different, and understanding that difference tells us something important about both artificial and human intelligence. Also, one of the models confidently told us that global life expectancy is 52, which is the kind of error that deserves its own footnote.",
   "b2bClassroomNote": "Classroom discussion: Run the benchmark questions with students first, then compare their results to AI performance. Introduces AI literacy, prompt engineering concepts, and the difference between statistical correlation and genuine understanding. Methodology credit: Gapminder Foundation (Ola Rosling, Guohua Zheng, Fredrik Wollsén).",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "Original research based on Gapminder methodology. Gapminder credit included. Framing sensitivity is the key novel finding."
+  "publishingNote": "Original research based on Gapminder methodology. Gapminder credit included. Framing sensitivity is the key novel finding.",
+  "actionCard": {
+    "learn": {
+      "title": "Gapminder's \"Upgrader\" quiz",
+      "url": "https://upgrader.gapminder.org/",
+      "time": "10 min read",
+      "description": "The Upgrader is the original quiz that inspired this entire project. Take it yourself before testing an AI — your score establishes the human baseline that makes the AI comparison meaningful."
+    },
+    "fund": {
+      "org": "Gapminder Foundation",
+      "url": "https://possiblist.io/give/gapminder",
+      "directUrl": "https://www.gapminder.org/donate/",
+      "description": "Gapminder built the methodology this entire site is based on. Their misconception studies, question bank, and data tools are the foundation beneath every chart on Possiblist.",
+      "impact": "The organisation whose methodology this entire site is built on",
+      "rating": null
+    },
+    "act": {
+      "action": "Test an AI chatbot on three of these questions and compare its answers to yours",
+      "time": "~10 min",
+      "description": "This card's data shows AI accuracy varies wildly by prompt framing. Testing a chatbot yourself — and comparing its confidence to its accuracy — is the fastest way to develop the AI literacy this card argues we need."
+    }
+  }
 }

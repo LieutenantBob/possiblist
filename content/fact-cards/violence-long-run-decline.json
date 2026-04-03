@@ -69,5 +69,26 @@
   "premiumTeaser": "The decline of violence is one of history's most important trends and one of its least intuitive. The deeper question is why it happened at all, and whether the forces that drove it — state monopoly on force, expanding circles of empathy, the economics of trade over plunder — are durable or merely fortunate.",
   "b2bClassroomNote": "Classroom discussion: Ask students to guess the direction of change before revealing the data. Connects to the availability heuristic, media literacy, and the distinction between rates and absolute numbers. Pairs with Pinker's thesis and its critics for a structured debate exercise.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "Pinker's data compilation is contested at the margins but the broad trend is supported by multiple independent historians. OWID data corroborates modern figures. Nuance on regional variation and existential risk provides needed balance."
+  "publishingNote": "Pinker's data compilation is contested at the margins but the broad trend is supported by multiple independent historians. OWID data corroborates modern figures. Nuance on regional variation and existential risk provides needed balance.",
+  "actionCard": {
+    "learn": {
+      "title": "Steven Pinker's RSA Animate talk on violence decline",
+      "url": "https://www.youtube.com/watch?v=ramBFRt1Uzk",
+      "time": "10 min watch",
+      "description": "The RSA Animate version distills Pinker's 800-page argument into ten illustrated minutes — covering the same 600-year arc as this chart and explaining why the decline happened at all."
+    },
+    "fund": {
+      "org": "International Crisis Group",
+      "url": "https://possiblist.io/give/international-crisis-group",
+      "directUrl": "https://www.crisisgroup.org/donate",
+      "description": "ICG does conflict prevention research — the kind of quiet, early-intervention work that keeps this chart's long-run decline from reversing in the places where it is most at risk.",
+      "impact": "Conflict prevention research",
+      "rating": null
+    },
+    "act": {
+      "action": "Look up your country's actual violent crime trend for the past decade",
+      "time": "~5 min",
+      "description": "This chart covers 600 years, but your perception of violence is shaped by the last 600 days of news. Checking your country's actual crime statistics recalibrates the gap between feeling and data."
+    }
+  }
 }

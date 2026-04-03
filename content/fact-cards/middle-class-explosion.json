@@ -69,5 +69,26 @@
   "premiumTeaser": "The real story is not just how many people joined the middle class but what happens next. Brookings researchers have mapped the consumption patterns, political expectations, and environmental footprint of this new middle — and the implications for everything from democracy to carbon emissions are both hopeful and deeply complicated. There is also the question of what 'middle class' actually means when the definition spans a tenfold income range.",
   "b2bClassroomNote": "Classroom discussion: Ask students to draw what they think the global income distribution looks like, then compare to actual data. Connects to SDG 1 (No Poverty), SDG 8 (Decent Work and Economic Growth), and Gapminder's Dollar Street. Excellent for challenging the outdated 'developed vs developing' binary.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "Brookings and OWID data are consistent. The ~4 billion figure is well-established in the literature. Nuance on regional variation and definitional breadth is essential and well-handled."
+  "publishingNote": "Brookings and OWID data are consistent. The ~4 billion figure is well-established in the literature. Nuance on regional variation and definitional breadth is essential and well-handled.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Factfulness\" Chapter 1: The Gap Instinct",
+      "url": "https://www.gapminder.org/factfulness-book/",
+      "time": "10 min read",
+      "description": "Rosling dismantles the 'rich world vs poor world' mental model that makes most people underestimate this chart. The four income levels he introduces replace a binary that was last accurate in the 1970s."
+    },
+    "fund": {
+      "org": "BRAC",
+      "url": "https://possiblist.io/give/brac",
+      "directUrl": "https://www.brac.net/donate",
+      "description": "BRAC is the world's largest NGO, running microfinance and enterprise development programmes that help people move from the bottom of this chart's income range into the middle. They operate where the 1 billion to 4 billion growth actually happened.",
+      "impact": "Microfinance and enterprise development — largest NGO in the world",
+      "rating": "GWWC Recommended"
+    },
+    "act": {
+      "action": "Check one product you buy regularly and find where it is actually made",
+      "time": "~5 min",
+      "description": "The global middle class expansion on this chart is partly a trade story. Tracing where your coffee, clothes, or phone components come from connects the abstract 4 billion figure to supply chains you interact with daily."
+    }
+  }
 }

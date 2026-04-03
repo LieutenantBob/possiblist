@@ -69,5 +69,27 @@
   "premiumTeaser": "The reason most people believe nuclear is dangerous and coal is merely dirty involves a remarkable collision of Cold War psychology, a made-for-television reactor meltdown, and the curious fact that the human brain is spectacularly bad at evaluating risks that are invisible, involuntary, and potentially catastrophic — even when the actual catastrophe has a probability roughly equivalent to being hit by a meteorite.",
   "b2bClassroomNote": "Classroom discussion: Present death-per-TWh data before naming the sources. Connects to SDG 7 (Affordable and Clean Energy) and introduces risk perception bias. Excellent for media literacy discussion.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "OWID and Lancet data closely aligned on relative death rates. Nuance addresses waste and perception honestly."
+  "publishingNote": "OWID and Lancet data closely aligned on relative death rates. Nuance addresses waste and perception honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"How Fear of Nuclear Ends Up Helping Fossil Fuel\" — Kurzgesagt",
+      "url": "https://www.youtube.com/watch?v=EhAemz1v7dQ",
+      "time": "20 min watch",
+      "description": "Kurzgesagt walks through the death-per-TWh data behind this chart and explains why the 820-fold gap between coal and nuclear exists — and why your brain refuses to believe it."
+    },
+    "fund": {
+      "org": "Clean Air Task Force",
+      "url": "https://possiblist.io/give/clean-air-task-force",
+      "directUrl": "https://www.catf.us/donate/",
+      "description": "CATF works on both sides of the gap this chart reveals — advocating for nuclear where it can replace coal, and accelerating coal plant retirement where alternatives exist.",
+      "impact": "Works on both nuclear advocacy and coal plant retirement",
+      "rating": null
+    },
+    "act": {
+      "action": "Check your home energy supplier's fuel mix",
+      "time": "~5 min",
+      "description": "Every energy supplier publishes a fuel mix disclosure. Knowing whether your electricity comes from coal, gas, nuclear, or renewables connects this chart directly to your monthly bill.",
+      "url": "https://www.thegreenage.co.uk/check-your-energy-suppliers-fuel-mix/"
+    }
+  }
 }

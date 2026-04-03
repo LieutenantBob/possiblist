@@ -40,6 +40,29 @@ export interface ShareText {
   score: string | null
 }
 
+export interface ActionCard {
+  learn: {
+    title: string
+    url: string
+    time: string
+    description: string
+  }
+  fund: {
+    org: string
+    url: string
+    directUrl: string
+    description: string
+    impact: string
+    rating?: string
+  }
+  act: {
+    action: string
+    time: string
+    description: string
+    url?: string
+  }
+}
+
 export interface FactCard {
   slug: string
   category: string
@@ -65,6 +88,7 @@ export interface FactCard {
   b2bClassroomNote: string
   publishingRecommendation: string
   publishingNote: string
+  actionCard?: ActionCard
 }
 
 export interface EditorialFrontmatter {

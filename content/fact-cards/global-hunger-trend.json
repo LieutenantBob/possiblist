@@ -70,5 +70,26 @@
   "premiumTeaser": "The stall since 2015 is the real story here. What stopped the progress, whether it can be restarted, and why the zero-hunger target quietly became a political fiction while nobody was willing to say so out loud.",
   "b2bClassroomNote": "Classroom discussion: Show the chart including the 2020 uptick and ask students what caused it. Connects to SDG 2 (Zero Hunger), food systems thinking, and the relationship between conflict, climate, and food security. Good entry point for discussing why global targets sometimes fail.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "FAO and OWID data are consistent. The stall narrative and 2020 reversal are well-documented. Nuance on regional variation and SDG shortfall adds important editorial balance."
+  "publishingNote": "FAO and OWID data are consistent. The stall narrative and 2020 reversal are well-documented. Nuance on regional variation and SDG shortfall adds important editorial balance.",
+  "actionCard": {
+    "learn": {
+      "title": "FAO State of Food Security 2024 (summary)",
+      "url": "https://www.fao.org/publications/sofi",
+      "time": "10 min read",
+      "description": "The FAO report is the primary source for this chart's data. The 2024 summary explains both the 15% to 9% decline and the post-2015 stall — and why the zero hunger target quietly became a political fiction."
+    },
+    "fund": {
+      "org": "Action Against Hunger",
+      "url": "https://possiblist.io/give/action-against-hunger",
+      "directUrl": "https://www.actionagainsthunger.org/donate/",
+      "description": "Action Against Hunger works in the acute crises that caused this chart's 2020 uptick — delivering therapeutic food to children in conflict zones and climate-affected regions where progress reversed.",
+      "impact": "$50 = therapeutic food for one child for a month",
+      "rating": "GWWC Recommended"
+    },
+    "act": {
+      "action": "Reduce food waste this week — plan meals before shopping",
+      "time": "~10 min",
+      "description": "We produce enough food for 10 billion people. The problem is distribution and waste. Planning meals before shopping is the simplest way to close the gap between what we grow and what we throw away."
+    }
+  }
 }

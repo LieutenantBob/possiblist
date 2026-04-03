@@ -69,5 +69,27 @@
   "premiumTeaser": "How did aviation become so extraordinarily safe? The answer involves a Swiss cheese model, a culture of blame-free reporting that most industries still cannot bring themselves to adopt, and the uncomfortable realization that the single biggest safety improvement came not from better engines but from teaching pilots to talk to each other.",
   "b2bClassroomNote": "Classroom discussion: Ask students to rank common risks (driving, flying, cycling) before revealing data. Connects to risk perception psychology and the availability heuristic. Useful for statistics and media literacy courses.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "ASN and IATA data are consistent. The hundredfold improvement is well-supported. Strong shareability due to widespread fear-of-flying misconception."
+  "publishingNote": "ASN and IATA data are consistent. The hundredfold improvement is well-supported. Strong shareability due to widespread fear-of-flying misconception.",
+  "actionCard": {
+    "learn": {
+      "title": "Aviation Safety Network annual safety review",
+      "url": "https://aviation-safety.net/statistics/",
+      "time": "10 min read",
+      "description": "ASN publishes the raw data behind this chart every year — fatal accident rates, causes, and trends. It is where the 0.07-per-million-flights figure comes from, and it is more reassuring than any in-flight safety card."
+    },
+    "fund": {
+      "org": "Engineers Without Borders",
+      "url": "https://possiblist.io/give/engineers-without-borders",
+      "directUrl": "https://www.ewb-uk.org/support-us/",
+      "description": "No charity maps directly to aviation safety, but infrastructure safety in developing nations is the closest cousin. EWB works on the engineering standards that make transport systems — air and ground — safer where they are needed most.",
+      "impact": "Infrastructure safety in developing nations",
+      "rating": null
+    },
+    "act": {
+      "action": "Look up your most-feared flight route's actual safety record",
+      "time": "~5 min",
+      "description": "Fear of flying is almost never calibrated to actual risk. ASN lets you search any airline or route and see the real numbers — which tend to be considerably more boring than your amygdala suggests.",
+      "url": "https://aviation-safety.net/"
+    }
+  }
 }

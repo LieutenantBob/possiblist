@@ -29,6 +29,13 @@ export function Subscribe() {
           doesn't have a comfortable answer, because comfortable answers are what got
           us into this mess of confident wrongness in the first place.
         </p>
+        <p className="font-body leading-relaxed" style={{ fontSize: '1.05rem', color: 'var(--ink)' }}>
+          Every article also shows you where the number moves — the specific
+          organisations whose work appears in the charts, and the smallest useful
+          thing you can do today about each one. Not because you should feel obliged,
+          but because knowing where progress comes from turns out to be rather more
+          interesting than just knowing that it happened.
+        </p>
       </div>
 
       {/* The line */}

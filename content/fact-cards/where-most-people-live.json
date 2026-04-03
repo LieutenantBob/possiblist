@@ -68,5 +68,27 @@
   "premiumTeaser": "The premium deep-dive explores why our mental map of population is so skewed, traces how Asia came to dominate global demography for most of recorded history, and examines the extraordinary shift underway as sub-Saharan Africa becomes the engine of global population growth.",
   "b2bClassroomNote": "Classroom discussion: Have students draw a pie chart of world population by continent before revealing the actual figures. Connects to SDG 11 (Sustainable Cities) and introduces demographic transition theory.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "UN WPP and OWID data closely aligned. Nuance addresses the coming demographic shift to Africa honestly."
+  "publishingNote": "UN WPP and OWID data closely aligned. Nuance addresses the coming demographic shift to Africa honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"How Not to Be Ignorant About the World\" — Gapminder TED talk",
+      "url": "https://www.gapminder.org/videos/how-not-to-be-ignorant-about-the-world/",
+      "time": "20 min watch",
+      "description": "Hans and Ola Rosling explain why your mental map of world population is wrong and how the gap between perception and reality works. This talk is the reason Possiblist exists."
+    },
+    "fund": {
+      "org": "M\u00e9decins Sans Fronti\u00e8res",
+      "url": "https://possiblist.io/give/msf",
+      "directUrl": "https://www.msf.org/donate",
+      "description": "MSF provides medical care in the regions where population density meets healthcare gaps — the places on this chart where the most people live and the least care reaches.",
+      "impact": "Medical care where population density meets healthcare gaps",
+      "rating": null
+    },
+    "act": {
+      "action": "Test yourself on Gapminder's additional geography questions",
+      "time": "~5 min",
+      "description": "If this question surprised you, Gapminder has more where it came from. The Upgrader quiz recalibrates your mental model of where and how people actually live.",
+      "url": "https://upgrader.gapminder.org/"
+    }
+  }
 }

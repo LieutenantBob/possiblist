@@ -155,6 +155,37 @@ export function Score() {
         Share your score
       </button>
 
+      {/* Possiblist Scorecard — the movement */}
+      {isPremium && stats.total > 0 && (
+        <div
+          className="mt-12 p-8 rounded-lg"
+          style={{ backgroundColor: 'var(--cream)', border: '2px solid var(--verdigris-20)' }}
+        >
+          <h3 className="font-display font-semibold mb-4" style={{ fontSize: '1.3rem', color: 'var(--deep)' }}>
+            Your Possiblist Scorecard
+          </h3>
+          <div className="space-y-3">
+            <div className="flex justify-between items-baseline">
+              <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Questions answered</span>
+              <span className="font-mono" style={{ color: 'var(--verdigris)' }}>{stats.total}</span>
+            </div>
+            <div className="flex justify-between items-baseline">
+              <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Times wrong</span>
+              <span className="font-mono" style={{ color: 'var(--sienna)' }}>{stats.wrong}</span>
+            </div>
+            <div className="flex justify-between items-baseline">
+              <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Stories read</span>
+              <span className="font-mono" style={{ color: 'var(--verdigris)' }}>
+                {new Set(session.answers.map(a => a.slug)).size}
+              </span>
+            </div>
+          </div>
+          <p className="font-italic italic mt-6 text-sm" style={{ color: 'var(--mist)' }}>
+            Every wrong answer is the beginning of being less wrong. Every story read is a number understood. Every action taken moves the number.
+          </p>
+        </div>
+      )}
+
       {/* Possiblist gate CTA */}
       {!isPremium && (
         <div

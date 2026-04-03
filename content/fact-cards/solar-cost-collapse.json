@@ -69,5 +69,26 @@
   "premiumTeaser": "The cost curve that reshaped energy economics has a name — Swanson's Law — and it has been eerily consistent for decades. But the real story is what happens when you combine cheap panels with the still-unsolved puzzle of storage, and why the last 20% of decarbonization may cost more than the first 80%.",
   "b2bClassroomNote": "Classroom discussion: Have students plot the cost curve and compare it to Moore's Law. Connects to SDG 7 (Affordable and Clean Energy) and economic concepts of learning curves and economies of scale. Useful for debating technology optimism vs. system-level transition challenges.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "IRENA and Lazard data are consistent. The 89% figure is well-established. Nuance on intermittency and integration costs provides necessary balance."
+  "publishingNote": "IRENA and Lazard data are consistent. The 89% figure is well-established. Nuance on intermittency and integration costs provides necessary balance.",
+  "actionCard": {
+    "learn": {
+      "title": "Ramez Naam's \"Solar's Future is Insanely Cheap\" essay",
+      "url": "https://ramez.name/solar-s-future-is-insanely-cheap",
+      "time": "10 min read",
+      "description": "Naam extrapolates the cost curve on this chart into the next decade and argues that most energy forecasts are still systematically too pessimistic about solar. His track record of being right about this is uncomfortably good."
+    },
+    "fund": {
+      "org": "Solar Aid",
+      "url": "https://possiblist.io/give/solar-aid",
+      "directUrl": "https://solar-aid.org/donate/",
+      "description": "Solar Aid puts the cost collapse on this chart to work where it matters most — replacing kerosene lamps in sub-Saharan Africa with solar lights, turning a global price trend into household-level change.",
+      "impact": "\u00a315 = one solar light replacing kerosene in sub-Saharan Africa",
+      "rating": null
+    },
+    "act": {
+      "action": "Get a quote for rooftop solar",
+      "time": "~15 min",
+      "description": "The 89% cost drop on this chart means rooftop solar now pays for itself in most locations. Getting a quote costs nothing and takes fifteen minutes — the economics may surprise you as much as this chart did."
+    }
+  }
 }

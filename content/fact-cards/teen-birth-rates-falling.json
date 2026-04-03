@@ -69,5 +69,26 @@
   "premiumTeaser": "In Bangladesh in the 1990s, a stipend of a few dollars a month to families who kept their daughters in school produced a demographic shift that economists are still writing papers about. The full story follows that programme and the community health workers in Ethiopia who replicated it, and asks why the countries where teen births remain highest are often the ones spending the least on the intervention that works best.",
   "b2bClassroomNote": "Classroom discussion: Have students estimate the 1990 vs 2024 figures before revealing. Connects to SDG 3 (Good Health), SDG 4 (Quality Education), and SDG 5 (Gender Equality). Introduces the multiplier effect of girls' education.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "World Bank and UN Population Division data closely aligned. Nuance addresses regional inequality and child marriage honestly."
+  "publishingNote": "World Bank and UN Population Division data closely aligned. Nuance addresses regional inequality and child marriage honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Creating an African 21st Century\" — Hans Rosling lecture",
+      "url": "https://www.gapminder.org/videos/creating-an-african-21st-century/",
+      "time": "20 min watch",
+      "description": "Rosling connects declining teen birth rates to the broader demographic transition — and explains why the countries where this chart has moved fastest are the ones that invested in girls' education first."
+    },
+    "fund": {
+      "org": "Population Services International",
+      "url": "https://possiblist.io/give/psi",
+      "directUrl": "https://www.psi.org/donate/",
+      "description": "PSI delivers reproductive health services in over 40 countries — directly serving the populations where this chart's decline is happening right now.",
+      "impact": "Reproductive health services in 40+ countries",
+      "rating": null
+    },
+    "act": {
+      "action": "Share the actual data with one person who assumes things are getting worse",
+      "time": "~5 min",
+      "description": "60% of people think this rate has not changed. Sharing the real number with one person is a small act that chips away at the assumption that nothing ever improves."
+    }
+  }
 }

@@ -69,5 +69,26 @@
   "premiumTeaser": "The story behind the numbers involves a Bangladeshi economist who made a bet with the World Bank, a school meals programme that accidentally became the largest social experiment in history, and the peculiar discovery that educating girls reduces carbon emissions more effectively than most climate policies. The connections are genuinely surprising.",
   "b2bClassroomNote": "Classroom discussion: Ask students to estimate the percentage before revealing. Connects to SDG 4 (Quality Education) and SDG 5 (Gender Equality). Explore the difference between enrolment and learning outcomes.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "UNESCO and OWID data aligned. Nuance addresses enrolment vs learning gap honestly."
+  "publishingNote": "UNESCO and OWID data aligned. Nuance addresses enrolment vs learning gap honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"I Am Malala\" — the chapter on why her father kept the school open",
+      "url": "https://www.malala.org/malalas-story",
+      "time": "10 min read",
+      "description": "The story of Ziauddin Yousafzai keeping his school open under Taliban threats puts the 65% to 90% jump in this chart into human terms. The numbers moved because specific people refused to close doors."
+    },
+    "fund": {
+      "org": "Room to Read",
+      "url": "https://possiblist.io/give/room-to-read",
+      "directUrl": "https://www.roomtoread.org/donate/",
+      "description": "Room to Read works on the exact gap this chart does not yet show — ensuring girls who are enrolled actually stay in school and learn to read. They operate in the countries where the last 10% of enrolment is hardest to reach.",
+      "impact": "\u00a315 = one girl's school materials for a year",
+      "rating": null
+    },
+    "act": {
+      "action": "Donate old children's books to a local literacy charity",
+      "time": "~15 min",
+      "description": "Enrolment is only half the story — the nuance section of this card explains why. Books in homes matter as much as desks in classrooms, and most local literacy charities are permanently short of stock."
+    }
+  }
 }

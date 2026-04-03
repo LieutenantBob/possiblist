@@ -69,5 +69,26 @@
   "premiumTeaser": "The Living Planet Index is both more alarming and more nuanced than the headline suggests. The methodology — tracking nearly 32,000 populations of over 5,000 species — reveals that freshwater species have been hit hardest (an 83% decline), while the drivers break down into a surprisingly small number of human activities. The premium analysis examines where conservation has actually worked, what it cost, and what it would take to bend this curve before it flattens on its own terms.",
   "b2bClassroomNote": "Classroom discussion: This card is essential for credibility — present alongside positive-trend cards to model honest data analysis. Ask students why this decline receives less attention than individual species extinctions. Connects to SDG 14 (Life Below Water), SDG 15 (Life on Land), and the difference between systemic trends and media-friendly anecdotes.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "WWF and OWID data are consistent. The 69% figure is the central estimate from the 2024 Living Planet Report. This card is essential for the project's credibility — a possiblist publication that omits genuinely alarming data would undermine trust in the encouraging data."
+  "publishingNote": "WWF and OWID data are consistent. The 69% figure is the central estimate from the 2024 Living Planet Report. This card is essential for the project's credibility — a possiblist publication that omits genuinely alarming data would undermine trust in the encouraging data.",
+  "actionCard": {
+    "learn": {
+      "title": "WWF Living Planet Report 2024 (summary)",
+      "url": "https://livingplanet.panda.org",
+      "time": "10 min read",
+      "description": "The Living Planet Report is where this chart's 69% figure comes from. The summary breaks down which species groups and which regions are driving the decline — and where conservation has actually worked."
+    },
+    "fund": {
+      "org": "Fauna & Flora International",
+      "url": "https://possiblist.io/give/fauna-flora",
+      "directUrl": "https://www.fauna-flora.org/donate/",
+      "description": "FFI directly produces data that feeds into the Living Planet Index — the dataset behind this chart. They work at the intersection of monitoring and conservation, in the habitats where the decline is steepest.",
+      "impact": "Directly produces data for the Living Planet Index",
+      "rating": null
+    },
+    "act": {
+      "action": "Check if your pension fund has a biodiversity exclusion policy",
+      "time": "~10 min",
+      "description": "The drivers of this chart are agriculture and infrastructure — industries your pension fund almost certainly invests in. Finding out whether your retirement savings account for biodiversity risk takes one email to your provider."
+    }
+  }
 }

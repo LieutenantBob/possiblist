@@ -4,6 +4,7 @@ import { SourcesList } from './SourcesList'
 import { PaywallGate } from './PaywallGate'
 import { EmailCapture } from './EmailCapture'
 import { AdSlot } from '../ads/AdSlot'
+import { ActionCard } from './ActionCard'
 import { useSubscription } from '../../hooks/useSubscription'
 
 interface ArticleRendererProps {
@@ -97,6 +98,11 @@ export function ArticleRenderer({ editorial, factCard }: ArticleRendererProps) {
 
       {/* Sources */}
       <SourcesList sources={factCard.sources} />
+
+      {/* Action Card — premium only */}
+      {isPremium && factCard.actionCard && (
+        <ActionCard actionCard={factCard.actionCard} slug={factCard.slug} />
+      )}
     </article>
   )
 }

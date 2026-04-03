@@ -68,5 +68,27 @@
   "premiumTeaser": "What the headline figure doesn't tell you is where this progress didn't happen — and why that matters more than the global average suggests. And then there is the question of how the measurement was built in the first place, which turns out to involve a development economist, a surprising methodology, and one of the more quietly remarkable data-assembly efforts of the twentieth century.",
   "b2bClassroomNote": "Classroom discussion: Ask students to guess the answer before showing data. Connects to SDG 1 (No Poverty) and the gap between media representation and statistical reality. Pairs with Gapminder's Dollar Street for visual context.",
   "publishingRecommendation": "PUBLISH AS-IS",
-  "publishingNote": "Both sources agree within 2%. Gamma nuance substantive and well-sourced. Strong shareability."
+  "publishingNote": "Both sources agree within 2%. Gamma nuance substantive and well-sourced. Strong shareability.",
+  "actionCard": {
+    "learn": {
+      "title": "Gapminder Dollar Street",
+      "url": "https://www.gapminder.org/dollar-street",
+      "time": "10 min read",
+      "description": "Dollar Street shows photographs of everyday objects — toothbrushes, stoves, front doors — sorted by income level across dozens of countries. It makes the poverty line tangible in a way that a percentage never can."
+    },
+    "fund": {
+      "org": "GiveDirectly",
+      "url": "https://possiblist.io/give/givedirectly",
+      "directUrl": "https://www.givedirectly.org/donate/",
+      "description": "GiveDirectly sends cash transfers to extremely poor households with no strings attached — the kind of direct intervention that moves people across the poverty line this chart tracks.",
+      "impact": "$30 = one month cash transfer to one household",
+      "rating": "GiveWell Top Charity"
+    },
+    "act": {
+      "action": "Take the Gapminder Test and share your score",
+      "time": "~5 min",
+      "description": "Thirteen questions about the state of the world. Most people score worse than a chimpanzee throwing darts. Finding out where your assumptions are wrong is the first step to updating them.",
+      "url": "https://upgrader.gapminder.org/"
+    }
+  }
 }
