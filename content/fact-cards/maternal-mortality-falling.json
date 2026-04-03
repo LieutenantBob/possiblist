@@ -1,0 +1,94 @@
+{
+  "slug": "maternal-mortality-falling",
+  "category": "health",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How has the global rate of women dying during childbirth changed since 2000?",
+    "options": [
+      "Increased significantly",
+      "Stayed about the same",
+      "Fallen by about a third",
+      "Fallen by more than a third"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 63,
+      "mostCommonWrongAnswer": "Stayed about the same",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "The Most Dangerous Day in a Woman's Life Is Getting Measurably Less Dangerous",
+  "teaser": "For most of human history, the act of giving birth was one of the most reliably dangerous things a person could do. It still is, in too many places. But something has been changing, and the question is how much. When people are asked what has happened to maternal mortality in recent decades, the most common answer is a kind of resigned shrug -- the assumption that a problem this old and this entrenched has probably stayed about the same. This turns out to be wrong, but the interesting question is: wrong by how much? The answer involves a shift that has saved hundreds of thousands of lives, driven by interventions so unglamorous that they barely register as medical breakthroughs at all.",
+  "metaDescription": "63% of people believe maternal mortality has stayed flat or worsened. In reality, it has fallen by more than a third since 2000 — from 342 to 223 deaths per 100,000 live births.",
+  "summary": "For most of human history, childbirth was among the most reliably dangerous things a person could do. It still is, in too many places — but the global maternal mortality ratio has fallen from approximately 342 deaths per 100,000 live births in 2000 to roughly 223 in 2024. That is a decline of more than a third, representing hundreds of thousands of women who survived a day that, a generation earlier, might have killed them. Most people believe no progress has been made at all.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~223 per 100,000 live births",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "342 → 223 per 100,000 since 2000",
+    "chartType": "line",
+    "chartData": [
+      { "year": 2000, "value": 342 },
+      { "year": 2005, "value": 311 },
+      { "year": 2010, "value": 278 },
+      { "year": 2017, "value": 241 },
+      { "year": 2024, "value": 223 }
+    ]
+  },
+  "nuance": "The global figure masks enormous regional variation. Sub-Saharan Africa accounts for roughly two-thirds of all maternal deaths worldwide, and progress there has been slower. Some countries — particularly those affected by conflict or with fragile health systems — have seen rates stagnate or even rise. The SDG target of fewer than 70 deaths per 100,000 by 2030 is almost certainly out of reach at current rates of decline. Progress is real, but it is not fast enough.",
+  "brysonAside": "The interventions that saved most of these women's lives are almost comically unglamorous: a trained midwife, a clean room, a bag of the right blood type, and a surgeon who can be reached in time. These are not breakthroughs. They are basics. And the fact that they were unavailable to most of humanity until quite recently tells you something uncomfortable about what we chose to fund first.",
+  "sources": [
+    {
+      "name": "WHO Maternal Mortality Estimates",
+      "url": "https://www.who.int/data/gho/data/themes/topics/sdg-target-3-1-maternal-mortality",
+      "tier": 1,
+      "datasetName": "Maternal mortality ratio (per 100,000 live births)",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Maternal Mortality",
+      "url": "https://ourworldindata.org/maternal-mortality",
+      "tier": 1,
+      "datasetName": "Maternal mortality ratio by country and globally",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "maternal-mortality-falling",
+  "shareText": {
+    "wrong": "I assumed maternal mortality had barely changed. It has fallen by more than a third since 2000. I was in the majority — 63% of people get this wrong. possiblist.io/q/maternal-mortality-falling",
+    "correct": "I knew maternal mortality was falling — but most people assume nothing has changed. Test yourself. possiblist.io/q/maternal-mortality-falling",
+    "score": null
+  },
+  "emailDigestLine": "Since 2000, the global rate of women dying in childbirth has fallen by more than a third. Most people believe it has not budged.",
+  "premiumTeaser": "The deeper story here involves what actually causes maternal deaths — the answer is surprisingly concentrated in a handful of preventable conditions — and why some countries managed to cut their rates by 80% or more while others barely moved the needle. The role of community health workers, many of them women who nearly died in childbirth themselves, turns out to be one of the more quietly heroic chapters in modern public health.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to estimate the trend before showing data. Connects to SDG 3 (Good Health and Well-being), SDG 5 (Gender Equality), and the relationship between healthcare infrastructure and outcomes. Pair with WHO country-level data for comparative analysis.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "WHO and OWID estimates are closely aligned. The ~38% decline is robust. Nuance on regional disparities is essential and well-handled.",
+  "actionCard": {
+    "learn": {
+      "title": "WHO Maternal Health fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+      "time": "10 min read",
+      "description": "The WHO fact sheet breaks down the causes behind this chart's decline — and the causes behind the deaths that remain. Most are preventable with interventions so basic they barely qualify as medical."
+    },
+    "fund": {
+      "org": "M\u00e9decins Sans Fronti\u00e8res",
+      "url": "https://possiblist.io/give/msf-maternal",
+      "directUrl": "https://www.msf.org/donate",
+      "description": "MSF provides obstetric care in crisis settings — the places where this chart's decline has been slowest and the gap between 342 and 223 feels widest.",
+      "impact": "\u00a335 = one safe delivery kit",
+      "rating": null
+    },
+    "act": {
+      "action": "Find out if your employer offers paid parental leave to all staff",
+      "time": "~5 min",
+      "description": "Maternal mortality is a medical statistic, but maternal health is shaped by policy. Knowing whether your workplace supports all parents — not just some — connects this global trend to your own corridor."
+    }
+  }
+}

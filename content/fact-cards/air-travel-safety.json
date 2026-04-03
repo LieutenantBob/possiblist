@@ -1,0 +1,110 @@
+{
+  "slug": "air-travel-safety",
+  "category": "transport",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "medium",
+  "quiz": {
+    "question": "How has the risk of dying in a plane crash changed over the past 50 years?",
+    "options": [
+      "About the same",
+      "Twice as safe",
+      "10 times safer",
+      "100 times safer"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 55,
+      "mostCommonWrongAnswer": "10 times safer",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Flying Is Now So Safe That the Statistics Have Essentially Run Out of Things to Count",
+  "teaser": "You are sitting in an aluminium tube, seven miles above the Earth, hurtling through the atmosphere at five hundred miles per hour. Your brain knows this is fine. Your amygdala has reservations. The question of how safe commercial flying actually is has a curious property: nearly everyone knows it has gotten safer, but almost nobody guesses the scale of the improvement correctly. The number most people reach for would have been a reasonable answer decades ago, which is another way of saying their risk assessment is running on software that hasn't been updated since before the internet existed. The actual improvement in aviation safety over the past fifty years is the kind of number that makes you blink and then read it again.",
+  "metaDescription": "55% of people underestimate how safe flying has become. Fatal accident rates dropped from ~5 per million flights in the 1970s to ~0.07 today — a hundredfold improvement that nobody feels in their gut.",
+  "summary": "In the 1970s, roughly five out of every million commercial flights ended in a fatal accident. Today that number is approximately 0.07. This means flying has become not merely safer but approximately a hundred times safer — an improvement so large that it has effectively outrun the human ability to intuitively grasp probability. Your brain, which evolved to assess risk by remembering vivid stories rather than consulting actuarial tables, remains stubbornly unimpressed.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~0.07 fatal accidents per million flights",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "~5.0 → ~0.07 per million flights since 1970",
+    "chartType": "line",
+    "chartData": [
+      {
+        "year": 1970,
+        "value": 5
+      },
+      {
+        "year": 1985,
+        "value": 1.8
+      },
+      {
+        "year": 2000,
+        "value": 0.6
+      },
+      {
+        "year": 2010,
+        "value": 0.2
+      },
+      {
+        "year": 2024,
+        "value": 0.07
+      }
+    ]
+  },
+  "nuance": "The global average conceals real disparities. Airlines in North America, Europe, and East Asia have safety records several times better than the global mean. Some regions still operate with older fleets, less rigorous maintenance regimes, and weaker regulatory oversight. The improvement is also partly a story of survivorship — airlines with poor safety records tend to go out of business, one way or another.",
+  "brysonAside": "The truly maddening thing about aviation safety is that the better it gets, the more terrified people become of the vanishingly rare exceptions. A person who happily drives to the airport through statistically murderous traffic will then grip the armrest during mild turbulence with the quiet conviction that physics has finally decided to stop working.",
+  "sources": [
+    {
+      "name": "Aviation Safety Network",
+      "url": "https://aviation-safety.net",
+      "tier": 1,
+      "datasetName": "Fatal airliner accident rate per million flights",
+      "accessedYear": 2026
+    },
+    {
+      "name": "IATA Safety Report",
+      "url": "https://www.iata.org/en/publications/safety-report/",
+      "tier": 1,
+      "datasetName": "Annual Safety Report — accident statistics",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "air-travel-safety",
+  "shareText": {
+    "wrong": "I underestimated how safe flying has become — it is 100 times safer than in the 1970s. My gut instinct was off by a factor of ten. possiblist.io/q/air-travel-safety",
+    "correct": "I correctly guessed that flying is 100 times safer than in the 1970s. My amygdala is furious. possiblist.io/q/air-travel-safety",
+    "score": null
+  },
+  "emailDigestLine": "Flying is now a hundred times safer than in the 1970s. Your nervous system will never believe this, but the data is unambiguous.",
+  "premiumTeaser": "How did aviation become so extraordinarily safe? The answer involves a Swiss cheese model, a culture of blame-free reporting that most industries still cannot bring themselves to adopt, and the uncomfortable realization that the single biggest safety improvement came not from better engines but from teaching pilots to talk to each other.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to rank common risks (driving, flying, cycling) before revealing data. Connects to risk perception psychology and the availability heuristic. Useful for statistics and media literacy courses.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "ASN and IATA data are consistent. The hundredfold improvement is well-supported. Strong shareability due to widespread fear-of-flying misconception.",
+  "actionCard": {
+    "learn": {
+      "title": "Aviation Safety Network annual safety review",
+      "url": "https://aviation-safety.net/statistics/",
+      "time": "10 min read",
+      "description": "ASN publishes the raw data behind this chart every year — fatal accident rates, causes, and trends. It is where the 0.07-per-million-flights figure comes from, and it is more reassuring than any in-flight safety card."
+    },
+    "fund": {
+      "org": "Engineers Without Borders",
+      "url": "https://possiblist.io/give/engineers-without-borders",
+      "directUrl": "https://www.ewb-uk.org/support-us/",
+      "description": "No charity maps directly to aviation safety, but infrastructure safety in developing nations is the closest cousin. EWB works on the engineering standards that make transport systems — air and ground — safer where they are needed most.",
+      "impact": "Infrastructure safety in developing nations",
+      "rating": null
+    },
+    "act": {
+      "action": "Look up your most-feared flight route's actual safety record",
+      "time": "~5 min",
+      "description": "Fear of flying is almost never calibrated to actual risk. ASN lets you search any airline or route and see the real numbers — which tend to be considerably more boring than your amygdala suggests.",
+      "url": "https://aviation-safety.net/"
+    }
+  }
+}

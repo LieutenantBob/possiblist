@@ -1,0 +1,113 @@
+{
+  "slug": "global-hunger-trend",
+  "category": "poverty",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What has happened to the share of the world's population that is undernourished since 2000?",
+    "options": [
+      "Increased significantly",
+      "Stayed about the same",
+      "Fallen slightly",
+      "Fallen from ~15% to ~9%"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 59,
+      "mostCommonWrongAnswer": "Stayed about the same",
+      "source": "Possiblist pilot survey, 2025",
+      "surveyNote": "The most popular wrong answer was 'stayed about the same,' which is the kind of pessimism that disguises itself as realism."
+    }
+  },
+  "headline": "Global Hunger Fell by a Third and Almost Nobody Updated Their Mental Model",
+  "teaser": "The question of whether the world is getting better or worse at feeding itself is one that most people answer with their gut rather than their data. The gut, in this case, is unreliable. When asked what has happened to global hunger since 2000, the most popular answer is a kind of weary assumption that nothing much has changed -- the problem is too big, too entrenched, too complicated. This pessimism-disguised-as-realism turns out to be wrong, though the full picture is more complicated than a simple progress story. Something significant happened to the share of humanity that goes hungry, and then something else happened that complicated the narrative. Both parts matter.",
+  "metaDescription": "The share of the world's population that is undernourished has fallen from 15% to about 9% since 2000. Most people think it stayed the same. Here is what the data actually shows, including the parts that are genuinely worrying.",
+  "summary": "At the turn of the millennium, roughly one in seven people on Earth did not have enough to eat. By 2024, that figure had dropped to approximately one in eleven. This is real, meaningful progress — hundreds of millions of people crossing a threshold from chronic hunger to something better. It is also, emphatically, not enough. The trend stalled around 2015, reversed briefly during COVID, and the goal of zero hunger by 2030 is now quietly understood to be unachievable. Progress and inadequacy, it turns out, can coexist quite comfortably.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~9%",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "~15% → ~9% since 2000",
+    "chartType": "line",
+    "chartData": [
+      {
+        "year": 2000,
+        "value": 15
+      },
+      {
+        "year": 2005,
+        "value": 14
+      },
+      {
+        "year": 2010,
+        "value": 11
+      },
+      {
+        "year": 2015,
+        "value": 9
+      },
+      {
+        "year": 2020,
+        "value": 10
+      },
+      {
+        "year": 2024,
+        "value": 9
+      }
+    ]
+  },
+  "nuance": "The 2020 uptick was real (COVID + conflict). Progress has stalled since 2015. The SDG target of zero hunger by 2030 is not on track. Sub-Saharan Africa and parts of South Asia remain disproportionately affected, and climate change is introducing new volatility into food systems that had been gradually stabilising. The headline number conceals enormous regional variation.",
+  "brysonAside": "We produce enough food to feed about ten billion people, which is rather more than currently exist. The problem, as it so often is with human affairs, is not one of capacity but of distribution, politics, and a collective tendency to look the other way at precisely the wrong moment.",
+  "sources": [
+    {
+      "name": "FAO — The State of Food Security and Nutrition in the World",
+      "url": "https://www.fao.org/publications/sofi",
+      "tier": 1,
+      "datasetName": "Prevalence of undernourishment (PoU)",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Hunger and Undernourishment",
+      "url": "https://ourworldindata.org/hunger-and-undernourishment",
+      "tier": 1,
+      "datasetName": "Share of population that is undernourished",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "global-hunger-trend",
+  "shareText": {
+    "wrong": "I thought global hunger hadn't changed — turns out it fell from 15% to 9% since 2000. 59% of people miss this. possiblist.io/q/global-hunger-trend",
+    "correct": "I knew global hunger fell from ~15% to ~9% — but most people don't. possiblist.io/q/global-hunger-trend",
+    "score": null
+  },
+  "emailDigestLine": "Global undernourishment fell from 15% to 9% since 2000 — real progress most people believe never happened.",
+  "premiumTeaser": "The stall since 2015 is the real story here. What stopped the progress, whether it can be restarted, and why the zero-hunger target quietly became a political fiction while nobody was willing to say so out loud.",
+  "b2bClassroomNote": "Classroom discussion: Show the chart including the 2020 uptick and ask students what caused it. Connects to SDG 2 (Zero Hunger), food systems thinking, and the relationship between conflict, climate, and food security. Good entry point for discussing why global targets sometimes fail.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "FAO and OWID data are consistent. The stall narrative and 2020 reversal are well-documented. Nuance on regional variation and SDG shortfall adds important editorial balance.",
+  "actionCard": {
+    "learn": {
+      "title": "FAO State of Food Security 2024 (summary)",
+      "url": "https://www.fao.org/publications/sofi",
+      "time": "10 min read",
+      "description": "The FAO report is the primary source for this chart's data. The 2024 summary explains both the 15% to 9% decline and the post-2015 stall — and why the zero hunger target quietly became a political fiction."
+    },
+    "fund": {
+      "org": "Action Against Hunger",
+      "url": "https://possiblist.io/give/action-against-hunger",
+      "directUrl": "https://www.actionagainsthunger.org/donate/",
+      "description": "Action Against Hunger works in the acute crises that caused this chart's 2020 uptick — delivering therapeutic food to children in conflict zones and climate-affected regions where progress reversed.",
+      "impact": "$50 = therapeutic food for one child for a month",
+      "rating": "GWWC Recommended"
+    },
+    "act": {
+      "action": "Reduce food waste this week — plan meals before shopping",
+      "time": "~10 min",
+      "description": "We produce enough food for 10 billion people. The problem is distribution and waste. Planning meals before shopping is the simplest way to close the gap between what we grow and what we throw away."
+    }
+  }
+}

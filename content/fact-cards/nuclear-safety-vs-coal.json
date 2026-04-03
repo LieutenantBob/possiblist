@@ -1,0 +1,95 @@
+{
+  "slug": "nuclear-safety-vs-coal",
+  "category": "energy",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "Which energy source has caused the most deaths per unit of energy produced?",
+    "options": [
+      "Nuclear power",
+      "Wind power",
+      "Coal",
+      "Solar power"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 62,
+      "mostCommonWrongAnswer": "Nuclear power",
+      "source": "YouGov energy perception surveys, 2022–2023 (composite)",
+      "surveyNote": "Multiple surveys show nuclear consistently rated as 'most dangerous' energy source despite lowest death rate per TWh"
+    }
+  },
+  "headline": "The Most Feared Power Source Is the One That Kills the Fewest People",
+  "teaser": "There is an energy source that most people rank as the most dangerous. There is another energy source that actually kills the most people. These are not the same energy source. In fact, they are so far apart on the actual danger scale that the gap between them is not a matter of degree but of kind -- like confusing a house cat with a Bengal tiger, except the stakes involve global energy policy and several hundred thousand deaths per year. The human brain, it turns out, has a deeply unhelpful habit of assessing risk based on how scary something sounds rather than how many people it actually harms. This question tests whether your risk perception is calibrated or cinematic.",
+  "metaDescription": "Coal kills 820 times more people per unit of energy than nuclear power. Yet most people believe nuclear is the most dangerous. The data tells a different story.",
+  "summary": "When asked which energy source has killed the most people, a majority point to nuclear power. The actual answer is coal — by a factor that is not even close. Coal causes approximately 24.6 deaths per terawatt-hour of electricity produced. Nuclear causes 0.03. That is an 820-fold difference. The gap between perceived danger and actual danger is one of the largest documented misperceptions in energy policy.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "Coal: 24.6 deaths/TWh",
+    "year": 2024,
+    "trend": "stable",
+    "trendLabel": "Nuclear 0.03 vs Coal 24.6 deaths per TWh",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1970, "value": 30 },
+      { "year": 1985, "value": 28 },
+      { "year": 2000, "value": 26 },
+      { "year": 2010, "value": 25 },
+      { "year": 2024, "value": 24.6 }
+    ]
+  },
+  "nuance": "The death toll from nuclear accidents (Chernobyl, Fukushima) is genuinely tragic but statistically small compared to coal's continuous toll from air pollution, mining accidents, and respiratory disease. However, nuclear waste storage remains an unresolved long-term challenge, and the psychological impact of radiation risk — invisible, involuntary, potentially catastrophic — explains the perception gap without excusing it.",
+  "brysonAside": "Here is a way to think about it: coal power plants release more radioactive material into the environment than nuclear plants do. The coal simply has the good manners to distribute its radiation gradually and invisibly, which is apparently more socially acceptable.",
+  "sources": [
+    {
+      "name": "Our World in Data — Safest Energy Sources",
+      "url": "https://ourworldindata.org/safest-sources-of-energy",
+      "tier": 1,
+      "datasetName": "Death rates from energy production per TWh",
+      "accessedYear": 2026
+    },
+    {
+      "name": "The Lancet — Comparative risk assessment of energy sources",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)61253-7/fulltext",
+      "tier": 1,
+      "datasetName": "Mortality rates by energy source",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "nuclear-safety-vs-coal",
+  "shareText": {
+    "wrong": "I thought nuclear was the most dangerous energy source. It's actually the safest. Coal kills 820x more per TWh. possiblist.io/q/nuclear-safety-vs-coal",
+    "correct": "I knew coal was deadlier than nuclear — but I'm probably wrong about the next one. possiblist.io/q/nuclear-safety-vs-coal",
+    "score": null
+  },
+  "emailDigestLine": "The energy source most people fear the most is the one that kills the fewest people. The one that kills the most barely makes the news.",
+  "premiumTeaser": "The reason most people believe nuclear is dangerous and coal is merely dirty involves a remarkable collision of Cold War psychology, a made-for-television reactor meltdown, and the curious fact that the human brain is spectacularly bad at evaluating risks that are invisible, involuntary, and potentially catastrophic — even when the actual catastrophe has a probability roughly equivalent to being hit by a meteorite.",
+  "b2bClassroomNote": "Classroom discussion: Present death-per-TWh data before naming the sources. Connects to SDG 7 (Affordable and Clean Energy) and introduces risk perception bias. Excellent for media literacy discussion.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "OWID and Lancet data closely aligned on relative death rates. Nuance addresses waste and perception honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"How Fear of Nuclear Ends Up Helping Fossil Fuel\" — Kurzgesagt",
+      "url": "https://www.youtube.com/watch?v=EhAemz1v7dQ",
+      "time": "20 min watch",
+      "description": "Kurzgesagt walks through the death-per-TWh data behind this chart and explains why the 820-fold gap between coal and nuclear exists — and why your brain refuses to believe it."
+    },
+    "fund": {
+      "org": "Clean Air Task Force",
+      "url": "https://possiblist.io/give/clean-air-task-force",
+      "directUrl": "https://www.catf.us/donate/",
+      "description": "CATF works on both sides of the gap this chart reveals — advocating for nuclear where it can replace coal, and accelerating coal plant retirement where alternatives exist.",
+      "impact": "Works on both nuclear advocacy and coal plant retirement",
+      "rating": null
+    },
+    "act": {
+      "action": "Check your home energy supplier's fuel mix",
+      "time": "~5 min",
+      "description": "Every energy supplier publishes a fuel mix disclosure. Knowing whether your electricity comes from coal, gas, nuclear, or renewables connects this chart directly to your monthly bill.",
+      "url": "https://www.thegreenage.co.uk/check-your-energy-suppliers-fuel-mix/"
+    }
+  }
+}

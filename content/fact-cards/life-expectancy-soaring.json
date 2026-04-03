@@ -1,0 +1,95 @@
+{
+  "slug": "life-expectancy-soaring",
+  "category": "health",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "medium",
+  "quiz": {
+    "question": "What is the average life expectancy worldwide today?",
+    "options": [
+      "Around 50 years",
+      "Around 60 years",
+      "Around 73 years",
+      "Around 82 years"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 66,
+      "mostCommonWrongAnswer": "Around 60 years",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Humanity Added More Years in One Century Than in the Previous Two Thousand",
+  "teaser": "If you were asked to guess the average lifespan of a human being on Earth right now -- not in your country, but globally, across every nation, rich and poor -- what number would you reach for? Most people, when confronted with this question, consult a mental model that was last updated somewhere around 1985 and has been quietly gathering dust ever since. The actual figure tends to provoke one of two reactions: either disbelief, or the slightly unsettling realisation that the world has been changing underneath your assumptions without bothering to send a notification. Two-thirds of people guess too low. The question is: how low?",
+  "metaDescription": "Global average life expectancy has reached 73 years — double what it was in 1900. Two-thirds of people guess too low.",
+  "summary": "In 1900, the average human could expect to live to about 32. Today, global average life expectancy stands at approximately 73 years. That is not a gentle upward slope — it is the single most dramatic improvement in the basic terms of human existence ever recorded. And most people, when asked, guess the figure is at least a decade lower than it actually is.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~73 years",
+    "year": 2024,
+    "trend": "rising",
+    "trendLabel": "32 → 73 years since 1900",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1900, "value": 32 },
+      { "year": 1950, "value": 47 },
+      { "year": 1980, "value": 61 },
+      { "year": 2000, "value": 67 },
+      { "year": 2019, "value": 73 },
+      { "year": 2024, "value": 73 }
+    ]
+  },
+  "nuance": "The 1900 figure is heavily influenced by infant mortality; adults who survived childhood lived considerably longer. COVID-19 caused a temporary dip from 73 to 71 in 2020-2021 before recovery began. Regional gaps remain vast — Sierra Leone's life expectancy is 55, Japan's is 85.",
+  "brysonAside": "Consider that for most of recorded history, a human being's odds of reaching fifty were roughly equivalent to a modern person's odds of being struck by lightning twice. We have changed, in the span of a few generations, the fundamental arithmetic of being alive.",
+  "sources": [
+    {
+      "name": "United Nations World Population Prospects 2024",
+      "url": "https://population.un.org/wpp/",
+      "tier": 1,
+      "datasetName": "Life expectancy at birth, both sexes",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Life Expectancy",
+      "url": "https://ourworldindata.org/life-expectancy",
+      "tier": 1,
+      "datasetName": "Life expectancy at birth",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "life-expectancy-soaring",
+  "shareText": {
+    "wrong": "I guessed global life expectancy wrong — and I wasn't alone. 66% of people get this wrong. possiblist.io/q/life-expectancy-soaring",
+    "correct": "I knew global life expectancy was 73 — but I probably can't keep this streak going. possiblist.io/q/life-expectancy-soaring",
+    "score": null
+  },
+  "emailDigestLine": "Humanity doubled its average lifespan in one century. It took the previous hundred thousand years to get to 32.",
+  "premiumTeaser": "The story of how we doubled the human lifespan involves, in no particular order: a Viennese doctor who was mocked to death for suggesting that hand-washing might help, a retired military engineer who accidentally revolutionised sewage, and a statistician whose bar charts caused a national scandal. It is, in the proper sense, extraordinary.",
+  "b2bClassroomNote": "Classroom discussion: Ask students why the 1900 figure seems so low (infant mortality effect). Connects to SDG 3 and introduces the concept of life expectancy as a composite measure. Pair with Gapminder's Trendalyzer for interactive exploration.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "UN and OWID data are closely aligned. COVID dip noted in nuance. Strong Bryson-style aside.",
+  "actionCard": {
+    "learn": {
+      "title": "Hans Rosling's 200 Countries, 200 Years TED Talk",
+      "url": "https://www.gapminder.org/videos/200-years-that-changed-the-world/",
+      "time": "20 min watch",
+      "description": "Rosling animates two centuries of life expectancy and income data in four minutes flat. It is the single best visual explanation of how the world went from 32 to 73 — and why the change feels invisible."
+    },
+    "fund": {
+      "org": "WaterAid",
+      "url": "https://possiblist.io/give/wateraid",
+      "directUrl": "https://www.wateraid.org/donate",
+      "description": "Clean water and sanitation are behind a disproportionate share of this chart's upward slope. WaterAid works in the countries where waterborne disease still drags life expectancy down.",
+      "impact": "\u00a320 = clean water access for one person for a year",
+      "rating": "GWWC Recommended"
+    },
+    "act": {
+      "action": "Write to your water utility asking for their latest water quality report",
+      "time": "~5 min",
+      "description": "Safe water is the foundation of the life expectancy gains on this chart. Knowing what is in your own tap water connects the global story to your postcode — and the reports are public, even if nobody reads them."
+    }
+  }
+}

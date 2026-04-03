@@ -1,0 +1,27 @@
+{
+  "name": "Wrong Again 20",
+  "description": "20 Gapminder-style factual questions about the state of the world",
+  "methodologyCredit": "Based on Gapminder Misconception Study (Ola Rosling, Guohua Zheng, Fredrik Wollsén)",
+  "questions": [
+    { "id": 1, "topic": "extreme-poverty-declining", "category": "poverty" },
+    { "id": 2, "topic": "child-mortality-falling", "category": "health" },
+    { "id": 3, "topic": "life-expectancy-soaring", "category": "health" },
+    { "id": 4, "topic": "girls-education-advancing", "category": "education" },
+    { "id": 5, "topic": "nuclear-safety-vs-coal", "category": "energy" },
+    { "id": 6, "topic": "vaccination-coverage-global", "category": "health" },
+    { "id": 7, "topic": "renewable-energy-rising", "category": "energy" },
+    { "id": 8, "topic": "where-most-people-live", "category": "demographics" },
+    { "id": 9, "topic": "terrorism-deaths-peaked", "category": "security" },
+    { "id": 10, "topic": "teen-birth-rates-falling", "category": "health" },
+    { "id": 11, "topic": "global-literacy-miracle", "category": "education" },
+    { "id": 12, "topic": "air-travel-safety", "category": "transport" },
+    { "id": 13, "topic": "maternal-mortality-falling", "category": "health" },
+    { "id": 14, "topic": "middle-class-explosion", "category": "economics" },
+    { "id": 15, "topic": "wildlife-decline", "category": "environment" },
+    { "id": 16, "topic": "solar-cost-collapse", "category": "energy" },
+    { "id": 17, "topic": "women-leading-countries", "category": "governance" },
+    { "id": 18, "topic": "violence-long-run-decline", "category": "security" },
+    { "id": 19, "topic": "global-hunger-trend", "category": "poverty" },
+    { "id": 20, "topic": "ozone-layer-recovering", "category": "environment" }
+  ]
+}

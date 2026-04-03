@@ -1,0 +1,94 @@
+{
+  "slug": "teen-birth-rates-falling",
+  "category": "health",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How has the global teen birth rate (ages 15-19) changed since 1990?",
+    "options": [
+      "Increased by 30%",
+      "Stayed about the same",
+      "Fallen by about a third",
+      "Fallen by more than half"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 60,
+      "mostCommonWrongAnswer": "Stayed about the same",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Teen Birth Rates Have More Than Halved — and Almost Nobody Noticed",
+  "teaser": "There is a demographic shift that has been quietly reshaping the lives of young women across every region of the world for more than three decades. It does not involve any single dramatic policy announcement, no celebrity campaign, and no viral moment. It is driven by a combination of forces so undramatic that the people experiencing the change often do not realise they are part of a global trend at all. The question is about teen birth rates, and when you ask people what has happened to them since 1990, the most common answer reveals an assumption that has been gathering dust since the Clinton administration. Nobody, it seems, thought to check whether it was still true.",
+  "metaDescription": "The global teen birth rate has fallen from ~65 per 1,000 in 1990 to ~28 per 1,000 in 2024. 60% of people think it stayed the same.",
+  "summary": "In 1990, for every 1,000 girls aged 15 to 19 worldwide, about 65 gave birth each year. By 2024, that rate had fallen to approximately 28 per 1,000 — a decline of more than half. This happened in every region of the world, including sub-Saharan Africa, where the rate remains highest but has still dropped substantially. It is driven by a combination of expanded girls' education, better access to contraception, and changing social norms. The fact that 60% of people believe the rate has stayed the same suggests we are rather better at worrying about teenagers than at noticing when things improve for them.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~28 per 1,000",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "65 → 28 per 1,000 since 1990",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1990, "value": 65 },
+      { "year": 2000, "value": 52 },
+      { "year": 2010, "value": 42 },
+      { "year": 2020, "value": 30 },
+      { "year": 2024, "value": 28 }
+    ]
+  },
+  "nuance": "The global average masks enormous regional variation. Sub-Saharan Africa's teen birth rate remains above 90 per 1,000 in some countries, while in East Asia it is below 5. Within countries, rural rates are often two to three times higher than urban ones, and rates among the poorest quintile can be five times those of the wealthiest. Child marriage remains a major driver in the countries where rates are highest. Progress is real but deeply unequal.",
+  "brysonAside": "There is something faintly marvellous about the fact that the single most effective intervention for reducing teen pregnancies turns out to be keeping girls in school — which also happens to reduce poverty, improve child health, slow population growth, and boost economic output. It is as if someone designed a policy lever and then accidentally made it work for everything.",
+  "sources": [
+    {
+      "name": "World Bank — Adolescent fertility rate",
+      "url": "https://data.worldbank.org/indicator/SP.ADO.TFRT",
+      "tier": 1,
+      "datasetName": "Adolescent fertility rate (births per 1,000 women ages 15-19)",
+      "accessedYear": 2026
+    },
+    {
+      "name": "UN Population Division",
+      "url": "https://population.un.org/wpp/",
+      "tier": 1,
+      "datasetName": "Age-specific fertility rates",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "teen-birth-rates-falling",
+  "shareText": {
+    "wrong": "I didn't know teen birth rates have more than halved since 1990. 60% of people get this wrong. possiblist.io/q/teen-birth-rates-falling",
+    "correct": "I knew teen birth rates had plummeted — but most people assume nothing changed. possiblist.io/q/teen-birth-rates-falling",
+    "score": null
+  },
+  "emailDigestLine": "Teen birth rates have more than halved worldwide since 1990, driven largely by keeping girls in school.",
+  "premiumTeaser": "In Bangladesh in the 1990s, a stipend of a few dollars a month to families who kept their daughters in school produced a demographic shift that economists are still writing papers about. The full story follows that programme and the community health workers in Ethiopia who replicated it, and asks why the countries where teen births remain highest are often the ones spending the least on the intervention that works best.",
+  "b2bClassroomNote": "Classroom discussion: Have students estimate the 1990 vs 2024 figures before revealing. Connects to SDG 3 (Good Health), SDG 4 (Quality Education), and SDG 5 (Gender Equality). Introduces the multiplier effect of girls' education.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "World Bank and UN Population Division data closely aligned. Nuance addresses regional inequality and child marriage honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Creating an African 21st Century\" — Hans Rosling lecture",
+      "url": "https://www.gapminder.org/videos/creating-an-african-21st-century/",
+      "time": "20 min watch",
+      "description": "Rosling connects declining teen birth rates to the broader demographic transition — and explains why the countries where this chart has moved fastest are the ones that invested in girls' education first."
+    },
+    "fund": {
+      "org": "Population Services International",
+      "url": "https://possiblist.io/give/psi",
+      "directUrl": "https://www.psi.org/donate/",
+      "description": "PSI delivers reproductive health services in over 40 countries — directly serving the populations where this chart's decline is happening right now.",
+      "impact": "Reproductive health services in 40+ countries",
+      "rating": null
+    },
+    "act": {
+      "action": "Share the actual data with one person who assumes things are getting worse",
+      "time": "~5 min",
+      "description": "60% of people think this rate has not changed. Sharing the real number with one person is a small act that chips away at the assumption that nothing ever improves."
+    }
+  }
+}

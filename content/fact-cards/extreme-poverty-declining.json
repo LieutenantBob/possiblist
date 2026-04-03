@@ -1,0 +1,94 @@
+{
+  "slug": "extreme-poverty-declining",
+  "category": "poverty",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "What has happened to global extreme poverty since 1990?",
+    "options": [
+      "It has nearly doubled",
+      "It has stayed about the same",
+      "It has nearly halved",
+      "It has been completely eliminated"
+    ],
+    "correctIndex": 2,
+    "surveyResult": {
+      "percentWrong": 74,
+      "mostCommonWrongAnswer": "It has nearly doubled",
+      "source": "Gapminder/Ipsos survey, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "You Are Statistically More Likely to Guess This at Random Than to Actually Know It",
+  "teaser": "Here is a question about global poverty that has been asked to thousands of people across dozens of countries -- university professors, business leaders, journalists, Nobel laureates. The results are, by any reasonable standard, hilarious. Not only do most people get it wrong, they get it wrong so consistently and so confidently that a chimpanzee throwing darts at the answer options would outperform them. Something has happened to extreme poverty over the past thirty-five years. The question is what. And the answer, when it comes, tends to produce a silence that is worth savouring -- the particular quiet of a worldview rearranging itself in real time.",
+  "metaDescription": "74% of people believe global poverty is getting worse. It has nearly halved since 1990. Here is what actually happened, and why almost nobody noticed.",
+  "summary": "A majority of people believe global extreme poverty is getting worse. They are wrong — not approximately wrong, but wrong in the specific direction of opposite. The rate has fallen from 36% of humanity in 1990 to around 10% today, representing the largest reduction in human deprivation in recorded history. It happened quietly, and most people missed it entirely.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~10%",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "36% → 10% since 1990",
+    "chartType": "line",
+    "chartData": [
+      { "year": 1990, "value": 36 },
+      { "year": 2000, "value": 28 },
+      { "year": 2010, "value": 16 },
+      { "year": 2024, "value": 10 }
+    ]
+  },
+  "nuance": "Progress has been uneven. Sub-Saharan Africa has seen the number of people in extreme poverty rise, not fall. And the poverty line itself was revised upward in 2025, changing the count without changing underlying reality.",
+  "brysonAside": "On any average day over the past thirty-five years, approximately a hundred and fifteen thousand people left extreme poverty behind. Every day. For thirty-five years.",
+  "sources": [
+    {
+      "name": "World Bank Poverty & Inequality Platform",
+      "url": "https://pip.worldbank.org",
+      "tier": 1,
+      "datasetName": "Poverty headcount ratio at $3/day (2021 PPP)",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Poverty",
+      "url": "https://ourworldindata.org/poverty",
+      "tier": 1,
+      "datasetName": "Share of population in extreme poverty",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "extreme-poverty-declining",
+  "shareText": {
+    "wrong": "I just found out I was wrong about global poverty — and I was in good company. 74% of people get this wrong. possiblist.io/q/extreme-poverty-declining",
+    "correct": "I actually got one right on Possiblist — still wrong about most things though. Are you? possiblist.io/q/extreme-poverty-declining",
+    "score": null
+  },
+  "emailDigestLine": "The world's largest reduction in human deprivation in recorded history happened so quietly that most people believe the opposite occurred.",
+  "premiumTeaser": "What the headline figure doesn't tell you is where this progress didn't happen — and why that matters more than the global average suggests. And then there is the question of how the measurement was built in the first place, which turns out to involve a development economist, a surprising methodology, and one of the more quietly remarkable data-assembly efforts of the twentieth century.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to guess the answer before showing data. Connects to SDG 1 (No Poverty) and the gap between media representation and statistical reality. Pairs with Gapminder's Dollar Street for visual context.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "Both sources agree within 2%. Gamma nuance substantive and well-sourced. Strong shareability.",
+  "actionCard": {
+    "learn": {
+      "title": "Gapminder Dollar Street",
+      "url": "https://www.gapminder.org/dollar-street",
+      "time": "10 min read",
+      "description": "Dollar Street shows photographs of everyday objects — toothbrushes, stoves, front doors — sorted by income level across dozens of countries. It makes the poverty line tangible in a way that a percentage never can."
+    },
+    "fund": {
+      "org": "GiveDirectly",
+      "url": "https://possiblist.io/give/givedirectly",
+      "directUrl": "https://www.givedirectly.org/donate/",
+      "description": "GiveDirectly sends cash transfers to extremely poor households with no strings attached — the kind of direct intervention that moves people across the poverty line this chart tracks.",
+      "impact": "$30 = one month cash transfer to one household",
+      "rating": "GiveWell Top Charity"
+    },
+    "act": {
+      "action": "Take the Gapminder Test and share your score",
+      "time": "~5 min",
+      "description": "Thirteen questions about the state of the world. Most people score worse than a chimpanzee throwing darts. Finding out where your assumptions are wrong is the first step to updating them.",
+      "url": "https://upgrader.gapminder.org/"
+    }
+  }
+}

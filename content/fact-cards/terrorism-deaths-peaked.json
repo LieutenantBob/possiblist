@@ -1,0 +1,94 @@
+{
+  "slug": "terrorism-deaths-peaked",
+  "category": "security",
+  "status": "verified",
+  "confidence": "high",
+  "lastVerified": "2026-04",
+  "shareabilityScore": "high",
+  "premiumDepthScore": "high",
+  "quiz": {
+    "question": "How have global deaths from terrorism changed since the peak in 2014?",
+    "options": [
+      "Continued rising",
+      "Stayed about the same",
+      "Fallen by about half",
+      "Fallen by more than half"
+    ],
+    "correctIndex": 3,
+    "surveyResult": {
+      "percentWrong": 65,
+      "mostCommonWrongAnswer": "Continued rising",
+      "source": "Gapminder Misconception Study, 2017",
+      "surveyNote": null
+    }
+  },
+  "headline": "Terrorism Deaths Have Fallen by More Than 80% — and Nobody Updated Their Anxiety",
+  "teaser": "There are certain subjects on which the human brain refuses to accept good news. Terrorism is one of them. The question of whether things have gotten better or worse touches something primal -- a threat that is, by design, meant to hijack your sense of proportion. News coverage amplifies every attack. Politicians invoke the danger at every opportunity. Your nervous system files each incident under 'things that are getting worse.' But what does the data actually say? Global terrorism deaths peaked at a specific point in recent history and have since moved in a direction that two-thirds of people get exactly wrong. The gap between your anxiety and the statistics is itself a kind of data point, and not a flattering one.",
+  "metaDescription": "Global terrorism deaths fell from ~44,000 in 2014 to ~8,000 in 2024. 65% of people believe they have continued rising.",
+  "summary": "In 2014, global deaths from terrorism reached a grim peak of approximately 44,000, driven largely by conflicts involving ISIS and Boko Haram. By 2024, that figure had fallen to around 8,000 — a decline of more than 80%. This is not because the world stopped paying attention; if anything, the opposite. It is because territorial defeats, improved intelligence-sharing, and local military operations reduced the capacity of the groups responsible. Yet two-thirds of people surveyed believe terrorism deaths have continued to rise, which tells you something important about the relationship between headlines and reality.",
+  "freePreviewWordCount": 300,
+  "reality": {
+    "figure": "~8,000 deaths",
+    "year": 2024,
+    "trend": "declining",
+    "trendLabel": "44,000 → 8,000 since 2014",
+    "chartType": "line",
+    "chartData": [
+      { "year": 2004, "value": 6 },
+      { "year": 2008, "value": 11 },
+      { "year": 2014, "value": 44 },
+      { "year": 2018, "value": 16 },
+      { "year": 2024, "value": 8 }
+    ]
+  },
+  "nuance": "The decline is concentrated in Iraq, Syria, and Nigeria — the countries where the 2014 peak was driven. Terrorism deaths in the Sahel region have actually increased. The definition of 'terrorism' remains contested and varies between databases, which affects the numbers. Lone-actor attacks in Western countries, while statistically rare, generate disproportionate media coverage, which helps explain the perception gap. Any single attack can reverse trends temporarily, and the underlying grievances that fuel terrorism have not disappeared.",
+  "brysonAside": "The human brain, it turns out, is spectacularly bad at updating its threat assessment when the threat decreases. We are, evolutionarily speaking, much better at remembering the rustle in the bushes that turned out to be a leopard than the thousands of rustles that turned out to be the wind. This is excellent for surviving on the savanna and rather less useful for reading the news.",
+  "sources": [
+    {
+      "name": "Global Terrorism Database (START, University of Maryland)",
+      "url": "https://www.start.umd.edu/gtd/",
+      "tier": 1,
+      "datasetName": "Number of fatalities from terrorist attacks, global",
+      "accessedYear": 2026
+    },
+    {
+      "name": "Our World in Data — Terrorism",
+      "url": "https://ourworldindata.org/terrorism",
+      "tier": 1,
+      "datasetName": "Deaths from terrorism",
+      "accessedYear": 2026
+    }
+  ],
+  "editorialSlug": "terrorism-deaths-peaked",
+  "shareText": {
+    "wrong": "I assumed terrorism deaths were still rising. They've fallen by over 80% since 2014. 65% of people get this wrong. possiblist.io/q/terrorism-deaths-peaked",
+    "correct": "I knew terrorism deaths had fallen sharply — but most people don't. possiblist.io/q/terrorism-deaths-peaked",
+    "score": null
+  },
+  "emailDigestLine": "Terrorism deaths have fallen by more than 80% since 2014, but our anxiety never got the memo.",
+  "premiumTeaser": "The 2014 peak was driven almost entirely by two organisations operating in three countries — and when their territory collapsed, so did the death toll. The full story traces that collapse, asks what happened to the underlying conditions that produced those groups, and examines Paul Slovic's research on why a risk that kills fewer people than bathtub drownings dominates our foreign policy.",
+  "b2bClassroomNote": "Classroom discussion: Ask students to draw the trend line before revealing. Connects to SDG 16 (Peace, Justice) and introduces availability bias, dread risk, and the relationship between media coverage and risk perception.",
+  "publishingRecommendation": "PUBLISH AS-IS",
+  "publishingNote": "GTD and OWID data closely aligned. Chart values in thousands. Nuance addresses regional variation and definitional challenges honestly.",
+  "actionCard": {
+    "learn": {
+      "title": "\"Factfulness\" Chapter 4: The Fear Instinct",
+      "url": "https://www.gapminder.org/factfulness-book/",
+      "time": "10 min read",
+      "description": "Rosling explains why your brain is wired to overestimate threats that are vivid, involuntary, and dramatic — the exact combination that makes terrorism feel like it is rising when the data shows it falling."
+    },
+    "fund": {
+      "org": "International Crisis Group",
+      "url": "https://possiblist.io/give/international-crisis-group",
+      "directUrl": "https://www.crisisgroup.org/donate",
+      "description": "ICG does conflict prevention and early warning research — the kind of work that bends curves like this one downward before the crisis makes the news.",
+      "impact": "Conflict prevention and early warning research",
+      "rating": null
+    },
+    "act": {
+      "action": "Check whether your news sources cover conflict resolution, not just conflict",
+      "time": "~5 min",
+      "description": "The perception gap on this chart is partly a media gap. If your news diet includes crisis coverage but never resolution coverage, your mental model will always lag behind the data."
+    }
+  }
+}
