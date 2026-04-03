@@ -34,4 +34,6 @@ The practical implications are significant. Anyone relying on AI for factual cla
 
 There is also a mirror here for human cognition. Humans show framing effects too — Kahneman and Tversky demonstrated this decades ago. But the human framing effect is subtle, a matter of degree. The AI framing effect is dramatic, a matter of kind. We get slightly different answers depending on phrasing. AI gets categorically different answers.
 
-Credit where it is due: this methodology stands on the shoulders of Gapminder's extraordinary work in measuring and correcting human misconceptions about the world. Our contribution was simply to point the same questions at a different kind of mind, and to notice that the results were, in the most literal sense, unprecedented.
+Credit where it is due: this methodology stands on the shoulders of Gapminder's extraordinary work in measuring and correcting human misconceptions about the world. Our contribution was to point the same questions at a different kind of mind, and to notice that the results were, in the most literal sense, unprecedented.
+
+But this leaves an uncomfortable question hanging: if the answer an AI gives depends less on what is true and more on how you phrase the question, and if millions of people are already using these tools to understand the world — who is responsible for the framing? And would we even notice if the phrasing were quietly shaping what we believe?

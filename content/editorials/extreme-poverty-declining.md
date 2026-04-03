@@ -30,4 +30,6 @@ This matters because it changes the texture of the good news. The headline figur
 
 Sub-Saharan Africa tells a different version of the story entirely. While the global rate fell, the absolute number of people in extreme poverty in Africa rose — from roughly 278 million in 1990 to over 400 million by 2019. The rate fell, but the population grew faster. This is the kind of nuance that makes the good news more honest, and also more urgent.
 
-What Rosling understood, and what the data confirms, is that both things are true at once. The world has made extraordinary progress. The world still has an extraordinary amount of work to do. A possiblist holds both facts simultaneously and proceeds accordingly. This is harder than it sounds, but it is the only honest option.
+What Rosling understood, and what the data confirms, is that both things are true at once. The world has made extraordinary progress. The world still has an extraordinary amount of work to do. A possiblist holds both facts simultaneously and proceeds accordingly.
+
+But here is the thing that nags: if a hundred and fifteen thousand people can leave extreme poverty every day for thirty-five years, and the vast majority of educated, news-reading, well-intentioned people have absolutely no idea it happened — what else might be changing, right now, that we cannot see?

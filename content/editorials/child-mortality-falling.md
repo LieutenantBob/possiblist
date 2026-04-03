@@ -30,4 +30,6 @@ This is the pattern that repeats throughout the child mortality story: unglamoro
 
 But the children lived. That is the point. Seven and a half million more of them per year than in 1990. And yet the world, when asked, believes things have stayed the same or gotten worse.
 
-There is, in this gap between reality and perception, something that should give us pause. Not despair — despair would be precisely the wrong response to one of the greatest achievements in human history. But pause. Because if we cannot see progress when it happens, we cannot learn from it. And if we cannot learn from it, we cannot replicate it in the places where children are still dying at 1990 rates.
+There is, in this gap between reality and perception, something that should give us pause. Not despair — despair would be precisely the wrong response to one of the greatest achievements in human history. But pause.
+
+If the most cost-effective medical intervention of the twentieth century was a packet of salt and sugar, and it took decades for most people to learn it existed — what other mundane, unglamorous, life-saving things might be working right now, in places we are not looking?

@@ -127,9 +127,69 @@ for a subscriber who has read to the end.
 
 ---
 
+## Adopted Techniques from Wait But Why (Tim Urban)
+
+WBW and Possiblist share the same mission (make complex ideas accessible and emotionally
+resonant) but occupy different registers. Urban is the brilliant friend at the bar.
+Possiblist is the brilliant exhibit at the museum. **Adopt the structural principles,
+not the voice.**
+
+### U1: The Scale Gut-Punch
+Every number must be **felt**, not just read. Never state a statistic without translating
+it into physical, visceral experience. Not "12.6 million children" but "the population
+of a mid-sized European country, saved annually." Not "4.5 billion years" but
+"if you counted one number per second, you'd still be counting." Use Bryson-style
+understatement, not Urban-style exclamation. The Possiblist version ends with a quiet
+period, not an exclamation mark.
+
+### U2: The Nested Digression That Always Returns
+A seemingly unrelated observation (a historical anecdote, a natural-world fact, an
+etymological aside) that connects back to the main point in a way the reader didn't
+predict. Adams and Bryson are both master digressors. The digression must **always
+pay off** — never merely wander. The reader should feel they've explored, not been
+led astray. Place longer digressions in the premium section; shorter ones can
+punctuate the free section.
+
+### U3: The Analogy Bridge
+Explain unfamiliar concepts by mapping them onto familiar ones. Build the analogy,
+walk across it, then show where it breaks down — which teaches the truly novel part.
+Use **historical and natural-world analogies**, not pop-culture references.
+"Think of it as a Victorian cabinet of curiosities" not "Think of it like a Netflix queue."
+
+### U4: The Incremental Complexity Ladder
+Never ask the reader to jump too far in one step. Each paragraph adds exactly one new
+idea. Build understanding from the ground up so the reader arrives at a complex insight
+feeling they discovered it themselves, not that it was delivered to them.
+
+### U5: The Original Taxonomy
+Name things that don't have names. Create classification systems that give readers
+vocabulary to discuss the ideas. Use **naturalist field-guide naming**, not pop-psych
+naming. "The Collector" not "The Panic Monster." The names should feel like they belong
+in a museum guide — slight formality that rewards the reader for being in on the reference.
+
+### U6: The Open Question Landing
+End with better questions, not tidy answers. The reader finishes feeling smarter but
+less certain. A museum exhibit that ends with "and so, we still don't entirely know"
+is more honest and more interesting than one that wraps everything up. Aligned with
+Adams's sensibility: the answer is 42, but what was the question?
+
+### What We Explicitly Reject from WBW
+- **First-person confessional framing** ("I spent 3 weeks...") — the exhibit doesn't
+  narrate its own research process
+- **Crude/unpolished visuals** — Possiblist is editorial, typographic, curated
+- **Self-deprecating anxiety** — we are affectionately baffled, not panicked
+- **Ultra-casual register shifts** ("which is, like, not great") — our humor comes from
+  understatement and precision: "which is, by any reasonable measure, suboptimal"
+- **Existential dread escalation** — replace dread with **wonder**; awe, not alarm
+- **Anthropomorphized cartoon characters** — use metaphor and allusion to concretize
+  the abstract, not cartoon brain-characters
+
+---
+
 ## The Synthesised Structure
 
 Adams provides the frame. Bryson provides the warmth and detail within it.
+Urban's structural techniques provide the scaffolding that keeps readers engaged.
 
 | Section | Adams | Bryson | Location | Purpose |
 |---------|-------|--------|----------|---------|
