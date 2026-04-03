@@ -31,12 +31,12 @@ export function QuizCard({ card, onAnswered, onNext, alreadyAnswered }: QuizCard
       {/* Category badge */}
       <span className="category-badge">{card.category}</span>
 
-      {/* Teaser */}
+      {/* Teaser — withholds the answer, builds intrigue */}
       <p
         className="font-italic italic mt-4 mb-6 leading-relaxed"
         style={{ color: 'var(--ink)', fontSize: '1.05rem' }}
       >
-        {card.summary.slice(0, 200)}...
+        {card.teaser}
       </p>
 
       {/* Question */}

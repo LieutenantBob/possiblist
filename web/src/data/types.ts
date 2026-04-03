@@ -50,6 +50,7 @@ export interface FactCard {
   premiumDepthScore: string
   quiz: Quiz
   headline: string
+  teaser: string
   metaDescription: string
   summary: string
   freePreviewWordCount: number
