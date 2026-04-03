@@ -53,7 +53,7 @@ export function EmailCapture({ slug, className = '' }: EmailCaptureProps) {
       style={{ backgroundColor: 'var(--cream)', border: '1px solid var(--deep-05)' }}
     >
       <p className="font-body font-semibold mb-1" style={{ color: 'var(--deep)', fontSize: '0.95rem' }}>
-        Get 5 surprising facts per week. No noise.
+        One email per week. Five facts that will make you say them out loud to whoever is nearest.
       </p>
       <form onSubmit={handleSubmit} className="flex gap-3 mt-3">
         <input

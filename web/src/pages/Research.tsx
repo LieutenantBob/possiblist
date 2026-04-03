@@ -22,10 +22,17 @@ export function Research() {
         Do AI Chatbots Share Humanity's Misconceptions?
       </h1>
 
-      {/* Subtitle */}
-      <p className="font-italic italic mb-10" style={{ color: 'var(--mist)', fontSize: '1.1rem', fontWeight: 300 }}>
-        Possiblist tested four major AI models on our 20 questions,
-        using 20 different prompt framings. The results were surprising.
+      {/* Intro — in voice */}
+      <p className="font-body leading-relaxed mb-4" style={{ color: 'var(--ink)', fontSize: '1.05rem' }}>
+        We asked four major AI models the same twenty questions we ask humans,
+        in twenty different ways, to see if their training data had inherited
+        our misconceptions. It had — but not in the way anyone predicted.
+        The models did not share humanity's systematic pessimism. They showed
+        something stranger: change the phrasing of the question, and the answer changes.
+        Not the reasoning. The answer.
+      </p>
+      <p className="font-italic italic mb-10" style={{ color: 'var(--mist)', fontSize: '0.95rem' }}>
+        This is not how human wrongness works. It is something new.
       </p>
 
       {/* Interactive chart — accuracy by model */}
@@ -127,8 +134,10 @@ export function Research() {
           </a>'s
           methodology for measuring misconceptions about global development,
           developed by Ola Rosling, Guohua Zheng, and Fredrik Wollsén.
-          Twenty factual questions with known correct answers were posed to four
-          major AI models using twenty different prompt framings per model-question combination.
+          We took their twenty questions, asked four AI models each one
+          twenty different ways — conversational, academic, adversarial, naive —
+          and watched the answers shift. The methodology is theirs.
+          The discovery that AI is wrong in a fundamentally new way is ours.
         </p>
       </div>
 

@@ -40,29 +40,6 @@ export function MyPossiblist() {
     )
   }
 
-  if (!user) {
-    return (
-      <div className="max-w-md mx-auto px-4 py-20 text-center">
-        <h1
-          className="font-display font-semibold mb-4"
-          style={{ fontSize: '2rem', color: 'var(--deep)' }}
-        >
-          My Possiblist<span className="wordmark-degree">°</span>
-        </h1>
-        <p className="font-italic italic mb-8" style={{ color: 'var(--mist)' }}>
-          Sign in to save your progress, track your wrongness across devices, and see where the numbers move.
-        </p>
-        <Link
-          to="/login"
-          className="inline-block px-8 py-3 rounded-lg font-body font-semibold no-underline"
-          style={{ backgroundColor: 'var(--verdigris)', color: 'var(--parchment)' }}
-        >
-          Sign in or create account
-        </Link>
-      </div>
-    )
-  }
-
   async function handleLogout() {
     await logout()
     navigate('/')
@@ -70,35 +47,46 @@ export function MyPossiblist() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
-      {/* Profile header */}
-      <div className="flex items-center gap-4 mb-10">
-        {user.avatar ? (
-          <img
-            src={user.avatar}
-            alt=""
-            className="w-14 h-14 rounded-full"
-            style={{ border: '2px solid var(--verdigris-20)' }}
-          />
-        ) : (
-          <div
-            className="w-14 h-14 rounded-full flex items-center justify-center font-display font-semibold text-xl"
-            style={{ backgroundColor: 'var(--verdigris-10)', color: 'var(--verdigris)' }}
-          >
-            {user.name.charAt(0).toUpperCase()}
+      {/* Profile header — authenticated */}
+      {user ? (
+        <div className="flex items-center gap-4 mb-10">
+          {user.avatar ? (
+            <img
+              src={user.avatar}
+              alt=""
+              className="w-14 h-14 rounded-full"
+              style={{ border: '2px solid var(--verdigris-20)' }}
+            />
+          ) : (
+            <div
+              className="w-14 h-14 rounded-full flex items-center justify-center font-display font-semibold text-xl"
+              style={{ backgroundColor: 'var(--verdigris-10)', color: 'var(--verdigris)' }}
+            >
+              {user.name.charAt(0).toUpperCase()}
+            </div>
+          )}
+          <div>
+            <h1 className="font-display font-semibold" style={{ fontSize: '1.5rem', color: 'var(--deep)' }}>
+              {user.name}
+            </h1>
+            <p className="font-mono text-xs" style={{ color: 'var(--mist)' }}>
+              Possiblist since {new Date(user.createdAt).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}
+              {user.isPremium && (
+                <span style={{ color: 'var(--gold)' }}> · Premium</span>
+              )}
+            </p>
           </div>
-        )}
-        <div>
-          <h1 className="font-display font-semibold" style={{ fontSize: '1.5rem', color: 'var(--deep)' }}>
-            {user.name}
+        </div>
+      ) : (
+        <div className="mb-10">
+          <h1 className="font-display font-semibold mb-2" style={{ fontSize: '1.5rem', color: 'var(--deep)' }}>
+            My Possiblist<span className="wordmark-degree">°</span>
           </h1>
-          <p className="font-mono text-xs" style={{ color: 'var(--mist)' }}>
-            Possiblist since {new Date(user.createdAt).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })}
-            {user.isPremium && (
-              <span style={{ color: 'var(--gold)' }}> · Premium</span>
-            )}
+          <p className="font-italic italic text-sm" style={{ color: 'var(--mist)' }}>
+            Your scorecard on this device. Sign in to save across devices.
           </p>
         </div>
-      </div>
+      )}
 
       {/* Possiblist Score — the shareable number */}
       {stats.total > 0 && (
@@ -231,7 +219,7 @@ export function MyPossiblist() {
       </div>
 
       {/* Premium CTA if not premium */}
-      {!user.isPremium && (
+      {(!user || !user.isPremium) && (
         <div
           className="p-8 rounded-lg text-center mb-8"
           style={{ backgroundColor: 'var(--cream)', border: '1px solid var(--deep-05)' }}
@@ -249,29 +237,44 @@ export function MyPossiblist() {
         </div>
       )}
 
-      {/* Account info */}
-      <div className="pt-8" style={{ borderTop: '1px solid var(--deep-05)' }}>
-        <p className="font-mono text-[0.6rem] uppercase tracking-wider mb-3" style={{ color: 'var(--mist)' }}>
-          Account
-        </p>
-        <div className="space-y-2">
-          <div className="flex justify-between">
-            <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Email</span>
-            <span className="font-mono text-sm" style={{ color: 'var(--mist)' }}>{user.email}</span>
+      {/* Account info — authenticated users */}
+      {user ? (
+        <div className="pt-8" style={{ borderTop: '1px solid var(--deep-05)' }}>
+          <p className="font-mono text-[0.6rem] uppercase tracking-wider mb-3" style={{ color: 'var(--mist)' }}>
+            Account
+          </p>
+          <div className="space-y-2">
+            <div className="flex justify-between">
+              <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Email</span>
+              <span className="font-mono text-sm" style={{ color: 'var(--mist)' }}>{user.email}</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Sign-in method</span>
+              <span className="font-mono text-sm capitalize" style={{ color: 'var(--mist)' }}>{user.provider}</span>
+            </div>
           </div>
-          <div className="flex justify-between">
-            <span className="font-body text-sm" style={{ color: 'var(--ink)' }}>Sign-in method</span>
-            <span className="font-mono text-sm capitalize" style={{ color: 'var(--mist)' }}>{user.provider}</span>
-          </div>
-        </div>
-        <button
-          onClick={handleLogout}
-          className="mt-6 font-mono text-xs cursor-pointer bg-transparent border-none p-0 underline"
-          style={{ color: 'var(--mist)' }}
-        >
+          <button
+            onClick={handleLogout}
+            className="mt-6 font-mono text-xs cursor-pointer bg-transparent border-none p-0 underline"
+            style={{ color: 'var(--mist)' }}
+          >
           Sign out
         </button>
       </div>
+      ) : (
+        <div className="pt-8 text-center" style={{ borderTop: '1px solid var(--deep-05)' }}>
+          <p className="font-italic italic mb-4 text-sm" style={{ color: 'var(--mist)' }}>
+            This scorecard lives on this device only. Sign in to keep it across devices.
+          </p>
+          <Link
+            to="/login"
+            className="inline-block px-6 py-2.5 rounded-lg font-mono text-xs no-underline border"
+            style={{ borderColor: 'var(--deep-10)', color: 'var(--deep)' }}
+          >
+            Sign in or create account
+          </Link>
+        </div>
+      )}
     </div>
   )
 }
