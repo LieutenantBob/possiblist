@@ -34,15 +34,30 @@
     "trendLabel": "Index: 100 → 31 since 1970",
     "chartType": "line",
     "chartData": [
-      { "year": 1970, "value": 100 },
-      { "year": 1985, "value": 75 },
-      { "year": 2000, "value": 55 },
-      { "year": 2010, "value": 42 },
-      { "year": 2020, "value": 31 }
+      {
+        "year": 1970,
+        "value": 100
+      },
+      {
+        "year": 1985,
+        "value": 75
+      },
+      {
+        "year": 2000,
+        "value": 55
+      },
+      {
+        "year": 2010,
+        "value": 42
+      },
+      {
+        "year": 2020,
+        "value": 31
+      }
     ]
   },
   "nuance": "The Living Planet Index measures average population change, not species extinction. But the direction is unambiguous and the scale is staggering. This is one of the genuinely bad numbers, and a possiblist does not flinch from genuinely bad numbers. The index is also weighted toward well-monitored populations, which tend to be in regions with strong research infrastructure. Tropical and freshwater species — where declines are steepest — may actually be underrepresented. Some conservation successes exist: certain whale, tiger, and eagle populations have recovered dramatically where protections were enforced. But these are bright spots against an unmistakably dark backdrop.",
-  "brysonAside": "If you had told someone in 1970 that within fifty years we would lose, on average, more than two-thirds of the monitored wildlife on the planet, they would have assumed something cinematic had happened — an asteroid, perhaps, or a particularly ambitious Bond villain. Instead it was agriculture, infrastructure, and the quiet, incremental expansion of human appetite, which turns out to be more effective than any asteroid and considerably harder to dramatize.",
+  "brysonAside": "If you had told someone in 1970 that within fifty years we would lose two-thirds of monitored wildlife, they would have assumed something cinematic — an asteroid, perhaps. Instead it was agriculture and the quiet expansion of human appetite, which turns out to be more effective than any asteroid and harder to dramatize.",
   "sources": [
     {
       "name": "WWF Living Planet Report 2024",

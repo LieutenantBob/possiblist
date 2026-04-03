@@ -34,11 +34,26 @@
     "trendLabel": "36% → 87% since 1950",
     "chartType": "line",
     "chartData": [
-      { "year": 1950, "value": 36 },
-      { "year": 1970, "value": 55 },
-      { "year": 1990, "value": 75 },
-      { "year": 2010, "value": 83 },
-      { "year": 2024, "value": 87 }
+      {
+        "year": 1950,
+        "value": 36
+      },
+      {
+        "year": 1970,
+        "value": 55
+      },
+      {
+        "year": 1990,
+        "value": 75
+      },
+      {
+        "year": 2010,
+        "value": 83
+      },
+      {
+        "year": 2024,
+        "value": 87
+      }
     ]
   },
   "nuance": "Global literacy figures mask significant regional disparities. Sub-Saharan Africa and parts of South Asia still have adult literacy rates below 65%, and the gender gap — while narrowing — persists in many countries. Functional literacy, meaning the ability to actually use reading in daily life rather than merely decode simple sentences, is harder to measure and almost certainly lower than the headline number suggests.",
@@ -65,7 +80,7 @@
     "correct": "I knew this one -- which means I'm probably about to get the next three wrong. possiblist.io/q/global-literacy-miracle",
     "score": null
   },
-  "emailDigestLine": "In 1950, most humans could not read. In 2024, most can. This happened so gradually that almost nobody noticed humanity acquiring its most fundamental skill.",
+  "emailDigestLine": "In 1950, most humans could not read. By 2024, 87% can. The largest skill acquisition in history happened so quietly nobody noticed.",
   "premiumTeaser": "The headline number is remarkable enough, but the deeper story involves how literacy was measured in the first place — early surveys literally asked people to sign their name, which tells you less than you might hope — and what happens to societies when they cross the threshold from mostly illiterate to mostly literate. The economic and political consequences turn out to be even more dramatic than you would expect.",
   "b2bClassroomNote": "Classroom discussion: Ask students to estimate global literacy before revealing the answer. Connects to SDG 4 (Quality Education) and the history of mass schooling. Pair with UNESCO's literacy timeline for visual context and discuss the difference between basic and functional literacy.",
   "publishingRecommendation": "PUBLISH AS-IS",
@@ -82,7 +97,7 @@
       "url": "https://possiblist.io/give/pratham",
       "directUrl": "https://www.pratham.org/donate/",
       "description": "Pratham works on the gap between the headline literacy number and what children can actually read. Their structured reading programmes address the functional literacy challenge the nuance section describes.",
-      "impact": "\u00a310 = one child in a structured reading programme for a year",
+      "impact": "£10 = one child in a structured reading programme for a year",
       "rating": "GiveWell Top Charity"
     },
     "act": {

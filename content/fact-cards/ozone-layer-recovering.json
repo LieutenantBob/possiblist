@@ -34,15 +34,30 @@
     "trendLabel": "Depleted → recovering, full repair by ~2066",
     "chartType": "line",
     "chartData": [
-      { "year": 1980, "value": 280 },
-      { "year": 1995, "value": 100 },
-      { "year": 2000, "value": 110 },
-      { "year": 2010, "value": 140 },
-      { "year": 2024, "value": 180 }
+      {
+        "year": 1980,
+        "value": 280
+      },
+      {
+        "year": 1995,
+        "value": 100
+      },
+      {
+        "year": 2000,
+        "value": 110
+      },
+      {
+        "year": 2010,
+        "value": 140
+      },
+      {
+        "year": 2024,
+        "value": 180
+      }
     ]
   },
   "nuance": "Recovery is real but slow — the ozone layer will not be fully restored until the 2060s because CFCs persist in the atmosphere for decades. There have also been setbacks: illegal CFC emissions were detected from eastern China around 2018, temporarily slowing progress. And the Montreal Protocol benefited from conditions that climate change does not share — the chemicals had clear substitutes, the affected industries were concentrated, and the science was unambiguous early on.",
-  "brysonAside": "The Montreal Protocol is arguably the most successful international environmental treaty ever signed, and yet if you mentioned it at a dinner party, most people would assume you were talking about a Jason Bourne film. It solved a genuine existential threat through global cooperation, rational policy, and prompt action — which may be why we find it so difficult to remember. It doesn't fit any of our favourite narratives.",
+  "brysonAside": "The Montreal Protocol may be the most successful international treaty ever signed. It identified a problem, agreed on a solution, and the solution worked. If you mentioned this at a dinner party, most people would assume you were talking about a Jason Bourne film.",
   "sources": [
     {
       "name": "NASA Ozone Watch",
