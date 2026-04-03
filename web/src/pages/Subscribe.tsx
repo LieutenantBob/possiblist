@@ -266,7 +266,7 @@ export function Subscribe() {
           className="font-italic italic text-center mt-6 text-sm"
           style={{ color: 'var(--mist)' }}
         >
-          The price stays the same. What the movement can do grows with every member who joins.
+          The price stays the same. What the movement can do grows with every member who joins — slowly at first, then with the quiet inevitability of a well-sourced footnote.
         </p>
       </div>
 
