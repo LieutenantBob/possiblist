@@ -2,6 +2,7 @@ import { handleQuiz } from './quiz'
 import { handleSubscription } from './subscription'
 import { handleEmail } from './email'
 import { handleAuth } from './auth'
+import { handleScheduled } from './cron'
 
 export interface Env {
   SESSIONS: KVNamespace
@@ -63,6 +64,10 @@ export default {
     } catch {
       return addCors(json({ error: 'Something has gone wrong. This is unusual.' }, 500), origin)
     }
+  },
+
+  async scheduled(event: ScheduledEvent, env: Env): Promise<void> {
+    await handleScheduled(event, env)
   },
 }
 

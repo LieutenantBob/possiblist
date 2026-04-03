@@ -10,10 +10,19 @@ preview_id = "placeholder-sessions-kv-preview-id"
 [vars]
 ALLOWED_ORIGIN = "https://possiblist.io"
 
+# Scheduled cron triggers
+[triggers]
+crons = [
+  "0 0 * * 0",     # Sunday midnight UTC — content performance aggregation
+  "0 8 * * 1",     # Monday 8am UTC — social asset generation + newsletter
+  "0 0 1 * *",     # 1st of month midnight — voice calibration + fact freshness
+  "0 0 1 1,4,7,10 *"  # Quarterly — research refresh alert
+]
+
 # Secrets — configure via `wrangler secret put <NAME>`:
-# STRIPE_SECRET_KEY
-# STRIPE_WEBHOOK_SECRET
-# STRIPE_PRICE_ANNUAL
-# STRIPE_PRICE_MONTHLY
-# RESEND_API_KEY
-# RESEND_AUDIENCE_ID
+# STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET
+# STRIPE_PRICE_ANNUAL, STRIPE_PRICE_MONTHLY
+# RESEND_API_KEY, RESEND_AUDIENCE_ID
+# GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET
+# APPLE_CLIENT_ID, APPLE_CLIENT_SECRET, APPLE_TEAM_ID, APPLE_KEY_ID
+# META_CLIENT_ID, META_CLIENT_SECRET
