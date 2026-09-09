@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The cumulative count is higher than most expect, but the snapshot is less encouraging. At any given moment, only about 10-15% of countries have a woman in the top role. Many of these tenures were brief, some were ceremonial, and the pipeline to leadership remains spectacularly leaky. Progress is real but neither linear nor irreversible.",
-  "brysonAside": "Sirimavo Bandaranaike of Sri Lanka became the world's first female prime minister in 1960, and you could be forgiven for thinking the rest of the world would have taken the hint rather more quickly than it did.",
+  "aside": "Sirimavo Bandaranaike of Sri Lanka became the world's first female prime minister in 1960, and you could be forgiven for thinking the rest of the world would have taken the hint rather more quickly than it did.",
   "sources": [
     {
       "name": "UN Women — Women in Politics",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "women-leading-countries",
   "shareText": {
-    "wrong": "I underestimated how many countries have had a woman leader — and 64% of people do too. possiblist.io/q/women-leading-countries",
-    "correct": "I correctly guessed that ~60+ countries have had a woman head of state. How about you? possiblist.io/q/women-leading-countries",
+    "wrong": "I underestimated how many countries have had a woman leader — and 64% of people do too. possiblist.net/q/women-leading-countries",
+    "correct": "I correctly guessed that ~60+ countries have had a woman head of state. How about you? possiblist.net/q/women-leading-countries",
     "score": null
   },
   "emailDigestLine": "Around 70 countries have had a woman as head of state or government — roughly double what most people guess, and still far fewer than it should be.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "She Should Run",
-      "url": "https://possiblist.io/give/she-should-run",
+      "url": "https://possiblist.net/give/she-should-run",
       "directUrl": "https://sheshouldrun.org/donate/",
       "description": "She Should Run builds the pipeline this chart needs to keep climbing — encouraging and supporting women who are considering running for office but have not yet taken the step.",
       "impact": "Pipeline programmes for women entering politics",

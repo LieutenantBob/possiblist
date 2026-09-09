@@ -29,15 +29,15 @@ describe('Voice compliance', () => {
     }
   })
 
-  it('every brysonAside is between 50 and 400 characters', () => {
+  it('every aside is between 50 and 400 characters', () => {
     for (const card of cards) {
       expect(
-        card.brysonAside.length,
-        `${card.slug} brysonAside is ${card.brysonAside.length} chars (expected 50-400)`
+        card.aside.length,
+        `${card.slug} aside is ${card.aside.length} chars (expected 50-400)`
       ).toBeGreaterThanOrEqual(50)
       expect(
-        card.brysonAside.length,
-        `${card.slug} brysonAside is ${card.brysonAside.length} chars (expected 50-400)`
+        card.aside.length,
+        `${card.slug} aside is ${card.aside.length} chars (expected 50-400)`
       ).toBeLessThanOrEqual(400)
     }
   })

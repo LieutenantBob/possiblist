@@ -11,7 +11,10 @@ export function Header() {
   const possiblistScore = total > 0 ? Math.round((correct / total) * 100) : 0
 
   return (
-    <header className="w-full px-4 py-4 flex items-center justify-between max-w-3xl mx-auto">
+    <header
+      className="w-full px-4 py-4 flex items-center justify-between max-w-3xl mx-auto"
+      style={{ borderBottom: '1px solid var(--verdigris-10)' }}
+    >
       <Link to="/" className="wordmark text-2xl no-underline" style={{ color: 'var(--deep)' }}>
         Possiblist<span className="wordmark-degree">°</span>
       </Link>
@@ -20,7 +23,7 @@ export function Header() {
         {/* Possiblist Score — always visible once quiz started */}
         {total > 0 && (
           <Link
-            to="/score"
+            to="/quiz"
             className="font-mono text-xs no-underline"
             style={{ color: 'var(--mist)' }}
           >

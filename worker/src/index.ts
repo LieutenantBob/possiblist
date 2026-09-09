@@ -42,7 +42,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url)
     const path = url.pathname
-    const origin = env.ALLOWED_ORIGIN || 'https://possiblist.io'
+    const origin = env.ALLOWED_ORIGIN || 'https://possiblist.net'
 
     if (request.method === 'OPTIONS') {
       return new Response(null, { headers: corsHeaders(origin) })

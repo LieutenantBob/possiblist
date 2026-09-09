@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://possiblist.io/sitemap.xml
+Sitemap: https://possiblist.net/sitemap.xml

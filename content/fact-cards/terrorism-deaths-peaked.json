@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The decline is concentrated in Iraq, Syria, and Nigeria — the countries where the 2014 peak was driven. Terrorism deaths in the Sahel region have actually increased. The definition of 'terrorism' remains contested and varies between databases, which affects the numbers. Lone-actor attacks in Western countries, while statistically rare, generate disproportionate media coverage, which helps explain the perception gap. Any single attack can reverse trends temporarily, and the underlying grievances that fuel terrorism have not disappeared.",
-  "brysonAside": "The human brain, it turns out, is spectacularly bad at updating its threat assessment when the threat decreases. We are, evolutionarily speaking, much better at remembering the rustle in the bushes that turned out to be a leopard than the thousands of rustles that turned out to be the wind. This is excellent for surviving on the savanna and rather less useful for reading the news.",
+  "aside": "The human brain, it turns out, is spectacularly bad at updating its threat assessment when the threat decreases. We are, evolutionarily speaking, much better at remembering the rustle in the bushes that turned out to be a leopard than the thousands of rustles that turned out to be the wind. This is excellent for surviving on the savanna and rather less useful for reading the news.",
   "sources": [
     {
       "name": "Global Terrorism Database (START, University of Maryland)",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "terrorism-deaths-peaked",
   "shareText": {
-    "wrong": "I assumed terrorism deaths were still rising. They've fallen by over 80% since 2014. 65% of people get this wrong. possiblist.io/q/terrorism-deaths-peaked",
-    "correct": "I knew terrorism deaths had fallen sharply — but most people don't. possiblist.io/q/terrorism-deaths-peaked",
+    "wrong": "I assumed terrorism deaths were still rising. They've fallen by over 80% since 2014. 65% of people get this wrong. possiblist.net/q/terrorism-deaths-peaked",
+    "correct": "I knew terrorism deaths had fallen sharply — but most people don't. possiblist.net/q/terrorism-deaths-peaked",
     "score": null
   },
   "emailDigestLine": "Terrorism deaths have fallen by more than 80% since 2014, but our anxiety never got the memo.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "International Crisis Group",
-      "url": "https://possiblist.io/give/international-crisis-group",
+      "url": "https://possiblist.net/give/international-crisis-group",
       "directUrl": "https://www.crisisgroup.org/donate",
       "description": "ICG does conflict prevention and early warning research — the kind of work that bends curves like this one downward before the crisis makes the news.",
       "impact": "Conflict prevention and early warning research",

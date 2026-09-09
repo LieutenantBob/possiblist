@@ -4,20 +4,20 @@ compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "placeholder-sessions-kv-id"
-preview_id = "placeholder-sessions-kv-preview-id"
+id = "c7f045fa50a7416c88bffe454245efdc"
+preview_id = "028d2278bc794f5aa33a280d60c88b00"
 
 [vars]
-ALLOWED_ORIGIN = "https://possiblist.io"
+ALLOWED_ORIGIN = "https://possiblist.net"
 
-# Scheduled cron triggers
+# Scheduled cron trigger — single schedule, handler gates by day/date/month.
+# Fires at 00:00 and 08:00 UTC daily. See worker/src/cron.ts for per-loop guards:
+#   - Sunday 00:00 UTC       → content performance aggregation
+#   - Monday 08:00 UTC       → social asset generation + newsletter
+#   - 1st of month 00:00 UTC → voice calibration + fact freshness
+#   - Quarterly 1st 00:00    → research refresh alert
 [triggers]
-crons = [
-  "0 0 * * 0",     # Sunday midnight UTC — content performance aggregation
-  "0 8 * * 1",     # Monday 8am UTC — social asset generation + newsletter
-  "0 0 1 * *",     # 1st of month midnight — voice calibration + fact freshness
-  "0 0 1 1,4,7,10 *"  # Quarterly — research refresh alert
-]
+crons = ["0 0,8 * * *"]
 
 # Secrets — configure via `wrangler secret put <NAME>`:
 # STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET

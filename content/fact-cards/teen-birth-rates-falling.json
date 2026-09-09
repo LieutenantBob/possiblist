@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The global average masks enormous regional variation. Sub-Saharan Africa's teen birth rate remains above 90 per 1,000 in some countries, while in East Asia it is below 5. Within countries, rural rates are often two to three times higher than urban ones, and rates among the poorest quintile can be five times those of the wealthiest. Child marriage remains a major driver in the countries where rates are highest. Progress is real but deeply unequal.",
-  "brysonAside": "There is something faintly marvellous about the fact that the single most effective intervention for reducing teen pregnancies turns out to be keeping girls in school — which also happens to reduce poverty, improve child health, slow population growth, and boost economic output. It is as if someone designed a policy lever and then accidentally made it work for everything.",
+  "aside": "There is something faintly marvellous about the fact that the single most effective intervention for reducing teen pregnancies turns out to be keeping girls in school — which also happens to reduce poverty, improve child health, slow population growth, and boost economic output. It is as if someone designed a policy lever and then accidentally made it work for everything.",
   "sources": [
     {
       "name": "World Bank — Adolescent fertility rate",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "teen-birth-rates-falling",
   "shareText": {
-    "wrong": "I didn't know teen birth rates have more than halved since 1990. 60% of people get this wrong. possiblist.io/q/teen-birth-rates-falling",
-    "correct": "I knew teen birth rates had plummeted — but most people assume nothing changed. possiblist.io/q/teen-birth-rates-falling",
+    "wrong": "I didn't know teen birth rates have more than halved since 1990. 60% of people get this wrong. possiblist.net/q/teen-birth-rates-falling",
+    "correct": "I knew teen birth rates had plummeted — but most people assume nothing changed. possiblist.net/q/teen-birth-rates-falling",
     "score": null
   },
   "emailDigestLine": "Teen birth rates have more than halved worldwide since 1990, driven largely by keeping girls in school.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Population Services International",
-      "url": "https://possiblist.io/give/psi",
+      "url": "https://possiblist.net/give/psi",
       "directUrl": "https://www.psi.org/donate/",
       "description": "PSI delivers reproductive health services in over 40 countries — directly serving the populations where this chart's decline is happening right now.",
       "impact": "Reproductive health services in 40+ countries",

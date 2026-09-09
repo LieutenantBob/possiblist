@@ -57,7 +57,7 @@
     ]
   },
   "nuance": "Recovery is real but slow — the ozone layer will not be fully restored until the 2060s because CFCs persist in the atmosphere for decades. There have also been setbacks: illegal CFC emissions were detected from eastern China around 2018, temporarily slowing progress. And the Montreal Protocol benefited from conditions that climate change does not share — the chemicals had clear substitutes, the affected industries were concentrated, and the science was unambiguous early on.",
-  "brysonAside": "The Montreal Protocol may be the most successful international treaty ever signed. It identified a problem, agreed on a solution, and the solution worked. If you mentioned this at a dinner party, most people would assume you were talking about a Jason Bourne film.",
+  "aside": "The Montreal Protocol may be the most successful international treaty ever signed. It identified a problem, agreed on a solution, and the solution worked. If you mentioned this at a dinner party, most people would assume you were talking about a Jason Bourne film.",
   "sources": [
     {
       "name": "NASA Ozone Watch",
@@ -76,8 +76,8 @@
   ],
   "editorialSlug": "ozone-layer-recovering",
   "shareText": {
-    "wrong": "I didn't know the ozone layer is actually recovering — and 55% of people don't either. possiblist.io/q/ozone-layer-recovering",
-    "correct": "I knew the ozone layer is recovering — but most people have no idea. possiblist.io/q/ozone-layer-recovering",
+    "wrong": "I didn't know the ozone layer is actually recovering — and 55% of people don't either. possiblist.net/q/ozone-layer-recovering",
+    "correct": "I knew the ozone layer is recovering — but most people have no idea. possiblist.net/q/ozone-layer-recovering",
     "score": null
   },
   "emailDigestLine": "The ozone layer is recovering — on track for full repair by 2066 — and most people either don't know or assume we failed. We didn't.",
@@ -94,7 +94,7 @@
     },
     "fund": {
       "org": "UNEP Ozone Secretariat (via UNEP)",
-      "url": "https://possiblist.io/give/unep",
+      "url": "https://possiblist.net/give/unep",
       "directUrl": "https://www.unep.org/donate/",
       "description": "UNEP maintains and enforces the Montreal Protocol — the treaty that bent this chart's line back upward. Supporting UNEP keeps the institutional infrastructure of the most successful environmental agreement in history funded.",
       "impact": "Maintains Montreal Protocol enforcement",

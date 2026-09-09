@@ -9,7 +9,7 @@ description: >
   that", "what's the real number", "misconception", "myth vs reality", "produce a fact card",
   "check the data", or any request to research global statistics on health, poverty,
   education, gender, climate, crime, or economic development. ALWAYS use this skill when
-  producing content for Possiblist (possiblist.io).
+  producing content for Possiblist (possiblist.net).
 ---
 
 # Fact-Checker: Parallel Multi-Agent Verification Skill
@@ -100,7 +100,7 @@ Write decomposition out before spawning agents.
 - Prefer Tier 1; Tier 2 acceptable if needed
 - If figures broadly agree (within 10%): record as corroborating
 - If figures diverge (>20%): flag as CONFLICT
-- Also hunt for: the `brysonAside` — the most surprising specific sub-statistic,
+- Also hunt for: the `aside` — the most surprising specific sub-statistic,
   more astonishing than the headline figure, goes in the premium article section
 
 ### Agent Gamma — Devil's Advocate & Cross-Check
@@ -180,7 +180,7 @@ The `possiblist-voice` skill and the build prompt both depend on this structure.
 
   "nuance": "[1–2 sentences. The Gamma complication. Displayed at full visual weight on the reveal page — never a footnote.]",
 
-  "brysonAside": "[The single most surprising sub-statistic. More astonishing than the headline. Goes in the premium article section. Bryson would say 'I had to read that three times.']",
+  "aside": "[The single most surprising sub-statistic. More astonishing than the headline. Goes in the premium article section. Bryson would say 'I had to read that three times.']",
 
   "sources": [
     {
@@ -195,8 +195,8 @@ The `possiblist-voice` skill and the build prompt both depend on this structure.
   "editorialSlug": "[same as slug]",
 
   "shareText": {
-    "wrong": "I just found out I was wrong about [topic] — and I was in good company. [X]% of people get this wrong. possiblist.io/q/[slug]",
-    "correct": "I actually got one right on Possiblist — [topic]. I'm still wrong about most things. Are you? possiblist.io/q/[slug]",
+    "wrong": "I just found out I was wrong about [topic] — and I was in good company. [X]% of people get this wrong. possiblist.net/q/[slug]",
+    "correct": "I actually got one right on Possiblist — [topic]. I'm still wrong about most things. Are you? possiblist.net/q/[slug]",
     "score": null
   },
 
@@ -297,7 +297,7 @@ For rapid bulk production (human review required before publish):
 1. Run Alpha and Beta only (skip Gamma)
 2. If agree within 15%: mark `status: "fast-verified"` — NOT publishable as-is
 3. Queue Gamma before final publish
-4. Leave `nuance`, `brysonAside`, `premiumTeaser` as `null` until full verification
+4. Leave `nuance`, `aside`, `premiumTeaser` as `null` until full verification
 
 Never deploy a fast-verified card to production.
 
@@ -318,8 +318,8 @@ Never deploy a fast-verified card to production.
 - [ ] `summary` is a hook, does not give away the full story
 - [ ] `emailDigestLine` does not spoil quiz answer
 - [ ] `premiumTeaser` creates genuine desire to become a Possiblist
-- [ ] `shareText.wrong` and `shareText.correct` reference possiblist.io
-- [ ] `brysonAside` is more surprising than the headline figure
+- [ ] `shareText.wrong` and `shareText.correct` reference possiblist.net
+- [ ] `aside` is more surprising than the headline figure
 
 **Integrity**
 - [ ] Gamma nuance present, non-trivial, proportionate

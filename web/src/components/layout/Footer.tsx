@@ -15,6 +15,8 @@ export function Footer() {
         <nav className="flex flex-wrap gap-x-4 gap-y-1 justify-center md:justify-start">
           {[
             { to: '/', label: 'Home' },
+            { to: '/quiz', label: 'Quiz' },
+            { to: '/explore', label: 'Explore' },
             { to: '/about', label: 'About' },
             { to: '/manifesto', label: 'Manifesto' },
             { to: '/research', label: 'Research' },
@@ -30,6 +32,11 @@ export function Footer() {
             </Link>
           ))}
         </nav>
+
+        {/* Possiblist mark */}
+        <p className="font-mono text-[0.6rem] tracking-wider" style={{ color: 'var(--verdigris)', opacity: 0.6 }}>
+          possiblist.net
+        </p>
 
         {/* Acknowledgement */}
         <p

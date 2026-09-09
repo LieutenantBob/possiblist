@@ -83,11 +83,13 @@ export function getEditorial(slug: string): Editorial | undefined {
   const { frontmatter, body } = parseEditorialFrontmatter(raw)
 
   const parts = body.split('<!-- PAYWALL -->')
-  // Premium content is NOT included in the client bundle.
+  // Premium content is NOT included in the client bundle — except for free articles.
+  const FREE_ARTICLE_SLUGS = ['extreme-poverty-declining', 'ai-worldview-misconceptions']
+  const isFreeArticle = FREE_ARTICLE_SLUGS.includes(frontmatter.slug as string)
   return {
     frontmatter,
     freeContent: parts[0]?.trim() ?? '',
-    premiumContent: '',
+    premiumContent: isFreeArticle ? (parts[1]?.trim() ?? '') : '',
   }
 }
 

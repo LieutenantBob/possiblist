@@ -57,7 +57,7 @@
     ]
   },
   "nuance": "The global average conceals real disparities. Airlines in North America, Europe, and East Asia have safety records several times better than the global mean. Some regions still operate with older fleets, less rigorous maintenance regimes, and weaker regulatory oversight. The improvement is also partly a story of survivorship — airlines with poor safety records tend to go out of business, one way or another.",
-  "brysonAside": "The truly maddening thing about aviation safety is that the better it gets, the more terrified people become of the vanishingly rare exceptions. A person who happily drives to the airport through statistically murderous traffic will then grip the armrest during mild turbulence with the quiet conviction that physics has finally decided to stop working.",
+  "aside": "The truly maddening thing about aviation safety is that the better it gets, the more terrified people become of the vanishingly rare exceptions. A person who happily drives to the airport through statistically murderous traffic will then grip the armrest during mild turbulence with the quiet conviction that physics has finally decided to stop working.",
   "sources": [
     {
       "name": "Aviation Safety Network",
@@ -76,8 +76,8 @@
   ],
   "editorialSlug": "air-travel-safety",
   "shareText": {
-    "wrong": "I underestimated how safe flying has become — it is 100 times safer than in the 1970s. My gut instinct was off by a factor of ten. possiblist.io/q/air-travel-safety",
-    "correct": "I correctly guessed that flying is 100 times safer than in the 1970s. My amygdala is furious. possiblist.io/q/air-travel-safety",
+    "wrong": "I underestimated how safe flying has become — it is 100 times safer than in the 1970s. My gut instinct was off by a factor of ten. possiblist.net/q/air-travel-safety",
+    "correct": "I correctly guessed that flying is 100 times safer than in the 1970s. My amygdala is furious. possiblist.net/q/air-travel-safety",
     "score": null
   },
   "emailDigestLine": "Flying is now a hundred times safer than in the 1970s. Your nervous system will never believe this, but the data is unambiguous.",
@@ -94,7 +94,7 @@
     },
     "fund": {
       "org": "Engineers Without Borders",
-      "url": "https://possiblist.io/give/engineers-without-borders",
+      "url": "https://possiblist.net/give/engineers-without-borders",
       "directUrl": "https://www.ewb-uk.org/support-us/",
       "description": "No charity maps directly to aviation safety, but infrastructure safety in developing nations is the closest cousin. EWB works on the engineering standards that make transport systems — air and ground — safer where they are needed most.",
       "impact": "Infrastructure safety in developing nations",

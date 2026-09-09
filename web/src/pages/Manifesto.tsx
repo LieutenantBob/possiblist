@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 // In production this could be fetched, but for v1 we inline the key sections
 export function Manifesto() {
   return (
-    <div className="max-w-[680px] mx-auto px-4 py-12 md:py-20" style={{ backgroundColor: 'var(--chalk)' }}>
+    <div className="max-w-[680px] mx-auto px-4 py-12 md:py-20">
       <h1
         className="font-display font-semibold text-center mb-3"
         style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--deep)', lineHeight: 1.15 }}
@@ -67,7 +67,7 @@ export function Manifesto() {
       {/* CTA */}
       <div className="text-center mt-12 space-y-4">
         <Link
-          to="/"
+          to="/quiz"
           className="inline-block px-10 py-4 rounded-lg font-body font-semibold no-underline"
           style={{ backgroundColor: 'var(--verdigris)', color: 'var(--parchment)', fontSize: '1.1rem' }}
         >

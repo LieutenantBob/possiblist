@@ -41,7 +41,7 @@
     ]
   },
   "nuance": "Progress has been uneven. Sub-Saharan Africa has seen the number of people in extreme poverty rise, not fall. And the poverty line itself was revised upward in 2025, changing the count without changing underlying reality.",
-  "brysonAside": "On any average day over the past thirty-five years, approximately a hundred and fifteen thousand people left extreme poverty behind. Every day. For thirty-five years.",
+  "aside": "On any average day over the past thirty-five years, approximately a hundred and fifteen thousand people left extreme poverty behind. Every day. For thirty-five years.",
   "sources": [
     {
       "name": "World Bank Poverty & Inequality Platform",
@@ -60,8 +60,8 @@
   ],
   "editorialSlug": "extreme-poverty-declining",
   "shareText": {
-    "wrong": "I just found out I was wrong about global poverty — and I was in good company. 74% of people get this wrong. possiblist.io/q/extreme-poverty-declining",
-    "correct": "I actually got one right on Possiblist — still wrong about most things though. Are you? possiblist.io/q/extreme-poverty-declining",
+    "wrong": "I just found out I was wrong about global poverty — and I was in good company. 74% of people get this wrong. possiblist.net/q/extreme-poverty-declining",
+    "correct": "I actually got one right on Possiblist — still wrong about most things though. Are you? possiblist.net/q/extreme-poverty-declining",
     "score": null
   },
   "emailDigestLine": "The world's largest reduction in human deprivation in recorded history happened so quietly that most people believe the opposite occurred.",
@@ -78,7 +78,7 @@
     },
     "fund": {
       "org": "GiveDirectly",
-      "url": "https://possiblist.io/give/givedirectly",
+      "url": "https://possiblist.net/give/givedirectly",
       "directUrl": "https://www.givedirectly.org/donate/",
       "description": "GiveDirectly sends cash transfers to extremely poor households with no strings attached — the kind of direct intervention that moves people across the poverty line this chart tracks.",
       "impact": "$30 = one month cash transfer to one household",

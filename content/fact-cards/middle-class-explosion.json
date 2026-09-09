@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The $10-$100/day definition of middle income is broad enough to encompass enormous variation in lived experience — a family at $11/day in Lagos faces a radically different reality than one at $90/day in Shanghai. The expansion has also been geographically uneven, driven overwhelmingly by Asia and particularly China. Much of Sub-Saharan Africa has seen far slower growth. And middle-income status can be precarious: economic shocks, health crises, or conflict can push millions back below the threshold in months.",
-  "brysonAside": "Here is a number that ought to rearrange your mental furniture: every single day for the past several decades, roughly a quarter of a million people have joined the global middle class. That is a mid-sized city, every day, switching from survival mode to something resembling a consumer economy. You would think someone would have mentioned it.",
+  "aside": "Here is a number that ought to rearrange your mental furniture: every single day for the past several decades, roughly a quarter of a million people have joined the global middle class. That is a mid-sized city, every day, switching from survival mode to something resembling a consumer economy. You would think someone would have mentioned it.",
   "sources": [
     {
       "name": "Brookings Institution — The Unprecedented Expansion of the Global Middle Class",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "middle-class-explosion",
   "shareText": {
-    "wrong": "I guessed wrong about the global middle class. Half of humanity — 4 billion people — now lives at middle-income level. I had no idea. possiblist.io/q/middle-class-explosion",
-    "correct": "I knew half the world was now middle income. Apparently 61% of people do not. Are you in the majority? possiblist.io/q/middle-class-explosion",
+    "wrong": "I guessed wrong about the global middle class. Half of humanity — 4 billion people — now lives at middle-income level. I had no idea. possiblist.net/q/middle-class-explosion",
+    "correct": "I knew half the world was now middle income. Apparently 61% of people do not. Are you in the majority? possiblist.net/q/middle-class-explosion",
     "score": null
   },
   "emailDigestLine": "Roughly four billion people now live at middle-income level — half of humanity. Most people guess the number is a quarter of that or less.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "BRAC",
-      "url": "https://possiblist.io/give/brac",
+      "url": "https://possiblist.net/give/brac",
       "directUrl": "https://www.brac.net/donate",
       "description": "BRAC is the world's largest NGO, running microfinance and enterprise development programmes that help people move from the bottom of this chart's income range into the middle. They operate where the 1 billion to 4 billion growth actually happened.",
       "impact": "Microfinance and enterprise development — largest NGO in the world",

@@ -129,7 +129,7 @@ export function SubscribeSuccess() {
               The quiz is waiting. Your wrong answers are about to get considerably more interesting.
             </p>
             <Link
-              to="/"
+              to="/quiz"
               className="inline-block px-8 py-3 rounded-lg font-body font-semibold no-underline"
               style={{ backgroundColor: 'var(--verdigris)', color: 'var(--parchment)', fontSize: '1rem' }}
             >

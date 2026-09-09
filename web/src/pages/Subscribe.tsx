@@ -37,7 +37,7 @@ export function Subscribe() {
           charts caused national scandals.
         </p>
         <p className="font-body leading-relaxed" style={{ fontSize: '1.05rem', color: 'var(--ink)' }}>
-          There are Bryson-style asides — the kind of fact that makes you put down
+          There are asides — the kind of fact that makes you put down
           your phone and say it out loud to whoever is nearest. There are nuances
           that the headline figure deliberately conceals, because headlines are
           not designed for honesty; they are designed for attention.
@@ -147,7 +147,7 @@ export function Subscribe() {
         </p>
         <div className="space-y-3">
           {[
-            'The full story behind every number — historical detours, Bryson asides, genuine questions',
+            'The full story behind every number — historical detours, surprising asides, genuine questions',
             'Where This Number Moves — the organisations, the data, and the lever',
             '20% match on every donation through Possiblist action cards',
             'Voting rights on Possiblist Grants',

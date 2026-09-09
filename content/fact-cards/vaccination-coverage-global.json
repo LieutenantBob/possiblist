@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The global average conceals stubborn pockets of under-vaccination. About 14 million children still receive zero routine vaccine doses each year — so-called 'zero-dose' children — concentrated in conflict zones and remote rural areas. COVID-19 disrupted immunisation campaigns in 2020-2021, causing a temporary dip, and recovery has been uneven. Vaccine hesitancy in high-income countries, meanwhile, threatens coverage from the other direction.",
-  "brysonAside": "Consider the logistics: delivering temperature-sensitive vials to 130 million newborns a year, across deserts, mountains, and monsoon seasons, in countries where the postal service sometimes cannot deliver a letter. And yet it works. One begins to suspect that humans are considerably better at organising things when nobody is trying to take credit.",
+  "aside": "Consider the logistics: delivering temperature-sensitive vials to 130 million newborns a year, across deserts, mountains, and monsoon seasons, in countries where the postal service sometimes cannot deliver a letter. And yet it works. One begins to suspect that humans are considerably better at organising things when nobody is trying to take credit.",
   "sources": [
     {
       "name": "WHO/UNICEF Estimates of National Immunization Coverage (WUENIC)",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "vaccination-coverage-global",
   "shareText": {
-    "wrong": "I had no idea 86% of the world's babies are vaccinated. 72% of people get this wrong too. possiblist.io/q/vaccination-coverage-global",
-    "correct": "I knew global vaccination was higher than most think — but try the next one. possiblist.io/q/vaccination-coverage-global",
+    "wrong": "I had no idea 86% of the world's babies are vaccinated. 72% of people get this wrong too. possiblist.net/q/vaccination-coverage-global",
+    "correct": "I knew global vaccination was higher than most think — but try the next one. possiblist.net/q/vaccination-coverage-global",
     "score": null
   },
   "emailDigestLine": "From one in five to nearly nine in ten — the quiet triumph of the cold chain and the community health worker.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "UNICEF Supply Division",
-      "url": "https://possiblist.io/give/unicef",
+      "url": "https://possiblist.net/give/unicef",
       "directUrl": "https://www.unicef.org/donate",
       "description": "UNICEF procures and delivers vaccines to over 100 countries. The 86% coverage figure on this chart is, in large part, UNICEF's supply chain made visible in data.",
       "impact": "$2 = enough vaccine doses to protect one child against polio",

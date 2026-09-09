@@ -110,8 +110,8 @@ export function MyPossiblist() {
               const score = Math.round(((stats.total - stats.wrong) / stats.total) * 100)
               share({
                 title: 'My Possiblist Score',
-                text: `I'm a ${score}% Possiblist. Wrong ${stats.wrong} times out of ${stats.total} — but wiser each time. How wrong are you? possiblist.io`,
-                url: 'https://possiblist.io',
+                text: `I'm a ${score}% Possiblist. Wrong ${stats.wrong} times out of ${stats.total} — but wiser each time. How wrong are you? possiblist.net`,
+                url: 'https://possiblist.net',
               })
             }}
             className="px-6 py-2.5 rounded-lg font-mono text-xs cursor-pointer border"
@@ -197,7 +197,7 @@ export function MyPossiblist() {
       {/* Quick actions */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         <Link
-          to="/"
+          to="/quiz"
           className="p-5 rounded-lg no-underline text-center"
           style={{ backgroundColor: 'var(--chalk)', border: '1px solid var(--deep-05)', color: 'var(--deep)' }}
         >

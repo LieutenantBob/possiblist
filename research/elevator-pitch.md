@@ -16,7 +16,7 @@
 >
 > Members don't just learn the numbers — they see where the numbers come from, fund the organisations whose work appears in the charts (with a 20% match), and form evidence-based positions collectively. Not a subscription. A membership in a movement for the calm, rational majority.
 >
-> possiblist.io
+> possiblist.net
 
 ---
 
@@ -36,7 +36,7 @@
 >
 > The loud get organised. The calm, until now, have not. Possiblist is where that changes.
 >
-> possiblist.io
+> possiblist.net
 
 ---
 
@@ -54,8 +54,8 @@ But it's becoming something more: a movement for the calm, rational majority. Me
 
 We also ran original research: the AI Worldview Benchmark. We tested four major AI models on Gapminder-style questions using 20 different prompt framings. The result was surprising — AI isn't wrong like humans. It's wrong in a fundamentally different way.
 
-I thought you'd find it interesting. The manifesto is here: possiblist.io/manifesto
-The quiz is here: possiblist.io
+I thought you'd find it interesting. The manifesto is here: possiblist.net/manifesto
+The quiz is here: possiblist.net
 
 Would love to hear what you think.
 
@@ -70,7 +70,7 @@ Would love to hear what you think.
 >
 > Possiblist is a movement for people who would rather be accurate than loud. 21 questions. Your worldview may not survive.
 >
-> possiblist.io
+> possiblist.net
 
 ### LinkedIn
 > I built Possiblist — a quiz-and-editorial platform inspired by Hans Rosling's Factfulness.
@@ -81,7 +81,7 @@ Would love to hear what you think.
 >
 > The loud get organised. The calm, until now, have not.
 >
-> possiblist.io
+> possiblist.net
 
 ### Instagram / Threads
 > Most people are spectacularly wrong about the state of the world.
@@ -91,7 +91,7 @@ Would love to hear what you think.
 > Possiblist° — a movement for people who would rather be accurate than loud.
 >
 > 21 questions. How wrong are you?
-> possiblist.io
+> possiblist.net
 
 ---
 

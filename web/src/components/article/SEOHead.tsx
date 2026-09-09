@@ -14,7 +14,7 @@ export function SEOHead({ factCard, editorial }: SEOHeadProps) {
     setMeta('description', factCard.metaDescription)
     setMeta('og:title', title, 'property')
     setMeta('og:description', factCard.metaDescription, 'property')
-    setMeta('og:image', `https://possiblist.io/og/${factCard.slug}.png`, 'property')
+    setMeta('og:image', `https://possiblist.net/og/${factCard.slug}.png`, 'property')
     setMeta('og:type', 'article', 'property')
 
     // Canonical URL
@@ -24,7 +24,7 @@ export function SEOHead({ factCard, editorial }: SEOHeadProps) {
       canonical.rel = 'canonical'
       document.head.appendChild(canonical)
     }
-    canonical.href = `https://possiblist.io/article/${factCard.slug}`
+    canonical.href = `https://possiblist.net/article/${factCard.slug}`
 
     // JSON-LD
     const jsonLd = {
@@ -33,7 +33,7 @@ export function SEOHead({ factCard, editorial }: SEOHeadProps) {
       headline: editorial.frontmatter.seoHeadline,
       datePublished: editorial.frontmatter.publishedAt,
       author: { '@type': 'Organization', name: 'Possiblist' },
-      image: `https://possiblist.io/og/${factCard.slug}.png`,
+      image: `https://possiblist.net/og/${factCard.slug}.png`,
       description: factCard.metaDescription,
     }
 

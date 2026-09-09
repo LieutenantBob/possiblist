@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The global figure masks enormous regional variation. Sub-Saharan Africa accounts for roughly two-thirds of all maternal deaths worldwide, and progress there has been slower. Some countries — particularly those affected by conflict or with fragile health systems — have seen rates stagnate or even rise. The SDG target of fewer than 70 deaths per 100,000 by 2030 is almost certainly out of reach at current rates of decline. Progress is real, but it is not fast enough.",
-  "brysonAside": "The interventions that saved most of these women's lives are almost comically unglamorous: a trained midwife, a clean room, a bag of the right blood type, and a surgeon who can be reached in time. These are not breakthroughs. They are basics. And the fact that they were unavailable to most of humanity until quite recently tells you something uncomfortable about what we chose to fund first.",
+  "aside": "The interventions that saved most of these women's lives are almost comically unglamorous: a trained midwife, a clean room, a bag of the right blood type, and a surgeon who can be reached in time. These are not breakthroughs. They are basics. And the fact that they were unavailable to most of humanity until quite recently tells you something uncomfortable about what we chose to fund first.",
   "sources": [
     {
       "name": "WHO Maternal Mortality Estimates",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "maternal-mortality-falling",
   "shareText": {
-    "wrong": "I assumed maternal mortality had barely changed. It has fallen by more than a third since 2000. I was in the majority — 63% of people get this wrong. possiblist.io/q/maternal-mortality-falling",
-    "correct": "I knew maternal mortality was falling — but most people assume nothing has changed. Test yourself. possiblist.io/q/maternal-mortality-falling",
+    "wrong": "I assumed maternal mortality had barely changed. It has fallen by more than a third since 2000. I was in the majority — 63% of people get this wrong. possiblist.net/q/maternal-mortality-falling",
+    "correct": "I knew maternal mortality was falling — but most people assume nothing has changed. Test yourself. possiblist.net/q/maternal-mortality-falling",
     "score": null
   },
   "emailDigestLine": "Since 2000, the global rate of women dying in childbirth has fallen by more than a third. Most people believe it has not budged.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "M\u00e9decins Sans Fronti\u00e8res",
-      "url": "https://possiblist.io/give/msf-maternal",
+      "url": "https://possiblist.net/give/msf-maternal",
       "directUrl": "https://www.msf.org/donate",
       "description": "MSF provides obstetric care in crisis settings — the places where this chart's decline has been slowest and the gap between 342 and 223 feels widest.",
       "impact": "\u00a335 = one safe delivery kit",

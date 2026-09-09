@@ -18,7 +18,7 @@ export function Article() {
 
       {/* Back to quiz — top */}
       <div className="max-w-[680px] mx-auto px-4 pt-6">
-        <Link to="/" className="font-mono text-xs no-underline" style={{ color: 'var(--mist)' }}>
+        <Link to="/quiz" className="font-mono text-xs no-underline" style={{ color: 'var(--verdigris)' }}>
           ← Back to quiz
         </Link>
       </div>
@@ -27,7 +27,7 @@ export function Article() {
 
       {/* Back to quiz — bottom */}
       <div className="max-w-[680px] mx-auto px-4 pb-12">
-        <Link to="/" className="font-mono text-xs no-underline" style={{ color: 'var(--mist)' }}>
+        <Link to="/quiz" className="font-mono text-xs no-underline" style={{ color: 'var(--verdigris)' }}>
           ← Back to quiz
         </Link>
       </div>
@@ -41,7 +41,7 @@ function NotFound() {
       <p className="font-italic italic" style={{ color: 'var(--mist)' }}>
         Something has gone wrong. This is unusual.
       </p>
-      <Link to="/" className="font-mono text-xs" style={{ color: 'var(--verdigris)' }}>
+      <Link to="/quiz" className="font-mono text-xs" style={{ color: 'var(--verdigris)' }}>
         ← Back to quiz
       </Link>
     </div>

@@ -43,7 +43,7 @@
     ]
   },
   "nuance": "The 1900 figure is heavily influenced by infant mortality; adults who survived childhood lived considerably longer. COVID-19 caused a temporary dip from 73 to 71 in 2020-2021 before recovery began. Regional gaps remain vast — Sierra Leone's life expectancy is 55, Japan's is 85.",
-  "brysonAside": "Consider that for most of recorded history, a human being's odds of reaching fifty were roughly equivalent to a modern person's odds of being struck by lightning twice. We have changed, in the span of a few generations, the fundamental arithmetic of being alive.",
+  "aside": "Consider that for most of recorded history, a human being's odds of reaching fifty were roughly equivalent to a modern person's odds of being struck by lightning twice. We have changed, in the span of a few generations, the fundamental arithmetic of being alive.",
   "sources": [
     {
       "name": "United Nations World Population Prospects 2024",
@@ -62,8 +62,8 @@
   ],
   "editorialSlug": "life-expectancy-soaring",
   "shareText": {
-    "wrong": "I guessed global life expectancy wrong — and I wasn't alone. 66% of people get this wrong. possiblist.io/q/life-expectancy-soaring",
-    "correct": "I knew global life expectancy was 73 — but I probably can't keep this streak going. possiblist.io/q/life-expectancy-soaring",
+    "wrong": "I guessed global life expectancy wrong — and I wasn't alone. 66% of people get this wrong. possiblist.net/q/life-expectancy-soaring",
+    "correct": "I knew global life expectancy was 73 — but I probably can't keep this streak going. possiblist.net/q/life-expectancy-soaring",
     "score": null
   },
   "emailDigestLine": "Humanity doubled its average lifespan in one century. It took the previous hundred thousand years to get to 32.",
@@ -80,7 +80,7 @@
     },
     "fund": {
       "org": "WaterAid",
-      "url": "https://possiblist.io/give/wateraid",
+      "url": "https://possiblist.net/give/wateraid",
       "directUrl": "https://www.wateraid.org/donate",
       "description": "Clean water and sanitation are behind a disproportionate share of this chart's upward slope. WaterAid works in the countries where waterborne disease still drags life expectancy down.",
       "impact": "\u00a320 = clean water access for one person for a year",

@@ -4,7 +4,7 @@ description: >
   Write editorial content in the Possiblist voice — a synthesis of Douglas Adams and
   Bill Bryson, cosmically detached yet warmly enthusiastic, structurally precise in
   its absurdity, genuinely delighted by data. Use this skill whenever producing editorial
-  content for Possiblist (possiblist.io). Chains onto the fact-checker skill: takes a
+  content for Possiblist (possiblist.net). Chains onto the fact-checker skill: takes a
   verified Fact Card as input and produces all editorial outputs needed by the app —
   longform article (free hook + premium depth), shortform teaser, SEO headline, email
   digest line, and premium teaser. ALWAYS use after fact-checker produces a Fact Card.
@@ -61,6 +61,47 @@ recognition that being wrong is the beginning of being less wrong. That is what
 
 ---
 
+## The Core Humor Principle: The Absurdity Is Already There
+
+This is the single most important instruction in this skill. Every other technique follows from it.
+
+**The humor in Possiblist writing comes from observing the absurdity inherent in the facts themselves, then stating it plainly.** It does not come from jokes bolted onto information. It does not come from witty asides inserted between paragraphs of straight exposition. The comedy is *in* the data. Your job is to notice it and point.
+
+The world is full of situations that are, when described precisely, funny without any additional commentary:
+
+- The entire system of global poverty measurement rests on imputing the price of a camel ride in Norway
+- The most effective anti-poverty intervention in history was "let farmers sell their own rice"
+- A man saved a billion lives and has the name recognition of a regional insurance adjustor
+- The cure for one of humanity's great killers turned out to be slightly salty sugar water
+- The fishing economy of coastal Kerala was reorganised by a device that also plays Snake
+- The species spends twelve times more on the ability to destroy things than it would need to end hunger
+
+None of these are jokes. They are facts, stated with just enough precision to reveal their inherent absurdity. The writer did not add the humor. The writer *found* it.
+
+**The technique:**
+1. Take the fact
+2. Ask: what is absurd, ironic, or disproportionate about this if you describe it precisely?
+3. State the absurdity as observation, not commentary
+4. Land short. The landing is a period, not an exclamation mark.
+
+**The test:** If you removed the funny sentence, would the paragraph lose information? If yes — it is an observation disguised as humor, and it belongs. If no — it is a joke, and it does not.
+
+**What this sounds like in practice:**
+
+WRONG (joke bolted on): "The poverty line has been revised many times. Economists, am I right?"
+
+WRONG (forced wit): "Martin Ravallion — think of him as the bouncer at the world's most depressing nightclub — decided who counts as poor."
+
+RIGHT (absurdity observed): "The International Comparison Program sends researchers to compare the prices of hundreds of goods across every country on Earth, including items that exist in one place but not another. How do you price a camel ride in Norway? You impute it, which is the economist's way of saying you make something up, but with a formula."
+
+RIGHT (precision reveals the joke): "Angus Deaton has described the resulting numbers as 'not wrong, but not right either,' which is the most Princeton sentence ever uttered about anything."
+
+RIGHT (scale stated plainly): "A newspaper could have run the headline '130,000 PEOPLE ESCAPED EXTREME POVERTY TODAY' every single day for twenty-five years and it would have been true every single day. It was never a headline."
+
+The humor earns trust because it demonstrates that the writer is paying attention — not performing, not lecturing, not trying to entertain. Observing. The reader laughs because the observation is true, and truth, when described with sufficient precision, is frequently hilarious.
+
+---
+
 ## Why Adams and Bryson Work Together
 
 | | Douglas Adams | Bill Bryson |
@@ -98,10 +139,10 @@ The risk of pure Bryson: too chatty, not enough structural bite.
 
 ### B1: The Enthusiastic Aside
 The Bryson aside explains itself — unlike Adams's throwaway. Use it for the
-`brysonAside` field from the Fact Card: the single most surprising sub-statistic.
+`aside` field from the Fact Card: the single most surprising sub-statistic.
 Place in the **premium section** — it is the peak that rewards subscribers.
 
-**Register**: "And here is the thing that really gets you — [brysonAside, stated
+**Register**: "And here is the thing that really gets you — [aside, stated
 directly]. I had to read that three times."
 
 ### B2: The Self-Deprecating Narrator
@@ -198,7 +239,7 @@ Urban's structural techniques provide the scaffolding that keeps readers engaged
 | Scale Comparison | Medium | Heavy | FREE | Best Bryson comparison — earns the paywall |
 | [PAYWALL LINE] | — | — | — | ~300 words |
 | Historical Detour | Light | Heavy | PREMIUM | Named person, specific year |
-| Data + Bryson Aside | Medium | Heavy | PREMIUM | brysonAside goes here — the peak |
+| Data + Bryson Aside | Medium | Heavy | PREMIUM | aside goes here — the peak |
 | Gamma Nuance + Question | Medium | Medium | PREMIUM | Honest complication + real questions |
 | Zoom Out + Close | Heavy | Light | PREMIUM | Short, quiet, resonant |
 
@@ -210,9 +251,9 @@ it gets really interesting." The reader should feel invited through, not cut off
 
 ## Output Formats
 
-### Output 1: Longform Article (800–1200 words total)
+### Output 1: Longform Article (3000–4500 words total)
 
-#### Free Section (≤300 words)
+#### Free Section (600–900 words)
 
 **Section 1 — The Cosmic Open** [Adams] (80–120 words)
 Galactic or species scale. Deadpan, warming. Do not mention the specific topic yet.
@@ -229,25 +270,25 @@ The best Bryson scale comparison for the headline figure. The last thing a free 
 sees. Must end with a sentence that points toward the premium section without
 telegraphing the paywall. The reader should lean forward slightly.
 
-#### [PAYWALL LINE — falls here, approximately 300 words in]
+#### [PAYWALL LINE — falls here, approximately 600–900 words in]
 
-#### Premium Section (500–900 words)
+#### Premium Section (2000–3500 words)
 
-**Section 4 — The Historical Detour** [Bryson] (80–120 words)
+**Section 4 — The Historical Detour** [Bryson] (300–500 words)
 Named person if possible. Specific year. What they did, what they found. The reward
 for subscribing — context and story that free content cannot sustain.
 
-**Section 5 — The Data, With Bryson Aside** [Bryson + Adams] (150–200 words)
-Verified figures from the Fact Card with Adams understatement. Then the `brysonAside`
+**Section 5 — The Data, With Aside** [Bryson + Adams] (500–800 words)
+Verified figures from the Fact Card with Adams understatement. Then the `aside`
 in full Bryson register: "And here is the thing that really gets you..."
 The Bryson aside is the premium-section peak. It should feel like the moment a
 Possiblist earns their name.
 
-**Section 6 — The Gamma Nuance + Genuine Question** [Adams + Bryson] (120–160 words)
+**Section 6 — The Gamma Nuance + Genuine Question** [Adams + Bryson] (400–600 words)
 The `nuance` field at full weight. Not buried, not softened. Then one or two Bryson
 genuine questions — real, unanswered, interesting. Do not resolve them.
 
-**Section 7 — The Zoom Out + Close** [Adams] (60–100 words)
+**Section 7 — The Zoom Out + Close** [Adams] (200–400 words)
 Return to cosmic scale. Connect back to the opening frame. Final sentence: under 10
 words, quiet, resonant. Not a moral. Not a call to action. A fact with weight.
 
@@ -317,11 +358,18 @@ Never: "Subscribe", "Unlock", "Continue reading", "Get access."
 - [ ] Narrator confesses prior wrongness (free section)
 - [ ] Historical detour with named person or specific year (premium)
 - [ ] Scale comparison for key statistic (free section)
-- [ ] Bryson aside for `brysonAside` field (premium — the peak)
+- [ ] Bryson aside for `aside` field (premium — the peak)
 - [ ] At least one genuine unanswered question (premium close)
 
+**The Absurdity Test**
+- [ ] Every humorous line passes the information test — removing it would lose a fact
+- [ ] No jokes bolted onto information — the comedy is in the observation
+- [ ] At least three moments where precision reveals inherent absurdity
+- [ ] Landings are periods, never exclamation marks
+
 **Possiblist brand**
-- [ ] Free section ≤300 words
+- [ ] Free section 600–900 words
+- [ ] Premium section 2000–3500 words
 - [ ] Paywall position after Section 3
 - [ ] Last free sentence creates genuine forward curiosity
 - [ ] Premium teaser ends with some form of "there usually is"

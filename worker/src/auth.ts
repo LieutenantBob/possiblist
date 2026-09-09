@@ -302,7 +302,7 @@ export const handleAuth = {
     }
 
     const token = await createAuthSession(env, user.id)
-    const origin = env.ALLOWED_ORIGIN || 'https://possiblist.io'
+    const origin = env.ALLOWED_ORIGIN || 'https://possiblist.net'
 
     return new Response(null, {
       status: 302,
@@ -431,7 +431,7 @@ export const handleAuth = {
 // --- Helpers ---
 
 function redirectWithError(env: Env, message: string): Response {
-  const origin = env.ALLOWED_ORIGIN || 'https://possiblist.io'
+  const origin = env.ALLOWED_ORIGIN || 'https://possiblist.net'
   return Response.redirect(`${origin}/login?error=${encodeURIComponent(message)}`, 302)
 }
 

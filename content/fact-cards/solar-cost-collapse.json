@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The levelized cost of solar is now competitive with or cheaper than fossil fuels in most of the world. However, intermittency remains real: the sun does not shine at night, and grid-scale storage is still catching up. The headline cost also varies enormously by geography, policy environment, and whether you account for integration costs. Cheap panels are necessary but not sufficient for a full energy transition.",
-  "brysonAside": "If your phone battery had improved at the same rate as solar panel costs declined, you would charge it once a year and it would cost roughly the price of a stick of gum. The phone battery, of course, has done nothing of the sort, which is one of the quieter injustices of modern technology.",
+  "aside": "If your phone battery had improved at the same rate as solar panel costs declined, you would charge it once a year and it would cost roughly the price of a stick of gum. The phone battery, of course, has done nothing of the sort, which is one of the quieter injustices of modern technology.",
   "sources": [
     {
       "name": "IRENA — Renewable Power Generation Costs",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "solar-cost-collapse",
   "shareText": {
-    "wrong": "I just learned I was wrong about how cheap solar has gotten — and 58% of people are too. possiblist.io/q/solar-cost-collapse",
-    "correct": "I guessed correctly that solar costs fell by ~90% since 2010. Did you? possiblist.io/q/solar-cost-collapse",
+    "wrong": "I just learned I was wrong about how cheap solar has gotten — and 58% of people are too. possiblist.net/q/solar-cost-collapse",
+    "correct": "I guessed correctly that solar costs fell by ~90% since 2010. Did you? possiblist.net/q/solar-cost-collapse",
     "score": null
   },
   "emailDigestLine": "Solar energy costs fell 89% in fourteen years — a collapse so dramatic that most people only believe about half of it.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Solar Aid",
-      "url": "https://possiblist.io/give/solar-aid",
+      "url": "https://possiblist.net/give/solar-aid",
       "directUrl": "https://solar-aid.org/donate/",
       "description": "Solar Aid puts the cost collapse on this chart to work where it matters most — replacing kerosene lamps in sub-Saharan Africa with solar lights, turning a global price trend into household-level change.",
       "impact": "\u00a315 = one solar light replacing kerosene in sub-Saharan Africa",

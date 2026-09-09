@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "Enrolment is not the same as attendance, and attendance is not the same as learning. In parts of sub-Saharan Africa and South Asia, girls may be enrolled but attend sporadically, or attend schools where learning outcomes remain extremely poor. Secondary education completion rates tell a more complicated story.",
-  "brysonAside": "In 1970, a girl born in South Asia had roughly a coin-flip chance of ever setting foot in a classroom. Her granddaughter today has a nine-in-ten chance. The grandmother did not make the news. Neither did the granddaughter.",
+  "aside": "In 1970, a girl born in South Asia had roughly a coin-flip chance of ever setting foot in a classroom. Her granddaughter today has a nine-in-ten chance. The grandmother did not make the news. Neither did the granddaughter.",
   "sources": [
     {
       "name": "UNESCO Institute for Statistics",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "girls-education-advancing",
   "shareText": {
-    "wrong": "I massively underestimated how many girls go to school worldwide. 71% of people do the same. possiblist.io/q/girls-education-advancing",
-    "correct": "I knew 90% of girls are in school — but the next question on Possiblist got me. possiblist.io/q/girls-education-advancing",
+    "wrong": "I massively underestimated how many girls go to school worldwide. 71% of people do the same. possiblist.net/q/girls-education-advancing",
+    "correct": "I knew 90% of girls are in school — but the next question on Possiblist got me. possiblist.net/q/girls-education-advancing",
     "score": null
   },
   "emailDigestLine": "From a coin-flip chance to a nine-in-ten certainty: the quiet revolution in girls' education that barely made the headlines.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Room to Read",
-      "url": "https://possiblist.io/give/room-to-read",
+      "url": "https://possiblist.net/give/room-to-read",
       "directUrl": "https://www.roomtoread.org/donate/",
       "description": "Room to Read works on the exact gap this chart does not yet show — ensuring girls who are enrolled actually stay in school and learn to read. They operate in the countries where the last 10% of enrolment is hardest to reach.",
       "impact": "\u00a315 = one girl's school materials for a year",

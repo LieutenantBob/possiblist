@@ -147,7 +147,7 @@ export function Research() {
           Think you can do better than the AI?
         </p>
         <Link
-          to="/"
+          to="/quiz"
           className="inline-block px-8 py-3 rounded-lg font-body font-semibold no-underline"
           style={{
             backgroundColor: 'var(--verdigris)',

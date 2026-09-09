@@ -57,7 +57,7 @@
     ]
   },
   "nuance": "The Living Planet Index measures average population change, not species extinction. But the direction is unambiguous and the scale is staggering. This is one of the genuinely bad numbers, and a possiblist does not flinch from genuinely bad numbers. The index is also weighted toward well-monitored populations, which tend to be in regions with strong research infrastructure. Tropical and freshwater species — where declines are steepest — may actually be underrepresented. Some conservation successes exist: certain whale, tiger, and eagle populations have recovered dramatically where protections were enforced. But these are bright spots against an unmistakably dark backdrop.",
-  "brysonAside": "If you had told someone in 1970 that within fifty years we would lose two-thirds of monitored wildlife, they would have assumed something cinematic — an asteroid, perhaps. Instead it was agriculture and the quiet expansion of human appetite, which turns out to be more effective than any asteroid and harder to dramatize.",
+  "aside": "If you had told someone in 1970 that within fifty years we would lose two-thirds of monitored wildlife, they would have assumed something cinematic — an asteroid, perhaps. Instead it was agriculture and the quiet expansion of human appetite, which turns out to be more effective than any asteroid and harder to dramatize.",
   "sources": [
     {
       "name": "WWF Living Planet Report 2024",
@@ -76,8 +76,8 @@
   ],
   "editorialSlug": "wildlife-decline",
   "shareText": {
-    "wrong": "I underestimated the wildlife decline — monitored populations have dropped 69% since 1970. Being a possiblist means facing all the data, not just the hopeful parts. possiblist.io/q/wildlife-decline",
-    "correct": "I knew the wildlife decline number. Knowing what is actually happening is the first step to doing something about it. possiblist.io/q/wildlife-decline",
+    "wrong": "I underestimated the wildlife decline — monitored populations have dropped 69% since 1970. Being a possiblist means facing all the data, not just the hopeful parts. possiblist.net/q/wildlife-decline",
+    "correct": "I knew the wildlife decline number. Knowing what is actually happening is the first step to doing something about it. possiblist.net/q/wildlife-decline",
     "score": null
   },
   "emailDigestLine": "Monitored wildlife populations have declined by 69% since 1970. A possiblist looks at all the data — especially the numbers that demand action.",
@@ -94,7 +94,7 @@
     },
     "fund": {
       "org": "Fauna & Flora International",
-      "url": "https://possiblist.io/give/fauna-flora",
+      "url": "https://possiblist.net/give/fauna-flora",
       "directUrl": "https://www.fauna-flora.org/donate/",
       "description": "FFI directly produces data that feeds into the Living Planet Index — the dataset behind this chart. They work at the intersection of monitoring and conservation, in the habitats where the decline is steepest.",
       "impact": "Directly produces data for the Living Planet Index",

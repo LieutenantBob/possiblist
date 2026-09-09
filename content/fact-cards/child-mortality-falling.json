@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The global average masks severe inequality. In sub-Saharan Africa, the under-five mortality rate remains above 70 per 1,000 in several countries, while in Western Europe it sits below 4. The rate of improvement has also slowed since 2015, raising concerns about whether SDG targets for 2030 can be met.",
-  "brysonAside": "To put the improvement in perspective: the number of children's lives saved each year compared to 1990 rates is roughly equivalent to the entire population of Portugal. Every year. And hardly anyone thought to throw a party.",
+  "aside": "To put the improvement in perspective: the number of children's lives saved each year compared to 1990 rates is roughly equivalent to the entire population of Portugal. Every year. And hardly anyone thought to throw a party.",
   "sources": [
     {
       "name": "UN Inter-agency Group for Child Mortality Estimation (IGME)",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "child-mortality-falling",
   "shareText": {
-    "wrong": "I didn't know child mortality has more than halved since 1990. 68% of people get this wrong too. possiblist.io/q/child-mortality-falling",
-    "correct": "I knew child mortality had plummeted — but I'm probably wrong about the next one. possiblist.io/q/child-mortality-falling",
+    "wrong": "I didn't know child mortality has more than halved since 1990. 68% of people get this wrong too. possiblist.net/q/child-mortality-falling",
+    "correct": "I knew child mortality had plummeted — but I'm probably wrong about the next one. possiblist.net/q/child-mortality-falling",
     "score": null
   },
   "emailDigestLine": "The equivalent of an entire country's population in children's lives saved every year — and it barely made the news.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Gavi, the Vaccine Alliance",
-      "url": "https://possiblist.io/give/gavi",
+      "url": "https://possiblist.net/give/gavi",
       "directUrl": "https://www.gavi.org/donate",
       "description": "Gavi is the organisation behind the vaccination campaigns that drove much of this chart's decline. When you see child mortality falling, you are largely looking at Gavi's supply chain at work.",
       "impact": "$1 = one child vaccinated against measles",

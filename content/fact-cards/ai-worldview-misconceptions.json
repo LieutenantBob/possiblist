@@ -53,11 +53,11 @@
     ]
   },
   "nuance": "AI models trained on internet data inherit the biases of that data, but they express those biases differently from humans. A human who believes poverty is increasing has an emotional narrative. An AI that gives the wrong answer simply reflects the statistical distribution of its training data. The distinction matters: one is a worldview problem, the other is an engineering problem. Both need solving.",
-  "brysonAside": "It turns out that if you ask an AI the same question twenty different ways, you will get a remarkably inconsistent set of answers — which is, when you think about it, the most human thing about them.",
+  "aside": "It turns out that if you ask an AI the same question twenty different ways, you will get a remarkably inconsistent set of answers — which is, when you think about it, the most human thing about them.",
   "sources": [
     {
       "name": "Possiblist AI Worldview Benchmark",
-      "url": "https://possiblist.io/research",
+      "url": "https://possiblist.net/research",
       "tier": 2,
       "datasetName": "AI model accuracy on Gapminder-style questions across 20 prompt framings",
       "accessedYear": 2026
@@ -72,8 +72,8 @@
   ],
   "editorialSlug": "ai-worldview-misconceptions",
   "shareText": {
-    "wrong": "I assumed AI would ace factual questions about the world. Turns out they're wrong too — just differently wrong. possiblist.io/q/ai-worldview-misconceptions",
-    "correct": "I knew AI had its own blind spots on world facts. Take the quiz yourself: possiblist.io/q/ai-worldview-misconceptions",
+    "wrong": "I assumed AI would ace factual questions about the world. Turns out they're wrong too — just differently wrong. possiblist.net/q/ai-worldview-misconceptions",
+    "correct": "I knew AI had its own blind spots on world facts. Take the quiz yourself: possiblist.net/q/ai-worldview-misconceptions",
     "score": null
   },
   "emailDigestLine": "We tested four AI models on questions about the world. They were wrong — but not like humans. They were wrong like something else entirely.",
@@ -90,7 +90,7 @@
     },
     "fund": {
       "org": "Gapminder Foundation",
-      "url": "https://possiblist.io/give/gapminder",
+      "url": "https://possiblist.net/give/gapminder",
       "directUrl": "https://www.gapminder.org/donate/",
       "description": "Gapminder built the methodology this entire site is based on. Their misconception studies, question bank, and data tools are the foundation beneath every chart on Possiblist.",
       "impact": "The organisation whose methodology this entire site is built on",

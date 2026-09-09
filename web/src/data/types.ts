@@ -79,7 +79,7 @@ export interface FactCard {
   freePreviewWordCount: number
   reality: Reality
   nuance: string
-  brysonAside: string
+  aside: string
   sources: Source[]
   editorialSlug: string
   shareText: ShareText

@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The death toll from nuclear accidents (Chernobyl, Fukushima) is genuinely tragic but statistically small compared to coal's continuous toll from air pollution, mining accidents, and respiratory disease. However, nuclear waste storage remains an unresolved long-term challenge, and the psychological impact of radiation risk — invisible, involuntary, potentially catastrophic — explains the perception gap without excusing it.",
-  "brysonAside": "Here is a way to think about it: coal power plants release more radioactive material into the environment than nuclear plants do. The coal simply has the good manners to distribute its radiation gradually and invisibly, which is apparently more socially acceptable.",
+  "aside": "Here is a way to think about it: coal power plants release more radioactive material into the environment than nuclear plants do. The coal simply has the good manners to distribute its radiation gradually and invisibly, which is apparently more socially acceptable.",
   "sources": [
     {
       "name": "Our World in Data — Safest Energy Sources",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "nuclear-safety-vs-coal",
   "shareText": {
-    "wrong": "I thought nuclear was the most dangerous energy source. It's actually the safest. Coal kills 820x more per TWh. possiblist.io/q/nuclear-safety-vs-coal",
-    "correct": "I knew coal was deadlier than nuclear — but I'm probably wrong about the next one. possiblist.io/q/nuclear-safety-vs-coal",
+    "wrong": "I thought nuclear was the most dangerous energy source. It's actually the safest. Coal kills 820x more per TWh. possiblist.net/q/nuclear-safety-vs-coal",
+    "correct": "I knew coal was deadlier than nuclear — but I'm probably wrong about the next one. possiblist.net/q/nuclear-safety-vs-coal",
     "score": null
   },
   "emailDigestLine": "The energy source most people fear the most is the one that kills the fewest people. The one that kills the most barely makes the news.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Clean Air Task Force",
-      "url": "https://possiblist.io/give/clean-air-task-force",
+      "url": "https://possiblist.net/give/clean-air-task-force",
       "directUrl": "https://www.catf.us/donate/",
       "description": "CATF works on both sides of the gap this chart reveals — advocating for nuclear where it can replace coal, and accelerating coal plant retirement where alternatives exist.",
       "impact": "Works on both nuclear advocacy and coal plant retirement",

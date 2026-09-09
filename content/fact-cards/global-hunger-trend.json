@@ -61,7 +61,7 @@
     ]
   },
   "nuance": "The 2020 uptick was real (COVID + conflict). Progress has stalled since 2015. The SDG target of zero hunger by 2030 is not on track. Sub-Saharan Africa and parts of South Asia remain disproportionately affected, and climate change is introducing new volatility into food systems that had been gradually stabilising. The headline number conceals enormous regional variation.",
-  "brysonAside": "We produce enough food to feed about ten billion people, which is rather more than currently exist. The problem, as it so often is with human affairs, is not one of capacity but of distribution, politics, and a collective tendency to look the other way at precisely the wrong moment.",
+  "aside": "We produce enough food to feed about ten billion people, which is rather more than currently exist. The problem, as it so often is with human affairs, is not one of capacity but of distribution, politics, and a collective tendency to look the other way at precisely the wrong moment.",
   "sources": [
     {
       "name": "FAO — The State of Food Security and Nutrition in the World",
@@ -80,8 +80,8 @@
   ],
   "editorialSlug": "global-hunger-trend",
   "shareText": {
-    "wrong": "I thought global hunger hadn't changed — turns out it fell from 15% to 9% since 2000. 59% of people miss this. possiblist.io/q/global-hunger-trend",
-    "correct": "I knew global hunger fell from ~15% to ~9% — but most people don't. possiblist.io/q/global-hunger-trend",
+    "wrong": "I thought global hunger hadn't changed — turns out it fell from 15% to 9% since 2000. 59% of people miss this. possiblist.net/q/global-hunger-trend",
+    "correct": "I knew global hunger fell from ~15% to ~9% — but most people don't. possiblist.net/q/global-hunger-trend",
     "score": null
   },
   "emailDigestLine": "Global undernourishment fell from 15% to 9% since 2000 — real progress most people believe never happened.",
@@ -98,7 +98,7 @@
     },
     "fund": {
       "org": "Action Against Hunger",
-      "url": "https://possiblist.io/give/action-against-hunger",
+      "url": "https://possiblist.net/give/action-against-hunger",
       "directUrl": "https://www.actionagainsthunger.org/donate/",
       "description": "Action Against Hunger works in the acute crises that caused this chart's 2020 uptick — delivering therapeutic food to children in conflict zones and climate-affected regions where progress reversed.",
       "impact": "$50 = therapeutic food for one child for a month",

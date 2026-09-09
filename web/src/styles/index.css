@@ -60,3 +60,20 @@ body {
   padding-left: 1rem;
   margin: 1.5rem 0;
 }
+
+/* ── Selection colour ───────────────────────────── */
+::selection {
+  background-color: var(--verdigris-20);
+  color: var(--deep);
+}
+
+/* ── Link hover accent ──────────────────────────── */
+a:hover {
+  color: var(--verdigris);
+}
+
+/* ── Scrollbar accent (Webkit) ──────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--verdigris-20); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--verdigris); }

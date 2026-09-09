@@ -165,7 +165,7 @@ export function Login() {
 
       {/* Back to quiz */}
       <div className="text-center mt-8">
-        <Link to="/" className="font-mono text-xs" style={{ color: 'var(--mist)' }}>
+        <Link to="/quiz" className="font-mono text-xs" style={{ color: 'var(--mist)' }}>
           ← Continue without an account
         </Link>
       </div>

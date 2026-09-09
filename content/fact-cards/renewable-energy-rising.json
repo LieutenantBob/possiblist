@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "The 30% figure includes hydropower, which has been around for over a century and accounts for roughly half the renewable total. Solar and wind specifically have surged but still face intermittency challenges requiring grid-scale storage. Moreover, electricity is only about 20% of total final energy consumption — transport, heating, and industrial processes remain heavily dependent on fossil fuels. The transition in electricity generation is real; the transition in total energy use has barely begun.",
-  "brysonAside": "The cost of solar panels has fallen by about 99% since 1976, which is the kind of statistic that should, by rights, be painted on the side of buildings. Instead, it has been quietly filed away in energy reports that no one reads at parties, which is a shame, because it is arguably the most encouraging price chart in human history.",
+  "aside": "The cost of solar panels has fallen by about 99% since 1976, which is the kind of statistic that should, by rights, be painted on the side of buildings. Instead, it has been quietly filed away in energy reports that no one reads at parties, which is a shame, because it is arguably the most encouraging price chart in human history.",
   "sources": [
     {
       "name": "International Renewable Energy Agency (IRENA)",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "renewable-energy-rising",
   "shareText": {
-    "wrong": "I didn't realise 30% of global electricity is already renewable. 60% of people underestimate this. possiblist.io/q/renewable-energy-rising",
-    "correct": "I knew renewables were further along than most think — try the next question. possiblist.io/q/renewable-energy-rising",
+    "wrong": "I didn't realise 30% of global electricity is already renewable. 60% of people underestimate this. possiblist.net/q/renewable-energy-rising",
+    "correct": "I knew renewables were further along than most think — try the next question. possiblist.net/q/renewable-energy-rising",
     "score": null
   },
   "emailDigestLine": "Nearly a third of the world's electricity is already renewable — and the curve is still steepening.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "Rewiring America",
-      "url": "https://possiblist.io/give/rewiring-america",
+      "url": "https://possiblist.net/give/rewiring-america",
       "directUrl": "https://www.rewiringamerica.org/donate",
       "description": "Rewiring America works on the gap this chart's nuance section explains — electricity is only 20% of total energy. They help households switch the other 80% to clean sources.",
       "impact": "Helps households switch to clean energy",

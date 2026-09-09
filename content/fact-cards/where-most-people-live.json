@@ -53,7 +53,7 @@
     ]
   },
   "nuance": "Asia's share is expected to decline slowly over the coming decades as population growth shifts to sub-Saharan Africa. By 2100, under median UN projections, Africa's share could rise from 18% to over 35%, while Asia's could fall to around 45%. China and India alone account for roughly 35% of all humans today, but China's population is already shrinking. The mental map most people carry — shaped by news coverage of African population growth — has leapt ahead of where the numbers actually are right now.",
-  "brysonAside": "It is a peculiar feature of the human mind that we can know, in a vague sort of way, that China and India each contain over a billion people, and yet still be startled to learn that most humans are Asian. It is as if we store facts about continents in a different mental filing cabinet from facts about countries, and the two cabinets do not communicate.",
+  "aside": "It is a peculiar feature of the human mind that we can know, in a vague sort of way, that China and India each contain over a billion people, and yet still be startled to learn that most humans are Asian. It is as if we store facts about continents in a different mental filing cabinet from facts about countries, and the two cabinets do not communicate.",
   "sources": [
     {
       "name": "UN World Population Prospects",
@@ -72,8 +72,8 @@
   ],
   "editorialSlug": "where-most-people-live",
   "shareText": {
-    "wrong": "I guessed wrong about where most people live. 58% of people do too. possiblist.io/q/where-most-people-live",
-    "correct": "I knew most people live in Asia — but the next question might trip you up. possiblist.io/q/where-most-people-live",
+    "wrong": "I guessed wrong about where most people live. 58% of people do too. possiblist.net/q/where-most-people-live",
+    "correct": "I knew most people live in Asia — but the next question might trip you up. possiblist.net/q/where-most-people-live",
     "score": null
   },
   "emailDigestLine": "Six in ten humans live on a single continent, and most people guess the wrong one.",
@@ -90,7 +90,7 @@
     },
     "fund": {
       "org": "Médecins Sans Frontières",
-      "url": "https://possiblist.io/give/msf",
+      "url": "https://possiblist.net/give/msf",
       "directUrl": "https://www.msf.org/donate",
       "description": "MSF provides medical care in the regions where population density meets healthcare gaps — the places on this chart where the most people live and the least care reaches.",
       "impact": "Medical care where population density meets healthcare gaps",

@@ -2,7 +2,7 @@ import { readdir } from 'fs/promises'
 import { writeFile } from 'fs/promises'
 import { join } from 'path'
 
-const BASE_URL = 'https://possiblist.io'
+const BASE_URL = 'https://possiblist.net'
 const CONTENT_DIR = join(__dirname, '..', 'content', 'fact-cards')
 const OUTPUT = join(__dirname, '..', 'web', 'public', 'sitemap.xml')
 
@@ -16,6 +16,9 @@ async function generateSitemap() {
 
   const urls = [
     { loc: '/', priority: '1.0', changefreq: 'weekly' },
+    { loc: '/quiz', priority: '0.9', changefreq: 'weekly' },
+    { loc: '/explore', priority: '0.8', changefreq: 'weekly' },
+    { loc: '/manifesto', priority: '0.7', changefreq: 'monthly' },
     { loc: '/about', priority: '0.5', changefreq: 'monthly' },
     { loc: '/research', priority: '0.7', changefreq: 'monthly' },
     { loc: '/subscribe', priority: '0.6', changefreq: 'monthly' },

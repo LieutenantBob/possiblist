@@ -8,7 +8,7 @@ export function About() {
         About Possiblist<span className="wordmark-degree">°</span>
       </h1>
 
-      <p className="font-italic italic mb-10" style={{ color: 'var(--mist)', fontSize: '1.1rem', fontWeight: 300 }}>
+      <p className="font-italic italic mb-10" style={{ color: 'var(--verdigris)', fontSize: '1.1rem', fontWeight: 300 }}>
         Neither hoping without reason, nor fearing without reason.
       </p>
 

@@ -42,7 +42,7 @@
     ]
   },
   "nuance": "This long-run decline is real but unevenly distributed. Some regions remain extraordinarily violent. The decline also predates modern policing and is partly attributed to state formation, changing norms, and commerce replacing conquest. And the trend is not guaranteed to continue — nuclear weapons, for instance, introduce a category of risk that medieval warlords could not have imagined. Past performance, as they say, is no guarantee of future results.",
-  "brysonAside": "It is one of the more remarkable facts of human existence that you are considerably safer walking through a modern city at night than you would have been attending a medieval banquet, where the cutlery was less decorative and rather more frequently weaponised.",
+  "aside": "It is one of the more remarkable facts of human existence that you are considerably safer walking through a modern city at night than you would have been attending a medieval banquet, where the cutlery was less decorative and rather more frequently weaponised.",
   "sources": [
     {
       "name": "Steven Pinker — The Better Angels of Our Nature",
@@ -61,8 +61,8 @@
   ],
   "editorialSlug": "violence-long-run-decline",
   "shareText": {
-    "wrong": "I thought the world was more violent than ever. Turns out 67% of us get this wrong. possiblist.io/q/violence-long-run-decline",
-    "correct": "I knew violence has declined over centuries — but most people believe the opposite. possiblist.io/q/violence-long-run-decline",
+    "wrong": "I thought the world was more violent than ever. Turns out 67% of us get this wrong. possiblist.net/q/violence-long-run-decline",
+    "correct": "I knew violence has declined over centuries — but most people believe the opposite. possiblist.net/q/violence-long-run-decline",
     "score": null
   },
   "emailDigestLine": "You are roughly eight times less likely to die by violence than your ancestors 600 years ago — a fact that 67% of people get exactly backwards.",
@@ -79,7 +79,7 @@
     },
     "fund": {
       "org": "International Crisis Group",
-      "url": "https://possiblist.io/give/international-crisis-group",
+      "url": "https://possiblist.net/give/international-crisis-group",
       "directUrl": "https://www.crisisgroup.org/donate",
       "description": "ICG does conflict prevention research — the kind of quiet, early-intervention work that keeps this chart's long-run decline from reversing in the places where it is most at risk.",
       "impact": "Conflict prevention research",

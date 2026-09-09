@@ -1,0 +1,77 @@
+---
+slug: terrorism-deaths-peaked
+factCardSlug: terrorism-deaths-peaked
+title: "The Threat That Shrank While Nobody Was Looking"
+subtitle: "On the peculiar human talent for remaining terrified of things that are becoming less terrifying"
+seoHeadline: "Terrorism deaths fell over 80% since 2014 — most people think they kept rising"
+wordCountFree: 820
+wordCountPremium: 2650
+publishedAt: "2026-04-04"
+category: security
+---
+
+The human species has, over the course of its brief and eventful history, developed an extraordinarily sophisticated set of tools for assessing danger. It can detect a snake in tall grass faster than it can identify a flower. It will remember a single frightening experience for decades while forgetting ten thousand uneventful afternoons. It has built satellites that can photograph a licence plate from orbit and algorithms that can predict which advertisement you will click on next Tuesday. What it has not developed, at any point in its roughly three-hundred-thousand-year run, is a reliable method for noticing when a danger has gone away.
+
+This is a problem.
+
+When Gapminder asked people how terrorism deaths had changed since their peak, sixty-five per cent got it wrong. The most common wrong answer was not "stayed about the same" -- which would at least suggest a failure to update -- but "continued rising," which suggests an active commitment to the opposite of reality. The respondents were not uninformed. They read newspapers. They watched the news. They had opinions about geopolitics. They were, in the technical sense, paying attention. They were just paying attention to the wrong signal.
+
+I would have got it wrong myself. I know this because I did get it wrong, silently and confidently, for years. If you had asked me in 2022 whether global terrorism was increasing or decreasing, I would have said increasing, and I would have said it with the quiet assurance of a person who considers themselves reasonably well-informed. I was not reasonably well-informed. I was reasonably well-frightened, which is a different thing entirely.
+
+The truth is that global deaths from terrorism peaked in 2014 at approximately forty-four thousand and have since fallen to around eight thousand -- a decline of more than eighty per cent. To put that in terms the human brain might actually absorb: imagine a football stadium filled to capacity. Now imagine four-fifths of it emptying. That is the scale of the reduction, and it happened in roughly a decade, and almost nobody adjusted their anxiety accordingly. You are, statistically, more likely to be killed by your own furniture than by a terrorist attack if you live in a Western country. The bookcase in your living room is a greater existential threat than the thing that dominates your foreign policy debate. This is not a comfort, exactly. But it is a fact, and facts are what we have.
+
+The story of how that stadium emptied, why it filled up in the first place, and what it means that nobody noticed it emptying -- that turns out to involve a caliphate, a cognitive bias with a name, a Norwegian researcher who figured out the problem in 1965, and the uncomfortable question of what we even mean when we say the word "terrorism."
+
+<!-- PAYWALL -->
+
+## The Geography of a Peak
+
+The 2014 peak was not a global phenomenon in the way most people imagine it. It was, overwhelmingly, a story about three countries: Iraq, Syria, and Nigeria. Between them, they accounted for the vast majority of terrorism deaths in that year. The Islamic State, at the height of its territorial control, was running something closer to a conventional war than a terrorist campaign -- holding cities, administering territory, collecting taxes, and killing people on an industrial scale. Boko Haram, in northeastern Nigeria, was doing something grimly similar, declaring a caliphate of its own and carrying out mass killings of civilians in towns most Western news consumers could not locate on a map.
+
+This is the first thing to understand about the peak: it was geographically concentrated to a degree that the word "global" almost obscures more than it reveals. The Global Terrorism Index, compiled annually by the Institute for Economics and Peace using data from the University of Maryland's Global Terrorism Database, has tracked this concentration year after year. In the peak year, a person living in Helsinki or Vancouver or Auckland faced a terrorism risk so low that it barely registers as a rounding error in national mortality statistics. The forty-four thousand figure was real. But the suggestion that it represented a uniformly distributed threat across the surface of the Earth was not.
+
+And here is the thing about the decline that followed: it was driven by the same concentration in reverse. When ISIS lost its territory -- Mosul fell in 2017, Raqqa the same year, the last territorial holdout in Baghouz in 2019 -- the death toll collapsed with it. The coalition military campaign, for all its moral complexity and civilian cost, did what it was designed to do. Boko Haram fractured into competing factions, lost its territorial grip in northeastern Nigeria, and saw its capacity for mass-casualty attacks substantially reduced. Local military operations, improved intelligence-sharing between governments, and -- in some cases -- negotiated surrenders and amnesty programmes chipped away at the infrastructure of organised violence.
+
+The decline was not subtle. It was not a gentle downward slope that statisticians debate. It was a cliff. The line on the chart drops so steeply after 2014 that if you showed it to someone without labels, they might guess it was the price of a technology stock after a scandal. From forty-four thousand to roughly sixteen thousand by 2018. From sixteen thousand to eight thousand by 2024. The stadium did not empty gradually. It emptied in lurches, each one corresponding to a military defeat or an organisational collapse that made the news for a week and then vanished from public consciousness.
+
+## The Availability Heuristic, or Why Paris Weighs More Than Baghdad
+
+In 1973, Amos Tversky and Daniel Kahneman described something they called the availability heuristic: the tendency to judge the likelihood of an event by how easily examples come to mind. If you can recall it vividly, your brain concludes it must be common. If you cannot recall it, your brain concludes it must be rare. This is a useful shortcut in a world where your information comes from direct experience. It is a catastrophic shortcut in a world where your information comes from a feed algorithmically optimised to show you the most emotionally arresting thing that happened anywhere on Earth in the last four hours.
+
+A terrorist attack in Paris receives, by some estimates, roughly a thousand times the media coverage of an attack of comparable scale in Baghdad. The November 2015 attacks at the Bataclan and across Paris killed one hundred and thirty people and dominated global news coverage for weeks. Attacks in Iraq that killed comparable or greater numbers in the same period received a fraction of the attention. This is not because editors are callous. It is because news values -- as the Norwegian researchers Johan Galtung and Mari Holmboe Ruge worked out in 1965 -- weight events by proximity, cultural similarity, and unexpectedness. An attack in a familiar European capital is, by the formal structure of news, more newsworthy than an attack in a city that has been experiencing attacks for years. The result is that the information environment creates a map of danger that bears almost no relationship to the actual distribution of danger.
+
+Paul Slovic, the risk researcher at the University of Oregon, has spent decades studying what he calls "dread risk" -- threats that are involuntary, catastrophic, unfamiliar, and uncontrollable. Terrorism checks every box. It is, from the perspective of your amygdala, the perfect threat: random, violent, aimed at civilians, and designed specifically to be memorable. A car accident kills you just as dead, but it does not hijack your threat perception in the same way, because car accidents are familiar, voluntary, and -- your brain quietly insists -- something that happens to other people. The result is that terrorism occupies a share of public fear wildly disproportionate to its share of actual mortality. In most Western countries, you are more likely to die from a fall, from drowning in a bathtub, or from a bee sting than from a terrorist attack. The annual risk of dying in a terrorist attack for an American is roughly one in three and a half million. The annual risk of dying from falling furniture is approximately one in thirty-six thousand. Your chest of drawers is, actuarially speaking, approximately a hundred times more dangerous than al-Qaeda. This is a sentence that is both statistically precise and fundamentally absurd, which is rather the point.
+
+## The Nuances That Complicate the Good News
+
+A possiblist does not cherry-pick, and the complications here are real.
+
+The decline is concentrated where the peak was concentrated. In the Sahel region -- Mali, Burkina Faso, Niger -- terrorism deaths have actually increased in recent years. The groups operating there are affiliated with al-Qaeda and ISIS but function as local insurgencies exploiting governance vacuums, ethnic tensions, and the consequences of climate-driven resource scarcity. The good news on the global chart is, in part, a story about Iraq and Syria improving while the Sahel deteriorated, and the aggregation obscures as much as it reveals.
+
+Domestic extremism in Western countries has risen even as the headline global figure has fallen. Far-right attacks, ideologically motivated mass shootings, and lone-actor violence have increased in the United States, Germany, and elsewhere. These attacks kill fewer people per incident than the organised campaigns of ISIS or Boko Haram, but they occur in countries where people had come to expect safety, and their psychological impact is enormous. The Christchurch mosque shootings in New Zealand. The Buffalo supermarket shooting in the United States. The Hanau attacks in Germany. Each one reshapes the threat landscape in ways the global chart does not capture.
+
+And then there is the definition problem, which is less boring than it sounds. What counts as terrorism? The question matters because different databases answer it differently, and the answer changes the numbers. The Global Terrorism Database defines terrorism as the threatened or actual use of illegal force by a non-state actor to attain a political, economic, religious, or social goal through intimidation or coercion. By this definition, a mass shooting motivated by personal grievance is not terrorism, even if it produces the same body count and the same public terror. A drone strike by a state is not terrorism, even if the civilians underneath it experience something indistinguishable from terror. The line is drawn, reasonably and somewhat arbitrarily, by intent and by who is doing the killing. Move the line and the numbers move with it. This is not an argument that the data is meaningless. It is an argument that the data is measuring a specific thing, and that specific thing is narrower than the word "terrorism" suggests in ordinary conversation.
+
+Any single attack can reverse trends temporarily. The decline from forty-four thousand to eight thousand is robust. It is also fragile in the way that all security statistics are fragile: one sufficiently devastating event can spike a year's figures in a morning. The underlying conditions that produced the peak -- failed states, sectarian conflict, ungoverned spaces, economic desperation, the algorithmic radicalisation pipelines of the internet -- have not disappeared. They have shifted, mutated, and in some cases worsened. The organisations that killed forty-four thousand people in 2014 have been degraded. The conditions that produced those organisations have not.
+
+## The Amplification Machine
+
+The gap between the data and the public perception is not an accident. It is an output.
+
+Twenty-four-hour news channels need threats that feel ongoing. Political campaigns need dangers that feel urgent. Social media algorithms need content that provokes strong emotional responses, and few emotions are stronger or more clickable than fear. A headline that reads "TERRORISM DEATHS FALL FOR EIGHTH CONSECUTIVE YEAR" is accurate, important, and -- by the logic of attention economics -- approximately worthless. It does not stop thumbs from scrolling. It does not sell advertising. It does not get shared. A single attack, however small, produces footage, victims, political responses, expert commentary, and a self-sustaining news cycle that can run for days. The asymmetry is structural. The information environment is not designed to tell you what is getting better. It is designed to tell you what just went wrong.
+
+Bruce Schneier, the security researcher, has called terrorism "a crime against the mind." The act itself is almost secondary. The purpose is to change how an entire population thinks, and the media -- without intending to, without malice, simply by following the incentives of the attention economy -- completes the terrorist's work for free. A person who kills three people in a Western city and generates a week of global coverage has achieved a return on investment that no military strategist in history has matched. The coverage is not the aftermath of the attack. The coverage is the attack. The bomb is just the detonator.
+
+This is not an argument against covering terrorism. It is an observation about the architecture of information and its consequences for the architecture of fear. When the gap between perceived risk and actual risk grows wide enough, it begins to distort policy, reshape elections, and redirect resources on a scale that dwarfs the original threat. Countries spend hundreds of billions on counterterrorism while underfunding the public health infrastructure that kills orders of magnitude more of their citizens. This is not irrational, exactly. It is rational within a system where political survival depends on responding to perceived threats, and perceived threats are manufactured at industrial scale by the attention economy.
+
+## The Quiet Part
+
+The most remarkable thing about the decline in terrorism deaths is not the decline itself, although the decline is remarkable. It is that the decline changed almost nothing about how we feel.
+
+Forty-four thousand became eight thousand. Military campaigns succeeded. Intelligence-sharing improved. Organisations that once controlled territory the size of Britain were reduced to franchises operating in ungoverned margins. And the fear remained precisely where it was, lodged in the amygdala, fed by the feed, unmoved by the data.
+
+A possiblist notices the gap. Not to dismiss the fear -- the fear was designed, by people who understand psychology better than most psychologists, to be exactly this persistent. Not to minimise the genuine threats that remain -- the Sahel is burning, the lone wolves are radicalising, and the definition of terrorism is wide enough to miss things that should terrify us and narrow enough to include things that probably should not. But to notice, quietly, that the stadium is four-fifths empty, and that nobody updated the seating chart.
+
+The data moved. The feeling did not.
+
+That gap is worth noticing.

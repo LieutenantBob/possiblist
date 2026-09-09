@@ -3,10 +3,12 @@ import type { Env } from './index'
 /**
  * Scheduled cron handlers for Possiblist automation loops.
  *
- * Configured in wrangler.toml:
+ * Single cron in wrangler.toml fires at 00:00 and 08:00 UTC daily:
  *   [triggers]
- *   crons = ["0 0 * * 0", "0 8 * * 1", "0 0 1 * *", "0 0 1 1,4,7,10 *"]
+ *   crons = ["0 0,8 * * *"]
  *
+ * Each loop below is guarded by its own day/date/month check, so most
+ * firings are a no-op:
  * - Weekly (Sunday midnight): content performance aggregation
  * - Weekly (Monday 8am): social asset generation + newsletter
  * - Monthly (1st): voice calibration report + fact freshness check
@@ -121,7 +123,7 @@ async function generateSocialAssets(env: Env): Promise<void> {
     slug: string
     headline: string
     quiz: { question: string; surveyResult: { percentWrong: number; source: string } }
-    brysonAside: string
+    aside: string
     summary: string
     emailDigestLine: string
     reality: { figure: string; trendLabel: string }
@@ -130,11 +132,11 @@ async function generateSocialAssets(env: Env): Promise<void> {
   const assets: SocialAssets = {
     slug: card.slug,
 
-    twitter_quiz: `${card.quiz.surveyResult.percentWrong}% of people get this wrong:\n\n"${card.quiz.question}"\n\nAre you in the majority, or one of the few?\npossiblist.io/q/${card.slug}`,
+    twitter_quiz: `${card.quiz.surveyResult.percentWrong}% of people get this wrong:\n\n"${card.quiz.question}"\n\nAre you in the majority, or one of the few?\npossiblist.net/q/${card.slug}`,
 
-    twitter_aside: `${card.brysonAside}\n\n— from Possiblist°\npossiblist.io/q/${card.slug}`,
+    twitter_aside: `${card.aside}\n\n— from Possiblist°\npossiblist.net/q/${card.slug}`,
 
-    linkedin: `${card.headline}\n\n${card.summary.slice(0, 280)}...\n\nThe data: ${card.reality.figure} (${card.reality.trendLabel})\n\n${card.quiz.surveyResult.percentWrong}% of people surveyed got this wrong (${card.quiz.surveyResult.source}).\n\nTake the quiz: possiblist.io/q/${card.slug}\n\n#possiblist #factfulness #data`,
+    linkedin: `${card.headline}\n\n${card.summary.slice(0, 280)}...\n\nThe data: ${card.reality.figure} (${card.reality.trendLabel})\n\n${card.quiz.surveyResult.percentWrong}% of people surveyed got this wrong (${card.quiz.surveyResult.source}).\n\nTake the quiz: possiblist.net/q/${card.slug}\n\n#possiblist #factfulness #data`,
 
     newsletter_line: card.emailDigestLine,
   }
@@ -257,8 +259,8 @@ async function sendReport(env: Env, subject: string, data: unknown): Promise<voi
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Possiblist Automation <auto@possiblist.io>',
-        to: 'team@possiblist.io',
+        from: 'Possiblist Automation <auto@possiblist.net>',
+        to: 'team@possiblist.net',
         subject: `[Possiblist] ${subject}`,
         text: JSON.stringify(data, null, 2),
       }),
